@@ -1,0 +1,580 @@
+{
+    "1.1":{
+        "1":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "The actions in the sequence video, in order, are: take up the iron clamp, screw the iron clamp, take up the test tube, screw the iron clamp again, take up the conical flask, pour the conical flask, and put down the conical flask.",
+            "The question with details": "Imagine you are observing a scientific experiment. Can you detail the sequence of actions performed with the iron clamp, test tube, and conical flask as seen in the video?",
+            "The answer with details": "In the observed video depicting a scientific experiment, the sequence of actions begins with the individual taking up the iron clamp. Following this, the iron clamp is screwed in place. The next action involves taking up the test tube. Subsequently, the iron clamp is screwed once again for adjustment. Afterward, the individual takes up the conical flask, proceeds to pour its contents, and finally, puts down the conical flask, concluding the series of actions."
+        },
+        "2":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "The sequence of actions includes taking up the iron clamp, screwing it, handling the test tube, screwing the clamp again, using the conical flask for pouring, and finally putting it down.",
+            "The question with details": "In the context of a meticulous chemical experiment, could you elaborate on the consecutive steps shown in the video, emphasizing the interactions with the iron clamp, test tube, and conical flask?",
+            "The answer with details": "Within the video, the sequence unfolds starting with the individual picking up the iron clamp, followed by the precise action of screwing it in place. Once secured, the test tube is taken up. The iron clamp requires another adjustment, leading to it being screwed once more. The attention then shifts to the conical flask, which is picked up, used for pouring its contents, and then carefully placed down, signaling the end of this sequence of actions."
+        },
+        "3":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "In the video, the actions carried out in sequence are: picking up and adjusting the iron clamp, using the test tube, and finally handling the conical flask.",
+            "The question with details": "Considering a lab setup, can you describe the sequential actions depicted in the video, with a focus on how the iron clamp, test tube, and conical flask are manipulated?",
+            "The answer with details": "During the laboratory setup captured in the video, the sequence of actions begins with the experimenter picking up the iron clamp, followed by adjusting it through screwing. The experimenter then shifts focus to the test tube, which is taken up. Another adjustment of the iron clamp is made through screwing. Finally, the conical flask is taken up, used for pouring, and then both the flask and the clamp are settled in place, marking the conclusion of the sequence."
+        },
+        "4":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "The actions demonstrated in the video include handling the iron clamp, using the test tube, and manipulating the conical flask, all performed in a specific order.",
+            "The question with details": "In a scenario involving precise laboratory techniques, can you delineate the steps seen in the video, paying close attention to the roles of the iron clamp, test tube, and conical flask?",
+            "The answer with details": "In the laboratory scenario depicted, the video showcases a series of actions starting with the handling of the iron clamp, which is picked up, screwed for adjustment, and then prepared for further use. The experimenter then engages with the test tube, lifting it for a specific purpose. Another adjustment of the iron clamp is needed, leading to additional screwing. The final set of actions involves the conical flask, which is picked up, utilized for pouring, and eventually placed down to complete the series of steps."
+        },
+        "5":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "The video demonstrates a series of actions: initially handling the iron clamp, followed by interacting with the test tube and conical flask, each step occurring in a precise sequence.",
+            "The question with details": "Within an experimental laboratory context, could you list and elaborate on the sequential actions captured in the video, especially focusing on the use of the iron clamp, test tube, and conical flask?",
+            "The answer with details": "In the experimental setup shown in the video, the sequence of actions begins with the iron clamp being taken up, subsequently adjusted by screwing, and then set for use. The experimenter then proceeds to take up the test tube for a specific task. Another adjustment of the iron clamp is made through screwing. The sequence culminates with the experimenter taking up the conical flask, using it to pour its contents, and finally putting down both the flask and the clamp, thus concluding the series of actions."
+        }
+    },
+    "1.2":{
+        "1":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "The actions in the sequence video are: take up the test tube, take up the iron clamp, screw the iron clamp, screw the iron clamp again, take up the conical flask, pour the conical flask, and put down the conical flask.",
+            "The question with details": "In the context of a detailed chemistry experiment, can you outline the specific sequence of actions undertaken with the test tube, iron clamp, and conical flask as seen in the video?",
+            "The answer with details": "In the chemistry experiment video, the sequence of actions begins with the individual first taking up the test tube. Immediately following this, the iron clamp is picked up and is screwed into place. The screwing of the iron clamp is repeated for further adjustment. Then, the conical flask is taken up, its contents are carefully poured, and finally, the conical flask is put down, marking the end of the action sequence."
+        },
+        "2":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "The sequence of actions in the video involves initially taking up the test tube, handling the iron clamp, pouring from the conical flask, and concluding with putting down the conical flask.",
+            "The question with details": "Considering a laboratory scenario, can you detail the precise sequence of actions displayed in the video, focusing particularly on the manipulation of the test tube, iron clamp, and conical flask?",
+            "The answer with details": "Within the laboratory scenario portrayed in the video, the sequence of actions commences with the individual taking up the test tube. This is promptly followed by picking up and screwing the iron clamp, which is then screwed once more for additional adjustment. The individual then shifts attention to the conical flask, picking it up, using it to pour out its contents, and subsequently putting it down, thereby concluding this series of actions."
+        },
+        "3":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "In the video, the sequence of actions involves handling the test tube, adjusting the iron clamp twice, and utilizing the conical flask.",
+            "The question with details": "In an experimental setup, could you explain the sequence of actions portrayed in the video, paying special attention to the use of the test tube, iron clamp, and conical flask?",
+            "The answer with details": "During the experimental setup captured in the video, the sequence of actions begins with the individual taking up the test tube. This is immediately followed by the picking up and screwing of the iron clamp. The iron clamp requires a subsequent adjustment, resulting in additional screwing. The experimenter then proceeds to take up the conical flask, pours from it, and finally puts it down, thereby concluding the depicted sequence of actions."
+        },
+        "4":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "The actions shown in the video include taking up the test tube, handling and adjusting the iron clamp, and pouring from the conical flask.",
+            "The question with details": "In a detailed chemical experiment context, can you delineate the sequence of actions observed in the video, especially the handling of the test tube, iron clamp, and conical flask?",
+            "The answer with details": "In the chemical experiment context depicted in the video, the sequence of actions unfolds with the individual first taking up the test tube. Following this, the iron clamp is picked up and screwed in place, then screwed again for further adjustment. The attention then turns to the conical flask, which is picked up, its contents poured, and then the flask is placed down, marking the completion of the sequence."
+        },
+        "5":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "The sequence in the video includes actions like taking up the test tube, adjusting the iron clamp, and pouring from the conical flask.",
+            "The question with details": "Within a scientific experiment framework, could you list and elaborate on the sequential actions demonstrated in the video, with a focus on the manipulation of the test tube, iron clamp, and conical flask?",
+            "The answer with details": "In the scientific experiment setting shown in the video, the sequence of actions starts with the experimenter taking up the test tube. This is quickly followed by the picking up and screwing of the iron clamp. The iron clamp undergoes another adjustment, involving additional screwing. Subsequently, the conical flask is taken up, used for pouring its contents, and then it is put down, thus concluding the sequence of actions."
+        }
+    },
+    "1.3":{
+        "1":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "The actions in the sequence video are: take up the test tube, take up the conical flask, pour the conical flask, put down the conical flask, take up the iron clamp, screw the iron clamp, and screw the iron clamp again.",
+            "The question with details": "In the context of a meticulous scientific experiment, can you describe the specific sequence of actions carried out with the test tube, conical flask, and iron clamp as depicted in the video?",
+            "The answer with details": "In the scientific experiment showcased in the video, the sequence of actions begins with the individual taking up the test tube. This is followed by taking up the conical flask, pouring its contents, and then putting it down. The sequence progresses with the individual taking up the iron clamp and then screwing it in place, with an additional screwing for further adjustment, concluding the action sequence."
+        },
+        "2":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "The sequence of actions in the video involves handling the test tube, manipulating the conical flask, and adjusting the iron clamp.",
+            "The question with details": "Considering a detailed laboratory procedure, could you outline the precise sequence of actions shown in the video, particularly the use of the test tube, conical flask, and iron clamp?",
+            "The answer with details": "Within the laboratory procedure depicted in the video, the sequence of actions starts with the individual taking up the test tube. Immediately after, the conical flask is picked up, its contents poured out, and it's put down. The individual then picks up the iron clamp, screws it in place, and repeats the screwing for better adjustment. This sequence of actions brings the procedure to a close."
+        },
+        "3":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "In the video, the sequence of actions involves taking up the test tube, pouring from the conical flask, and adjusting the iron clamp.",
+            "The question with details": "In an experimental setup, can you detail the series of actions portrayed in the video, focusing on the handling of the test tube, conical flask, and iron clamp?",
+            "The answer with details": "In the experimental setup captured in the video, the series of actions begins with the experimenter taking up the test tube. Following this, the conical flask is picked up, its contents poured out, and then it's put down. The experimenter then attends to the iron clamp, picking it up, screwing it into place, and conducting an additional screwing for precise adjustment, thereby concluding the sequence of actions."
+        },
+        "4":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "The actions shown in the video include taking up the test tube, handling and pouring from the conical flask, and adjusting the iron clamp.",
+            "The question with details": "In the context of a chemical experiment, could you delineate the sequence of actions observed in the video, especially focusing on the test tube, conical flask, and iron clamp?",
+            "The answer with details": "In the chemical experiment context depicted in the video, the sequence of actions unfolds with the individual first taking up the test tube. This is followed by the handling of the conical flask: picking it up, pouring its contents, and then putting it down. The sequence continues with the individual taking up the iron clamp and screwing it in place, followed by another screwing for better adjustment, marking the completion of the sequence."
+        },
+        "5":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "The sequence in the video includes actions such as taking up the test tube, pouring from the conical flask, and adjusting the iron clamp.",
+            "The question with details": "Within the framework of a scientific experiment, could you list and elaborate on the sequential actions demonstrated in the video, with a focus on the manipulation of the test tube, conical flask, and iron clamp?",
+            "The answer with details": "In the scientific experiment setting shown in the video, the sequence of actions starts with the experimenter taking up the test tube. This is quickly followed by the handling of the conical flask: picking it up, pouring from it, and then putting it down. The sequence then proceeds with the individual taking up the iron clamp, screwing it in place, and conducting an additional screwing for precise adjustment, thereby concluding the series of actions."
+        }
+    },
+    "1.4":{
+        "1":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "The actions in the sequence video are: take up the iron clamp, screw the iron clamp, take up the conical flask, put down the conical flask, take up the test tube, and screw the iron clamp again.",
+            "The question with details": "In a detailed laboratory setting, could you describe the precise sequence of actions involving the iron clamp, conical flask, and test tube as shown in the video?",
+            "The answer with details": "In the laboratory setting depicted in the video, the sequence of actions starts with taking up the iron clamp, followed by screwing it in place. Next, the individual takes up the conical flask, then puts it down. Subsequently, the test tube is taken up, and the sequence concludes with another adjustment of the iron clamp through screwing."
+        },
+        "2":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "The sequence of actions in the video involves manipulating the iron clamp, handling the conical flask, and using the test tube.",
+            "The question with details": "Considering a precise scientific procedure, could you outline the exact sequence of actions shown in the video, particularly focusing on the iron clamp, conical flask, and test tube?",
+            "The answer with details": "Within the scientific procedure shown in the video, the sequence of actions begins with the individual taking up the iron clamp and screwing it into place. This is followed by taking up the conical flask, putting it down, and then taking up the test tube. The action sequence concludes with a further adjustment to the iron clamp through additional screwing."
+        },
+        "3":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "In the video, the sequence of actions involves handling the iron clamp, pouring from the conical flask, and adjusting the test tube.",
+            "The question with details": "In an experimental setup, can you detail the series of actions portrayed in the video, focusing on the use of the iron clamp, conical flask, and test tube?",
+            "The answer with details": "In the experimental setup captured in the video, the series of actions starts with the experimenter taking up the iron clamp and screwing it into place. This is followed by picking up the conical flask, putting it down, and then taking up the test tube. The sequence concludes with an additional adjustment of the iron clamp through screwing."
+        },
+        "4":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "The actions shown in the video include handling the iron clamp, manipulating the conical flask, and using the test tube.",
+            "The question with details": "In the context of a chemical experiment, could you delineate the sequence of actions observed in the video, especially focusing on the iron clamp, conical flask, and test tube?",
+            "The answer with details": "In the chemical experiment context depicted in the video, the sequence of actions unfolds with the individual first taking up the iron clamp and screwing it into place. This is followed by taking up the conical flask, putting it down, and then taking up the test tube. The sequence concludes with an additional adjustment of the iron clamp through screwing."
+        },
+        "5":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "The sequence in the video includes actions such as manipulating the iron clamp, handling the conical flask, and using the test tube.",
+            "The question with details": "Within the framework of a scientific experiment, could you list and elaborate on the sequential actions demonstrated in the video, with a focus on the manipulation of the iron clamp, conical flask, and test tube?",
+            "The answer with details": "In the scientific experiment setting shown in the video, the sequence of actions starts with the experimenter taking up the iron clamp and screwing it into place. This is quickly followed by taking up the conical flask, putting it down, and then taking up the test tube. The sequence then proceeds with an additional adjustment of the iron clamp through screwing, concluding the series of actions."
+        }
+    },
+    "1.5":{
+        "1":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "The actions in the sequence video are: take up the iron clamp, screw the iron clamp, take up the test tube, screw the iron clamp again, take up the electronic scale, put down the electronic scale, take up the conical flask, pour the conical flask, and put down the conical flask.",
+            "The question with details": "Can you provide a detailed chronological account of the actions performed with the iron clamp, test tube, electronic scale, and conical flask as seen in the video?",
+            "The answer with details": "In the video, the sequence of actions begins with the individual taking up the iron clamp and screwing it into position. Following this, the test tube is picked up. The iron clamp is then adjusted again by screwing. Subsequently, the electronic scale is taken up and then put down. This is followed by taking up the conical flask, pouring its contents, and finally, placing the conical flask back down."
+        },
+        "2":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "The sequence of actions in the video involves manipulating the iron clamp, handling the test tube and electronic scale, and using the conical flask.",
+            "The question with details": "Could you elucidate the specific order of actions involving the iron clamp, test tube, electronic scale, and conical flask as captured in the video?",
+            "The answer with details": "In the video, the specific order of actions starts with the individual taking up the iron clamp and screwing it into place. Then, the test tube is taken up, followed by another adjustment to the iron clamp through screwing. Next, the electronic scale is picked up and subsequently put down. The sequence continues with taking up the conical flask, pouring from it, and concludes with putting down the conical flask."
+        },
+        "3":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "In the video, the sequence of actions involves handling the iron clamp, test tube, electronic scale, and conical flask.",
+            "The question with details": "In the context of a laboratory experiment, can you detail the sequence of actions portrayed in the video, focusing on the iron clamp, test tube, electronic scale, and conical flask?",
+            "The answer with details": "In the laboratory experiment context shown in the video, the sequence of actions begins with taking up the iron clamp and screwing it into place. This is followed by picking up the test tube and then adjusting the iron clamp again by screwing. Subsequently, the electronic scale is taken up and put down. Finally, the conical flask is taken up, its contents are poured out, and then it's placed back down."
+        },
+        "4":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "The actions shown in the video include handling the iron clamp, test tube, electronic scale, and conical flask.",
+            "The question with details": "In the setting of a scientific procedure, could you delineate the sequence of actions observed in the video, especially focusing on the iron clamp, test tube, electronic scale, and conical flask?",
+            "The answer with details": "In the scientific procedure setting depicted in the video, the sequence of actions unfolds with the individual first taking up the iron clamp and screwing it into place. This is followed by taking up the test tube and then adjusting the iron clamp again by screwing. The electronic scale is then taken up and subsequently put down. The sequence concludes with taking up the conical flask, pouring its contents, and putting it down."
+        },
+        "5":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "The sequence in the video includes actions such as manipulating the iron clamp, handling the test tube and electronic scale, and using the conical flask.",
+            "The question with details": "Within the framework of a chemical experiment, could you list and elaborate on the sequential actions demonstrated in the video, with a focus on the manipulation of the iron clamp, test tube, electronic scale, and conical flask?",
+            "The answer with details": "In the chemical experiment setting shown in the video, the sequence of actions starts with the experimenter taking up the iron clamp and screwing it into place. This is quickly followed by taking up the test tube, then adjusting the iron clamp again through screwing. The electronic scale is then taken up and put down. The sequence then proceeds with taking up the conical flask, pouring its contents, and concludes with placing the conical flask back down."
+        }
+    },
+    "2.3":{
+        "1":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "The sequence of actions shown in the video includes: taking up the jar, pouring from the jar, uncovering the jar cap, pouring from the jar again, covering the jar with the jar cap, and finally putting down the jar.",
+            "The question with details": "Can you describe, in detail, the sequence of events involving the jar as depicted in the video, focusing on the handling and manipulation of the jar and its cap?",
+            "The answer with details": "In the video, the series of actions begins with the person taking up the jar. Following this, there is an action of pouring from the jar. The sequence continues with the individual uncovering the jar cap, then pouring from the jar once more. Subsequently, the jar is covered again with the jar cap, and the sequence concludes with the jar being put down."
+        },
+        "2":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "In the video, the sequence involves taking up the jar, pouring from it, uncovering and covering the jar cap, and putting the jar down.",
+            "The question with details": "Could you provide a detailed breakdown of the sequence of actions related to the jar as shown in the video, including the movements involving the jar and its cap?",
+            "The answer with details": "The video depicts a sequence that starts with the individual taking up the jar. This is followed by an action of pouring from the jar. Then, the person uncovers the jar cap and proceeds to pour from the jar once more. After this, the jar is covered again with its cap, and the series of actions ends with the jar being put down."
+        },
+        "3":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "The video shows a sequence of actions including taking up, pouring from, uncovering and covering the jar cap, and putting down the jar.",
+            "The question with details": "In the context of the activity shown in the video, could you detail the chronological sequence of actions performed with the jar, emphasizing the handling of the jar and its cap?",
+            "The answer with details": "Within the activity context presented in the video, the chronological sequence of actions begins with the individual taking up the jar. This is followed by a pouring action from the jar. Next, the person uncovers the jar cap, then pours from the jar again. After this, the jar is covered with its cap, and the sequence concludes with the jar being put down."
+        },
+        "4":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "The actions in the video involve taking up the jar, pouring from it, manipulating the jar cap, and putting down the jar.",
+            "The question with details": "Could you elucidate the sequence of actions involving the jar as seen in the video, with special emphasis on the handling and manipulation of the jar and its cap?",
+            "The answer with details": "The sequence in the video unfolds with the individual initially taking up the jar. This is followed by an action where they pour from the jar. Then, the focus shifts to the jar cap, which is uncovered by the individual. The sequence continues with another pouring action from the jar. Subsequently, the jar cap is placed back on the jar, and the series of actions ends with the jar being put down."
+        },
+        "5":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "The sequence in the video includes actions such as taking up the jar, pouring, uncovering and covering the jar cap, and putting down the jar.",
+            "The question with details": "Can you list and elaborate on the sequential actions demonstrated in the video, particularly focusing on the manipulation and handling of the jar and its cap?",
+            "The answer with details": "The video demonstrates a sequence that starts with the person taking up the jar. Immediately following this, there is an action of pouring from the jar. The person then uncovers the jar cap and pours from the jar again. After this pouring action, the jar is covered with its cap, and the sequence concludes with the jar being put down."
+        }
+    },
+    "3.1":{
+        "1":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "The sequence of actions in the video includes taking up the dropper bottle, uncovering it, squeezing the dropper, covering the bottle, putting it down, taking up the test tube, shaking it, and putting it down.",
+            "The question with details": "Can you provide a detailed description of the step-by-step actions involving the dropper bottle and test tube as presented in the video, highlighting each action in its chronological order?",
+            "The answer with details": "In the video, the sequence of actions commences with the individual taking up the dropper bottle. Following this, they proceed to uncover the dropper bottle. The next action involves squeezing the dropper. Subsequently, the dropper bottle is covered again with the dropper. The person then puts down the dropper bottle. The sequence continues as they take up the test tube, then shake it, and finally, the test tube is put down, concluding the series of actions."
+        },
+        "2":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "In the video, the actions include taking up, uncovering, and squeezing the dropper bottle, covering it, putting it down, taking up the test tube, shaking it, and putting it down.",
+            "The question with details": "Could you elaborate on the sequence of actions related to the dropper bottle and test tube as depicted in the video, focusing on the precise order and nature of each action?",
+            "The answer with details": "The video depicts a series of actions that begin with the individual taking up the dropper bottle. This is followed by an action where they uncover the dropper bottle. Next, they squeeze the dropper. After this, the dropper bottle is covered with the dropper. The person then puts down the dropper bottle. The sequence progresses with the individual taking up the test tube, shaking it, and then putting down the test tube, thus completing the sequence."
+        },
+        "3":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "The video shows a sequence of actions involving taking up the dropper bottle, uncovering it, squeezing the dropper, covering the bottle, putting it down, taking up the test tube, shaking it, and putting it down.",
+            "The question with details": "In the context of the laboratory procedure shown in the video, could you detail the chronological sequence of actions performed with the dropper bottle and test tube, emphasizing each step?",
+            "The answer with details": "Within the context of the laboratory procedure presented in the video, the chronological sequence of actions begins with the individual taking up the dropper bottle. This is followed by the action of uncovering the dropper bottle. Then, the person squeezes the dropper. The sequence continues with the dropper bottle being covered with the dropper. Subsequently, the dropper bottle is put down. The individual then takes up the test tube, shakes it, and finally, puts down the test tube, concluding the sequence."
+        },
+        "4":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "The actions in the video involve taking up and manipulating the dropper bottle, followed by handling and shaking the test tube.",
+            "The question with details": "Could you provide a detailed account of the sequence of actions involving the dropper bottle and test tube as observed in the video, with special attention to the order and nature of each step?",
+            "The answer with details": "The sequence in the video unfolds with the individual initially taking up the dropper bottle. This is followed by an action where they uncover the dropper bottle. Subsequently, they squeeze the dropper. Then, the dropper bottle is covered again with the dropper. The individual proceeds to put down the dropper bottle. Following this, the sequence involves taking up the test tube, shaking it, and eventually, putting down the test tube, thus completing the sequence."
+        },
+        "5":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "The sequence in the video includes actions such as taking up the dropper bottle, uncovering it, squeezing the dropper, covering the bottle, putting it down, taking up the test tube, shaking it, and putting it down.",
+            "The question with details": "Can you list and elaborate on the sequential actions demonstrated in the video, particularly focusing on the manipulation and handling of the dropper bottle and test tube?",
+            "The answer with details": "The video demonstrates a sequence that starts with the person taking up the dropper bottle. Following this, there is an action of uncovering the dropper bottle. The person then squeezes the dropper and subsequently covers the dropper bottle with the dropper. The dropper bottle is then put down. The sequence continues with the individual taking up the test tube, shaking it, and finally putting down the test tube, thus completing the series of actions."
+        }
+    },
+    "4.2":{
+        "1":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "The sequence of actions in the video includes taking up the test tube and horn tube, inserting the horn tube, screwing the iron clamp, taking up the conical flask, pouring from it, and putting it down.",
+            "The question with details": "Could you detail the chronological order of the various actions performed with the test tube, horn tube, iron clamp, and conical flask as shown in the video?",
+            "The answer with details": "The video begins with the individual taking up the test tube. Immediately following this, they take up the horn tube. The next step involves inserting the horn tube. Then, there is the action of screwing the iron clamp. The sequence continues with the individual taking up the conical flask, pouring the contents, and finally, putting down the conical flask."
+        },
+        "2":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "In the video, the actions include taking up the test tube, horn tube, inserting the horn tube, screwing the iron clamp, taking up and pouring from the conical flask, and putting it down.",
+            "The question with details": "Can you provide a detailed description of the step-by-step actions involving the test tube, horn tube, iron clamp, and conical flask as presented in the video, highlighting each action in its chronological order?",
+            "The answer with details": "The video depicts a series of actions that start with the individual taking up the test tube. This is followed by taking up the horn tube. Next, they insert the horn tube. After this, the individual screws the iron clamp. The sequence progresses with them taking up the conical flask, pouring from it, and then putting down the conical flask, thus completing the sequence."
+        },
+        "3":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "The video shows a sequence of actions involving taking up the test tube, horn tube, inserting the horn tube, screwing the iron clamp, taking up the conical flask, pouring from it, and putting it down.",
+            "The question with details": "In the context of the laboratory procedure shown in the video, could you detail the chronological sequence of actions performed with the test tube, horn tube, iron clamp, and conical flask, emphasizing each step?",
+            "The answer with details": "Within the context of the laboratory procedure presented in the video, the chronological sequence of actions begins with the individual taking up the test tube. This is followed by the action of taking up the horn tube. Then, the person inserts the horn tube. The sequence continues with the screwing of the iron clamp. Subsequently, the conical flask is taken up, its contents are poured, and finally, the conical flask is put down, concluding the sequence."
+        },
+        "4":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "The actions in the video involve taking up and manipulating the test tube and horn tube, followed by screwing the iron clamp, handling, and pouring from the conical flask.",
+            "The question with details": "Could you provide a detailed account of the sequence of actions involving the test tube, horn tube, iron clamp, and conical flask as observed in the video, with special attention to the order and nature of each step?",
+            "The answer with details": "The sequence in the video unfolds with the individual initially taking up the test tube. This is followed by an action where they take up the horn tube. Subsequently, they insert the horn tube. Then, the individual screws the iron clamp. The sequence progresses with them taking up the conical flask, pouring from it, and eventually putting down the conical flask, thus completing the sequence."
+        },
+        "5":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "The sequence in the video includes actions such as taking up the test tube, horn tube, inserting the horn tube, screwing the iron clamp, taking up the conical flask, pouring from it, and putting it down.",
+            "The question with details": "Can you list and elaborate on the sequential actions demonstrated in the video, particularly focusing on the manipulation and handling of the test tube, horn tube, iron clamp, and conical flask?",
+            "The answer with details": "The video demonstrates a sequence that starts with the person taking up the test tube. Following this, there is an action of taking up the horn tube. The person then inserts the horn tube and subsequently screws the iron clamp. The sequence continues with the individual taking up the conical flask, pouring from it, and finally putting down the conical flask, thus completing the series of actions."
+        }
+    },
+    "5.1":{
+        "1":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "The sequence of actions includes taking up the reagent bottle, screwing and pouring from it, handling the glass rod and beaker, and stirring.",
+            "The question with details": "Could you describe the chronological order of actions related to handling the reagent bottle, glass rod, and beaker as shown in the video?",
+            "The answer with details": "The video demonstrates a sequence beginning with the individual taking up the reagent bottle. Next, they screw the bottle cap and proceed to pour from the reagent bottle. After pouring, they screw the bottle cap again and put down the reagent bottle. Subsequently, the person takes up the glass rod and the beaker. The sequence continues with them stirring with the glass rod, followed by putting down the glass rod and then the beaker."
+        },
+        "2":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "The video shows a sequence of actions including taking up, screwing, and pouring from the reagent bottle, followed by handling the glass rod and beaker and stirring.",
+            "The question with details": "Can you provide a detailed description of the step-by-step actions involving the reagent bottle, glass rod, and beaker as presented in the video, highlighting each action in its chronological order?",
+            "The answer with details": "The video depicts a series of actions that start with the individual taking up the reagent bottle. This is followed by screwing the bottle cap. Next, they pour from the reagent bottle and subsequently screw the bottle cap again. The individual then puts down the reagent bottle. The sequence progresses with them taking up the glass rod and the beaker, stirring with the glass rod, and then putting down the glass rod and the beaker, thus completing the sequence."
+        },
+        "3":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "The sequence in the video includes taking up the reagent bottle, screwing and pouring from it, followed by handling and stirring with the glass rod and beaker.",
+            "The question with details": "In the context of the laboratory procedure shown in the video, could you detail the chronological sequence of actions performed with the reagent bottle, glass rod, and beaker, emphasizing each step?",
+            "The answer with details": "Within the context of the laboratory procedure presented in the video, the chronological sequence of actions begins with the individual taking up the reagent bottle. This is followed by screwing the bottle cap and then pouring from the reagent bottle. They screw the bottle cap again and put down the reagent bottle. Subsequently, the person takes up the glass rod and the beaker. The sequence continues with stirring using the glass rod, followed by putting down the glass rod and then the beaker, concluding the sequence."
+        },
+        "4":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "The actions in the video involve taking up the reagent bottle, screwing and pouring from it, followed by handling and stirring with the glass rod and beaker.",
+            "The question with details": "Could you provide a detailed account of the sequence of actions involving the reagent bottle, glass rod, and beaker as observed in the video, with special attention to the order and nature of each step?",
+            "The answer with details": "The sequence in the video unfolds with the individual initially taking up the reagent bottle. This is followed by screwing the bottle cap and then pouring from the reagent bottle. They screw the bottle cap again and put down the reagent bottle. The sequence progresses with them taking up the glass rod and the beaker, stirring with the glass rod, and eventually putting down the glass rod and the beaker, thus completing the sequence."
+        },
+        "5":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "The sequence in the video includes taking up the reagent bottle, screwing and pouring from it, followed by handling and stirring with the glass rod and beaker.",
+            "The question with details": "Can you list and elaborate on the sequential actions demonstrated in the video, particularly focusing on the manipulation and handling of the reagent bottle, glass rod, and beaker?",
+            "The answer with details": "The video demonstrates a sequence that starts with the person taking up the reagent bottle. Following this, there is an action of screwing the bottle cap and then pouring from the reagent bottle. The person screws the bottle cap again and puts down the reagent bottle. The sequence continues with the individual taking up the glass rod and the beaker, stirring with the glass rod, and finally putting down the glass rod and the beaker, thus completing the series of actions."
+        }
+    },
+    "7.1":{
+        "1":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "As shown in JSON, the sequence includes actions like uncovering the crucible, handling the crucible cap and tong, moving the alcohol burner, and covering the crucible.",
+            "The question with details": "Could you describe the chronological order of actions related to handling the crucible, crucible tong, crucible cap, and alcohol burner as shown in the video?",
+            "The answer with details": "The video demonstrates a sequence beginning with the uncovering of the crucible. It proceeds with the placement of the crucible cap, followed by taking up the crucible. The person then puts down the crucible and moves the alcohol burner. Next, they take up the crucible tong and clamp it. Subsequently, the crucible is put down again, followed by putting down the crucible tong. The sequence concludes with taking up the crucible cap and covering the crucible with it."
+        },
+        "2":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "As shown in JSON, the video shows a sequence of actions including uncovering the crucible, handling the crucible tong and cap, moving the alcohol burner, and covering the crucible.",
+            "The question with details": "Can you provide a detailed description of the step-by-step actions involving the crucible, crucible tong, crucible cap, and alcohol burner as presented in the video, highlighting each action in its chronological order?",
+            "The answer with details": "The video depicts a series of actions that start with uncovering the crucible. This is followed by putting the crucible cap, and then taking up the crucible. The individual puts down the crucible and moves the alcohol burner. The sequence progresses with them taking up the crucible tong and clamping it. Subsequently, the crucible is put down again, and the crucible tong is also put down. The sequence concludes with taking up the crucible cap and covering the crucible with it."
+        },
+        "3":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "As shown in JSON, the sequence in the video includes uncovering the crucible, handling the crucible tong and cap, moving the alcohol burner, and covering the crucible.",
+            "The question with details": "In the context of the laboratory procedure shown in the video, could you detail the chronological sequence of actions performed with the crucible, crucible tong, crucible cap, and alcohol burner, emphasizing each step?",
+            "The answer with details": "Within the context of the laboratory procedure presented in the video, the chronological sequence of actions begins with the individual uncovering the crucible. This is followed by putting the crucible cap and then taking up the crucible. They put down the crucible and move the alcohol burner. Subsequently, the person takes up the crucible tong and clamps it. The crucible is put down again, and then the crucible tong is put down. The sequence concludes with taking up the crucible cap and covering the crucible with it."
+        },
+        "4":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "As shown in JSON, the actions in the video involve uncovering the crucible, handling the crucible tong and cap, moving the alcohol burner, and covering the crucible.",
+            "The question with details": "Could you provide a detailed account of the sequence of actions involving the crucible, crucible tong, crucible cap, and alcohol burner as observed in the video, with special attention to the order and nature of each step?",
+            "The answer with details": "The sequence in the video unfolds with the individual initially uncovering the crucible. This is followed by putting the crucible cap and then taking up the crucible. The person puts down the crucible and moves the alcohol burner. The sequence progresses with them taking up the crucible tong and clamping it. The crucible is put down again, followed by putting down the crucible tong. The sequence concludes with taking up the crucible cap and covering the crucible with it."
+        },
+        "5":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "As shown in JSON, the sequence in the video includes uncovering the crucible, handling the crucible tong and cap, moving the alcohol burner, and covering the crucible.",
+            "The question with details": "Can you list and elaborate on the sequential actions demonstrated in the video, particularly focusing on the manipulation and handling of the crucible, crucible tong, crucible cap, and alcohol burner?",
+            "The answer with details": "The video demonstrates a sequence that starts with the person uncovering the crucible. Following this, there is an action of putting the crucible cap, and then taking up the crucible. The person puts down the crucible and moves the alcohol burner. The sequence continues with the individual taking up the crucible tong and clamping it. The crucible is put down again, and then the crucible tong is put down. The sequence concludes with taking up the crucible cap and covering the crucible with it."
+        }
+    },
+    "8.2":{
+        "1":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "As shown in JSON, the sequence includes actions such as handling the test paper, using tweezers, and pointing a glass rod towards different objects.",
+            "The question with details": "Could you describe the chronological order of actions related to handling the test paper, tweezers, and glass rod as shown in the video?",
+            "The answer with details": "The video demonstrates a sequence beginning with taking up the test paper. It proceeds with tearing the test paper, followed by putting it down twice. Next, the person takes up the tweezer and clamps it. The test paper is put down again, followed by putting down the tweezer. The sequence concludes with taking up the glass rod, pointing it to the evaporating dish, then to the test paper, and finally putting down the glass rod."
+        },
+        "2":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "As shown in JSON, the video shows a sequence of actions including handling the test paper, using tweezers, and pointing a glass rod towards various objects.",
+            "The question with details": "Can you provide a detailed description of the step-by-step actions involving the test paper, tweezers, and glass rod as presented in the video, highlighting each action in its chronological order?",
+            "The answer with details": "The video depicts a series of actions that start with taking up the test paper. This is followed by tearing the test paper and then putting it down twice. The individual takes up the tweezer and clamps it. Subsequently, the test paper is put down again, and the tweezer is also put down. The sequence concludes with taking up the glass rod, pointing it first to the evaporating dish, then to the test paper, and finally putting down the glass rod."
+        },
+        "3":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "As shown in JSON, the sequence in the video includes handling the test paper, using tweezers, and pointing a glass rod towards various objects.",
+            "The question with details": "In the context of the laboratory procedure shown in the video, could you detail the chronological sequence of actions performed with the test paper, tweezers, and glass rod, emphasizing each step?",
+            "The answer with details": "Within the context of the laboratory procedure presented in the video, the chronological sequence of actions begins with the individual taking up the test paper. This is followed by tearing the test paper and then putting it down twice. The person takes up the tweezer and clamps it. Subsequently, the test paper is put down again, and the tweezer is put down. The sequence concludes with taking up the glass rod, pointing it first to the evaporating dish, then to the test paper, and finally putting down the glass rod."
+        },
+        "4":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "As shown in JSON, the actions in the video involve handling the test paper, using tweezers, and pointing a glass rod towards different objects.",
+            "The question with details": "Could you provide a detailed account of the sequence of actions involving the test paper, tweezers, and glass rod as observed in the video, with special attention to the order and nature of each step?",
+            "The answer with details": "The sequence in the video unfolds with the individual initially taking up the test paper. This is followed by tearing the test paper and then putting it down twice. The person takes up the tweezer and clamps it. The test paper is put down again, followed by putting down the tweezer. The sequence concludes with taking up the glass rod, pointing it first to the evaporating dish, then to the test paper, and finally putting down the glass rod."
+        },
+        "5":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "As shown in JSON, the sequence in the video includes handling the test paper, using tweezers, and pointing a glass rod towards various objects.",
+            "The question with details": "Can you list and elaborate on the sequential actions demonstrated in the video, particularly focusing on the manipulation and handling of the test paper, tweezers, and glass rod?",
+            "The answer with details": "The video demonstrates a sequence that starts with the person taking up the test paper. Following this, there is an action of tearing the test paper and then putting it down twice. The individual takes up the tweezer and clamps it. The test paper is put down again, and then the tweezer is put down. The sequence concludes with taking up the glass rod, pointing it first to the evaporating dish, then to the test paper, and finally putting down the glass rod."
+        }
+    },
+    "9.1":{
+        "1":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "As shown in JSON, the video annotations describe a sequence of actions involving a beaker, iron ring, glass funnel, and filter paper.",
+            "The question with details": "Could you describe in detail the sequence of actions involving the beaker, iron ring, glass funnel, and filter paper as shown in the video?",
+            "The answer with details": "The video demonstrates a sequence beginning with taking up the beaker, followed by putting it down. Then, the person takes up the iron ring and screws it. Subsequently, the glass funnel is taken up and put down. The sequence continues with taking up the filter paper, folding it, and then putting it down."
+        },
+        "2":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "As shown in JSON, the video annotations depict a sequence of actions with a beaker, iron ring, glass funnel, and filter paper.",
+            "The question with details": "Can you provide a detailed description of the step-by-step actions involving the beaker, iron ring, glass funnel, and filter paper as presented in the video, highlighting each action in its chronological order?",
+            "The answer with details": "The video depicts a series of actions starting with taking up the beaker. This is followed by putting down the beaker, then taking up the iron ring and screwing it. Next, the individual takes up the glass funnel and puts it down. The sequence concludes with taking up the filter paper, folding it, and then putting it down."
+        },
+        "3":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "As shown in JSON, the sequence in the video includes handling a beaker, iron ring, glass funnel, and filter paper.",
+            "The question with details": "In the context of the laboratory procedure shown in the video, could you detail the chronological sequence of actions performed with the beaker, iron ring, glass funnel, and filter paper, emphasizing each step?",
+            "The answer with details": "Within the context of the laboratory procedure presented in the video, the chronological sequence of actions begins with the individual taking up the beaker. This is followed by putting down the beaker, taking up the iron ring, and screwing it. Subsequently, the glass funnel is taken up and put down. The sequence concludes with taking up the filter paper, folding it, and then putting it down."
+        },
+        "4":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "As shown in JSON, the actions in the video involve handling a beaker, iron ring, glass funnel, and filter paper.",
+            "The question with details": "Could you provide a detailed account of the sequence of actions involving the beaker, iron ring, glass funnel, and filter paper as observed in the video, with special attention to the order and nature of each step?",
+            "The answer with details": "The sequence in the video unfolds with the individual initially taking up the beaker. This is followed by putting down the beaker, then taking up the iron ring and screwing it. The person takes up the glass funnel and puts it down. The sequence concludes with taking up the filter paper, folding it, and then putting it down."
+        },
+        "5":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "As shown in JSON, the sequence in the video includes handling a beaker, iron ring, glass funnel, and filter paper.",
+            "The question with details": "Can you list and elaborate on the sequential actions demonstrated in the video, particularly focusing on the manipulation and handling of the beaker, iron ring, glass funnel, and filter paper?",
+            "The answer with details": "The video demonstrates a sequence that starts with the person taking up the beaker. Following this, there is an action of putting down the beaker. The individual then takes up the iron ring and screws it. Subsequently, the glass funnel is taken up and put down. The sequence concludes with taking up the filter paper, folding it, and then putting it down."
+        }
+    },
+    "10.2":{
+        "1":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "As shown in JSON, the video annotations describe a sequence of actions involving an iron ring, separating funnel, conical flask, and pistons.",
+            "The question with details": "Could you describe in detail the sequence of actions involving the iron ring, separating funnel, conical flask, and pistons as shown in the video?",
+            "The answer with details": "The video demonstrates a sequence beginning with taking up the iron ring, followed by screwing it. Then, the separating funnel is taken up and put down. The sequence continues with taking up the conical flask, pouring its contents, and putting it down. The final steps involve inserting the upper piston and screwing the lower piston."
+        },
+        "2":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "As shown in JSON, the video annotations depict a sequence of actions with an iron ring, separating funnel, conical flask, and pistons.",
+            "The question with details": "Can you provide a detailed description of the step-by-step actions involving the iron ring, separating funnel, conical flask, and pistons as presented in the video, highlighting each action in its chronological order?",
+            "The answer with details": "The video depicts a series of actions starting with taking up the iron ring. This is followed by screwing the iron ring, then taking up the separating funnel and putting it down. Next, the individual takes up the conical flask, pours its contents, and puts it down. The sequence concludes with inserting the upper piston and screwing the lower piston."
+        },
+        "3":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "As shown in JSON, the sequence in the video includes handling an iron ring, separating funnel, conical flask, and pistons.",
+            "The question with details": "In the context of the laboratory procedure shown in the video, could you detail the chronological sequence of actions performed with the iron ring, separating funnel, conical flask, and pistons, emphasizing each step?",
+            "The answer with details": "Within the context of the laboratory procedure presented in the video, the chronological sequence of actions begins with the individual taking up the iron ring. This is followed by screwing the iron ring, taking up the separating funnel, and putting it down. Subsequently, the conical flask is taken up, its contents are poured, and it's put down. The sequence concludes with inserting the upper piston and screwing the lower piston."
+        },
+        "4":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "As shown in JSON, the actions in the video involve handling an iron ring, separating funnel, conical flask, and pistons.",
+            "The question with details": "Could you provide a detailed account of the sequence of actions involving the iron ring, separating funnel, conical flask, and pistons as observed in the video, with special attention to the order and nature of each step?",
+            "The answer with details": "The sequence in the video unfolds with the individual initially taking up the iron ring. This is followed by screwing the iron ring, then taking up the separating funnel and putting it down. The person takes up the conical flask, pours its contents, and puts it down. The sequence concludes with inserting the upper piston and screwing the lower piston."
+        },
+        "5":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "As shown in JSON, the sequence in the video includes handling an iron ring, separating funnel, conical flask, and pistons.",
+            "The question with details": "Can you list and elaborate on the sequential actions demonstrated in the video, particularly focusing on the manipulation and handling of the iron ring, separating funnel, conical flask, and pistons?",
+            "The answer with details": "The video demonstrates a sequence that starts with the person taking up the iron ring. Following this, there is an action of screwing the iron ring. The individual then takes up the separating funnel and puts it down. Subsequently, the conical flask is taken up, its contents are poured, and then it's put down. The sequence concludes with inserting the upper piston and screwing the lower piston."
+        }
+    },
+    "11.5":{
+        "1":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "As shown in JSON, the annotations of the video describe a sequence of actions involving screwing a knob, handling a rubber stopper and tweezers, and moving a vernier.",
+            "The question with details": "Could you detail the specific actions and their order involving the knob, rubber stopper, tweezers, and vernier as depicted in the video?",
+            "The answer with details": "The video showcases a sequence beginning with screwing the knob. This is followed by taking up the rubber stopper and then putting it down. Next, the individual takes up the tweezers, clamps them, and puts down a weight. The clamping action is repeated, followed by putting down another weight. The tweezers are then put down, and the sequence concludes with moving the vernier."
+        },
+        "2":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "As shown in JSON, the video annotations depict a series of actions with a knob, rubber stopper, tweezers, and a vernier.",
+            "The question with details": "Can you provide a detailed description of each step and its sequence as shown in the video, involving the knob, rubber stopper, tweezers, and vernier?",
+            "The answer with details": "The video depicts a sequence that starts with screwing the knob. Subsequently, the individual takes up the rubber stopper and then puts it down. Following this, the tweezers are taken up and clamped, leading to putting down a weight. The clamping action with the tweezers is repeated, and another weight is put down. The sequence concludes with putting down the tweezers and moving the vernier."
+        },
+        "3":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "As shown in JSON, the sequence in the video includes actions with a knob, rubber stopper, tweezers, and a vernier.",
+            "The question with details": "In the context of the procedure shown in the video, could you detail the chronological sequence of actions performed with the knob, rubber stopper, tweezers, and vernier?",
+            "The answer with details": "Within the context of the procedure presented in the video, the sequence begins with screwing the knob. The individual then takes up the rubber stopper, followed by putting it down. Next, the tweezers are taken up, clamped, and a weight is put down. This clamping and putting down of a weight is repeated. The tweezers are then put down, and the sequence ends with moving the vernier."
+        },
+        "4":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "As shown in JSON, the video demonstrates a sequence involving a knob, rubber stopper, tweezers, and a vernier.",
+            "The question with details": "Could you provide a detailed account of the sequence of actions involving the knob, rubber stopper, tweezers, and vernier as observed in the video?",
+            "The answer with details": "The video illustrates a sequence that unfolds with the individual screwing the knob. Following this, the rubber stopper is taken up and then put down. The tweezers are taken up, clamped, and a weight is put down. This clamping and putting down of a weight are repeated. The sequence concludes with putting down the tweezers and moving the vernier."
+        },
+        "5":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "As shown in JSON, the annotations describe a sequence of actions in the video involving a knob, rubber stopper, tweezers, and a vernier.",
+            "The question with details": "Can you list and elaborate on the sequential actions demonstrated in the video, particularly focusing on the manipulation and handling of the knob, rubber stopper, tweezers, and vernier?",
+            "The answer with details": "The video demonstrates a sequence beginning with screwing the knob. This is followed by taking up and then putting down the rubber stopper. Next, the tweezers are taken up, clamped, and a weight is put down. This action of clamping and putting down a weight is repeated. The sequence concludes with putting down the tweezers and moving the vernier."
+        }
+    },
+    "12.3":{
+        "1":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "As shown in JSON, the annotations of the video describe a sequence of actions involving a test tube, wash bottle, and test tube brush.",
+            "The question with details": "Could you detail the specific actions and their order involving the test tube, wash bottle, and test tube brush as depicted in the video?",
+            "The answer with details": "The video showcases a sequence that begins with taking up the test tube. Next, the individual takes up the wash bottle, squeezes it, and then puts it down. After this, the test tube is poured. Subsequently, the test tube brush is taken up, pushed, and then pulled. The sequence concludes with putting down the test tube brush and the test tube."
+        },
+        "2":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "As shown in JSON, the video annotations depict a series of actions with a test tube, wash bottle, and test tube brush.",
+            "The question with details": "Can you provide a detailed description of each step and its sequence as shown in the video, involving the test tube, wash bottle, and test tube brush?",
+            "The answer with details": "The video depicts a sequence that starts with taking up the test tube. Following this, the individual takes up the wash bottle, squeezes it, and then puts it down. The test tube is then poured. The next steps involve taking up the test tube brush, pushing it, and then pulling it. The sequence concludes with putting down both the test tube brush and the test tube."
+        },
+        "3":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "As shown in JSON, the sequence in the video includes actions with a test tube, wash bottle, and test tube brush.",
+            "The question with details": "In the context of the procedure shown in the video, could you detail the chronological sequence of actions performed with the test tube, wash bottle, and test tube brush?",
+            "The answer with details": "Within the context of the procedure presented in the video, the sequence begins with taking up the test tube. The individual then takes up the wash bottle, squeezes it, and puts it down. The test tube is subsequently poured. The next actions involve taking up the test tube brush, pushing and pulling it. The sequence ends with putting down the test tube brush and the test tube."
+        },
+        "4":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "As shown in JSON, the video demonstrates a sequence involving a test tube, wash bottle, and test tube brush.",
+            "The question with details": "Could you provide a detailed account of the sequence of actions involving the test tube, wash bottle, and test tube brush as observed in the video?",
+            "The answer with details": "The video illustrates a sequence that unfolds with taking up the test tube. This is followed by taking up the wash bottle, squeezing it, and then putting it down. The test tube is then poured. Subsequent actions include taking up the test tube brush, pushing it, and then pulling it. The sequence concludes with putting down the test tube brush and the test tube."
+        },
+        "5":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "As shown in JSON, the annotations describe a sequence of actions in the video involving a test tube, wash bottle, and test tube brush.",
+            "The question with details": "Can you list and elaborate on the sequential actions demonstrated in the video, particularly focusing on the manipulation and handling of the test tube, wash bottle, and test tube brush?",
+            "The answer with details": "The video demonstrates a sequence beginning with taking up the test tube. This is followed by taking up and then squeezing the wash bottle, which is then put down. The test tube is then poured. The sequence continues with taking up the test tube brush, pushing and pulling it, and concludes with putting down the test tube brush and the test tube."
+        }
+    },
+    "13.3":{
+        "1":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "As shown in JSON, the annotations of this video describe the action occurring sequence.",
+            "The question with details": "Could you elaborate on the sequence of actions involving the alcohol burner, test tube, test tube clamp, and medicine spoon as presented in the video?",
+            "The answer with details": "The video demonstrates a sequence that begins with uncovering the alcohol burner and then putting down its cap. Subsequently, the individual takes up the test tube and the test tube clamp, and clamps the test tube clamp. Following this, the medicine spoon is taken up, used to scoop, and then pour. The medicine spoon is then put down. The sequence continues with shaking and pouring the contents of the test tube clamp, and concludes with putting down the test tube clamp."
+        },
+        "2":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "As shown in JSON, the video annotations describe a sequence of actions.",
+            "The question with details": "Can you provide a detailed breakdown of each step and its sequence as shown in the video, particularly focusing on the usage of the alcohol burner, test tube, test tube clamp, and medicine spoon?",
+            "The answer with details": "The video portrays a sequence beginning with uncovering the alcohol burner and placing down its cap. This is followed by taking up the test tube and the test tube clamp, and subsequently clamping the test tube clamp. The next steps involve taking up the medicine spoon, scooping with it, and then pouring. The medicine spoon is then put down. The sequence advances with shaking the test tube clamp and pouring its contents, and finally concludes with putting down the test tube clamp."
+        },
+        "3":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "As shown in JSON, the sequence in the video includes actions with an alcohol burner, test tube, test tube clamp, and medicine spoon.",
+            "The question with details": "In the context of the procedure shown in the video, could you detail the chronological sequence of actions performed with the alcohol burner, test tube, test tube clamp, and medicine spoon?",
+            "The answer with details": "Within the context of the procedure presented in the video, the sequence starts with uncovering the alcohol burner and putting down its cap. The individual then takes up the test tube and the test tube clamp, followed by clamping the test tube clamp. Subsequently, the medicine spoon is taken up, used for scooping, and then pouring. The spoon is then put down. The sequence continues with shaking and pouring the contents of the test tube clamp, and concludes with putting down the test tube clamp."
+        },
+        "4":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "As shown in JSON, the video demonstrates a sequence involving an alcohol burner, test tube, test tube clamp, and medicine spoon.",
+            "The question with details": "Could you provide a detailed account of the sequence of actions involving the alcohol burner, test tube, test tube clamp, and medicine spoon as observed in the video?",
+            "The answer with details": "The video illustrates a sequence that unfolds by uncovering the alcohol burner and then placing down its cap. This is followed by taking up the test tube and the test tube clamp, and clamping the test tube clamp. The next actions involve taking up the medicine spoon, using it to scoop, and then pour. The spoon is then put down. The sequence continues with shaking and pouring the contents of the test tube clamp, and concludes with putting down the test tube clamp."
+        },
+        "5":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "As shown in JSON, the annotations describe a sequence of actions in the video involving an alcohol burner, test tube, test tube clamp, and medicine spoon.",
+            "The question with details": "Can you list and elaborate on the sequential actions demonstrated in the video, particularly focusing on the manipulation and handling of the alcohol burner, test tube, test tube clamp, and medicine spoon?",
+            "The answer with details": "The video demonstrates a sequence beginning with uncovering the alcohol burner and placing down its cap. This is followed by taking up and then clamping the test tube clamp. The next steps involve taking up the medicine spoon, using it for scooping and pouring, and then putting it down. The sequence continues with shaking the test tube clamp and pouring its contents, and concludes with putting down the test tube clamp."
+        }
+    },
+    "14.1":{
+        "1":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "As shown in JSON, the annotations of this video describe the action occurring sequence.",
+            "The question with details": "Could you elaborate on the sequence of actions involving the wash bottle, injector, and test tube as presented in the video?",
+            "The answer with details": "The video demonstrates a sequence that begins with taking up the wash bottle, squeezing it, and then putting it down. Subsequently, the individual takes up the injector, pulls it, and then takes up the test tube. The next action is to push the injector, followed by putting down the test tube and finally putting down the injector."
+        },
+        "2":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "As shown in JSON, the video annotations describe a sequence of actions.",
+            "The question with details": "Can you provide a detailed breakdown of each step and its sequence as shown in the video, particularly focusing on the usage of the wash bottle, injector, and test tube?",
+            "The answer with details": "The video portrays a sequence beginning with taking up the wash bottle, squeezing it, and then putting it down. This is followed by taking up the injector and pulling it. Subsequently, the test tube is taken up, and then the injector is pushed. The sequence concludes with putting down the test tube and then the injector."
+        },
+        "3":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "As shown in JSON, the sequence in the video includes actions with a wash bottle, injector, and test tube.",
+            "The question with details": "In the context of the procedure shown in the video, could you detail the chronological sequence of actions performed with the wash bottle, injector, and test tube?",
+            "The answer with details": "Within the context of the procedure presented in the video, the sequence starts with taking up the wash bottle, squeezing it, and putting it down. The individual then takes up the injector and pulls it, followed by taking up the test tube and pushing the injector. The sequence concludes with putting down the test tube and then the injector."
+        },
+        "4":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "As shown in JSON, the video demonstrates a sequence involving a wash bottle, injector, and test tube.",
+            "The question with details": "Could you provide a detailed account of the sequence of actions involving the wash bottle, injector, and test tube as observed in the video?",
+            "The answer with details": "The video illustrates a sequence that unfolds by taking up the wash bottle, squeezing it, and then placing it down. This is followed by taking up the injector and pulling it. Next, the test tube is taken up, and the injector is pushed. The sequence concludes with putting down the test tube and then the injector."
+        },
+        "5":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "As shown in JSON, the annotations describe a sequence of actions in the video involving a wash bottle, injector, and test tube.",
+            "The question with details": "Can you list and elaborate on the sequential actions demonstrated in the video, particularly focusing on the manipulation and handling of the wash bottle, injector, and test tube?",
+            "The answer with details": "The video demonstrates a sequence beginning with taking up the wash bottle, squeezing it, and placing it down. This is followed by taking up and pulling the injector. Subsequently, the test tube is taken up, and the injector is pushed. The sequence concludes with putting down the test tube and then the injector."
+        }
+    },
+    "15.3":{
+        "1":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "As shown in JSON, the annotations of this video describe the action occurring sequence.",
+            "The question with details": "Could you provide a detailed breakdown of the sequential actions involving the alcohol burner, mortar, and medicine spoon as shown in the video?",
+            "The answer with details": "The sequence in the video begins with uncovering the alcohol burner and putting down its cap. Then, the alcohol burner is moved. Next, the mortar is taken up, followed by the medicine spoon. The person scoops with the medicine spoon, pours its contents, and then puts the spoon down. Subsequently, the pestle is taken up, used to stir within the mortar, and then both the mortar and pestle are put down."
+        },
+        "2":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "As shown in JSON, the video annotations describe a sequence of actions.",
+            "The question with details": "Can you provide a step-by-step description of the actions involving the alcohol burner, mortar, and medicine spoon, as depicted in the video?",
+            "The answer with details": "In the video, the sequence starts with uncovering the alcohol burner and putting down its cap. The alcohol burner is then moved to a different location. Following this, the mortar is taken up, and then the medicine spoon is used to scoop and pour its contents. After putting down the medicine spoon, the pestle is taken up for stirring inside the mortar, and finally, both the mortar and pestle are put down."
+        },
+        "3":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "As shown in JSON, the sequence in the video includes actions with an alcohol burner, mortar, and medicine spoon.",
+            "The question with details": "In the context of the procedure shown in the video, could you detail the chronological sequence of actions performed with the alcohol burner, mortar, and medicine spoon?",
+            "The answer with details": "Within the context of the procedure presented in the video, the sequence starts with uncovering the alcohol burner and placing its cap down. Then, the alcohol burner is moved. After this, the mortar is taken up, followed by scooping and pouring using the medicine spoon. The spoon is then put down. Subsequently, the pestle is taken up for stirring inside the mortar, and the sequence concludes with putting down both the mortar and the pestle."
+        },
+        "4":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "As shown in JSON, the video demonstrates a sequence involving an alcohol burner, mortar, and medicine spoon.",
+            "The question with details": "Could you provide a detailed account of the sequence of actions involving the alcohol burner, mortar, and medicine spoon as observed in the video?",
+            "The answer with details": "The video illustrates a sequence that unfolds by first uncovering the alcohol burner and then placing its cap down. Subsequently, the alcohol burner is moved. The mortar is then taken up, and the medicine spoon is used to scoop and pour. After putting down the medicine spoon, the pestle is taken up for stirring in the mortar. Finally, both the mortar and the pestle are put down."
+        },
+        "5":{
+            "Original question": "What are the actions in the sequence video and in what order?",
+            "Original answer": "As shown in JSON, the annotations describe a sequence of actions in the video involving an alcohol burner, mortar, and medicine spoon.",
+            "The question with details": "Can you list and elaborate on the sequential actions demonstrated in the video, particularly focusing on the manipulation and handling of the alcohol burner, mortar, and medicine spoon?",
+            "The answer with details": "The video demonstrates a sequence beginning with uncovering the alcohol burner and placing its cap down. The alcohol burner is then moved. Next, the mortar is taken up, followed by scooping and pouring with the medicine spoon. The spoon is subsequently put down. Then, the pestle is taken up for stirring in the mortar. The sequence concludes with putting down both the mortar and the pestle."
+        }
+    }
+}
+
+
