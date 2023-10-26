@@ -1,0 +1,1862 @@
+{
+    "1.1":{
+        "1":{
+            "Original question": "After taking up the iron clamp, did the lab assistant screw it in?",
+            "Original answer": "Yes",
+            "The question with details": "In a precise laboratory setup, the diligent lab assistant was seen reaching for some tools. After grabbing the iron clamp, did they proceed to screw it in?",
+            "The answer with details": "Yes, immediately after taking the iron clamp, the lab assistant began to screw it."
+        },
+        "2":{
+            "Original question": "After picking up the iron clamp, did the student take the test tube next?",
+            "Original answer": "No",
+            "The question with details": "During a laboratory demonstration, a student was seen preparing the apparatus. Following their action of picking up the iron clamp, did they then choose the test tube?",
+            "The answer with details": "No, after taking the iron clamp, the student screwed the iron clamp before selecting the test tube."
+        },
+        "3":{
+            "Original question": "Did the researcher first screw the iron clamp, then take the test tube, and afterwards screw the iron clamp again?",
+            "Original answer": "Yes",
+            "The question with details": "In a sequence of actions during a research experiment, did the researcher initially tighten the iron clamp, subsequently pick up a test tube, and then once again screw the iron clamp?",
+            "The answer with details": "Yes, the researcher first screwed the iron clamp, then took up the test tube, and screwed the iron clamp once more."
+        },
+        "4":{
+            "Original question": "After taking up the test tube, did the chemist proceed to screw the iron clamp?",
+            "Original answer": "Yes",
+            "The question with details": "In the midst of an experiment, the chemist was seen interacting with various equipment. After selecting the test tube, did they move on to screw the iron clamp?",
+            "The answer with details": "Yes, post acquiring the test tube, the chemist indeed screwed the iron clamp."
+        },
+        "5":{
+            "Original question": "Did the instructor take up the conical flask before pouring its contents?",
+            "Original answer": "Yes",
+            "The question with details": "In a tutorial video, the instructor was demonstrating a process. Did they pick up the conical flask prior to pouring out its contents?",
+            "The answer with details": "Yes, the instructor picked up the conical flask and then poured its contents."
+        },
+        "6":{
+            "Original question": "After pouring the conical flask, did the researcher place it back down?",
+            "Original answer": "Yes",
+            "The question with details": "In an experimental procedure, the researcher was observed managing a conical flask. After emptying its contents, did the researcher put it back?",
+            "The answer with details": "Yes, once the contents of the conical flask were poured, the researcher placed the flask down."
+        },
+        "7":{
+            "Original question": "Did the student first take the test tube and then immediately pour the contents of the conical flask?",
+            "Original answer": "No",
+            "The question with details": "In a lab session, the student was engaged in a sequence of actions. After grabbing the test tube, did they quickly proceed to pour the conical flask?",
+            "The answer with details": "No, after taking the test tube, the student screwed the iron clamp before attending to the conical flask."
+        },
+        "8":{
+            "Original question": "Did the lab assistant start by picking up the iron clamp and then later pour the contents of the conical flask?",
+            "Original answer": "Yes",
+            "The question with details": "During a lab setup, the lab assistant was seen taking various steps. Starting with the iron clamp, did they eventually pour the contents of the conical flask?",
+            "The answer with details": "Yes, the lab assistant first took up the iron clamp and later in the sequence poured the contents of the conical flask."
+        },
+        "9":{
+            "Original question": "After picking up the conical flask, did the chemist directly set it down?",
+            "Original answer": "No",
+            "The question with details": "While conducting a chemical experiment, the chemist was seen manipulating the conical flask. After its acquisition, did the chemist instantly place it back?",
+            "The answer with details": "No, post picking up the conical flask, the chemist poured its contents before setting it down."
+        },
+        "10":{
+            "Original question": "In the sequence, did the instructor screw the iron clamp, take the test tube, and then screw the iron clamp again?",
+            "Original answer": "Yes",
+            "The question with details": "In a lab demonstration, the instructor meticulously followed a set of steps. Did this include screwing the iron clamp, subsequently taking the test tube, and once more tightening the iron clamp?",
+            "The answer with details": "Yes, the instructor's actions comprised of screwing the iron clamp, then taking the test tube, followed by screwing the iron clamp again."
+        }
+    },
+    "1.2":{
+        "1":{
+            "Original question": "After picking up the test tube, did the researcher proceed to use the iron clamp?",
+            "Original answer": "Yes",
+            "The question with details": "In a meticulous chemistry experiment setting, the lead researcher was carefully selecting tools. After choosing a test tube from the array, did this researcher then reach for the iron clamp?",
+            "The answer with details": "Yes, the lead researcher, after picking up the test tube, immediately proceeded to select the iron clamp as the next tool for the experiment."
+        },
+        "2":{
+            "Original question": "After taking up the test tube, did the student screw the iron clamp?",
+            "Original answer": "No",
+            "The question with details": "During a practical chemistry class, a student was tasked with setting up the apparatus. After grabbing a test tube, did this student then tighten the iron clamp?",
+            "The answer with details": "No, after picking up the test tube, the student took the iron clamp but did not immediately proceed to screw it."
+        },
+        "3":{
+            "Original question": "Did the lab assistant take the iron clamp and then screw it?",
+            "Original answer": "Yes",
+            "The question with details": "In a busy laboratory, the assistant was preparing for an important experiment. Did the lab assistant pick up the iron clamp and then immediately start tightening it?",
+            "The answer with details": "Yes, the lab assistant first took the iron clamp and then proceeded to screw it into place."
+        },
+        "4":{
+            "Original question": "After taking the conical flask, did the chemist pour its contents?",
+            "Original answer": "Yes",
+            "The question with details": "In a high-stakes research setting, every move of the chemist was vital. Having taken up the conical flask, did the chemist pour out its contents into another container?",
+            "The answer with details": "Yes, after securing the conical flask, the chemist proceeded to pour its contents."
+        },
+        "5":{
+            "Original question": "Did the sequence involve the instructor first screwing the iron clamp, and later pouring the conical flask?",
+            "Original answer": "Yes",
+            "The question with details": "In an instructional video for a chemistry class, the instructor was showcasing the steps in sequence. Did this involve the instructor first tightening the iron clamp, and subsequently pouring the contents of the conical flask?",
+            "The answer with details": "Yes, the instructor's sequence first had the action of screwing the iron clamp, and then followed by pouring the conical flask."
+        },
+        "6":{
+            "Original question": "After screwing the iron clamp, did the researcher take the conical flask?",
+            "Original answer": "Yes",
+            "The question with details": "In a detailed demonstration, the researcher was following a set sequence. Post tightening the iron clamp, did they pick up the conical flask next?",
+            "The answer with details": "Yes, post securing the iron clamp, the researcher's next move was to take up the conical flask."
+        },
+        "7":{
+            "Original question": "In the sequence, did the student first take the test tube and then pour the conical flask?",
+            "Original answer": "No",
+            "The question with details": "During a hands-on session in the lab, a student was performing a set of actions in order. Did the student first pick the test tube and soon after pour the contents of the conical flask?",
+            "The answer with details": "No, after taking the test tube, the student did not immediately pour the contents of the conical flask."
+        },
+        "8":{
+            "Original question": "Did the lab assistant first take up the test tube, followed by screwing the iron clamp twice?",
+            "Original answer": "Yes",
+            "The question with details": "Amidst a bustling lab session, the lab assistant was seen performing a series of actions. After picking up the test tube, did they then go on to screw the iron clamp on two separate occasions?",
+            "The answer with details": "Yes, the lab assistant, after taking up the test tube, proceeded to screw the iron clamp twice consecutively."
+        },
+        "9":{
+            "Original question": "After taking the conical flask, did the chemist immediately put it down?",
+            "Original answer": "No",
+            "The question with details": "In a carefully curated chemical reaction demo, the chemist was following each step with precision. Having picked the conical flask, did they instantly set it back down?",
+            "The answer with details": "No, after picking up the conical flask, the chemist didn't put it down immediately. They first poured its contents."
+        },
+        "10":{
+            "Original question": "After pouring the conical flask, did the researcher put it down?",
+            "Original answer": "Yes",
+            "The question with details": "In an intricate procedure, the researcher was seen manipulating a conical flask. After pouring its contents, did the researcher set the conical flask back on the table?",
+            "The answer with details": "Yes, following the act of pouring, the researcher promptly put down the conical flask."
+        }
+    },
+    "1.3":{
+        "1":{
+            "Original question": "After taking up the test tube, did the lab assistant next pick up the conical flask?",
+            "Original answer": "Yes",
+            "The question with details": "In the laboratory, the focused lab assistant was observed selecting tools. Having picked up the test tube, did they then choose the conical flask?",
+            "The answer with details": "Yes, directly after grabbing the test tube, the lab assistant picked up the conical flask."
+        },
+        "2":{
+            "Original question": "Did the student first take up the conical flask and then pour its contents?",
+            "Original answer": "Yes",
+            "The question with details": "During a laboratory session, the student was seen arranging some equipment. Did they first pick up the conical flask and subsequently pour its content?",
+            "The answer with details": "Yes, the student took up the conical flask and then proceeded to pour its contents."
+        },
+        "3":{
+            "Original question": "After pouring the contents of the conical flask, did the researcher put it down?",
+            "Original answer": "Yes",
+            "The question with details": "In a research setting, after emptying the conical flask, was it observed that the researcher placed the flask back?",
+            "The answer with details": "Yes, after pouring out its contents, the researcher set the conical flask down."
+        },
+        "4":{
+            "Original question": "Did the chemist take the conical flask before picking up the iron clamp?",
+            "Original answer": "Yes",
+            "The question with details": "Amidst an experiment, before reaching for the iron clamp, did the chemist first handle the conical flask?",
+            "The answer with details": "Yes, before the iron clamp, the chemist took the conical flask."
+        },
+        "5":{
+            "Original question": "After picking up the iron clamp, did the instructor screw it twice?",
+            "Original answer": "Yes",
+            "The question with details": "In a teaching demonstration, once the instructor had the iron clamp in hand, did they proceed to screw it on two occasions?",
+            "The answer with details": "Yes, the instructor screwed the iron clamp two times after picking it up."
+        },
+        "6":{
+            "Original question": "Did the lab assistant pour the contents of the conical flask prior to taking the iron clamp?",
+            "Original answer": "Yes",
+            "The question with details": "While setting up an apparatus, did the lab assistant pour out the conical flask's contents before picking up the iron clamp?",
+            "The answer with details": "Yes, the lab assistant poured the contents of the conical flask and then took the iron clamp."
+        },
+        "7":{
+            "Original question": "In the sequence, did the researcher start with the test tube, and then later screw the iron clamp twice?",
+            "Original answer": "Yes",
+            "The question with details": "As the researcher conducted an experiment, did they begin by handling the test tube and subsequently screw the iron clamp two times?",
+            "The answer with details": "Yes, the researcher started with the test tube and later screwed the iron clamp twice."
+        },
+        "8":{
+            "Original question": "Did the student take up the test tube and then eventually put down the conical flask?",
+            "Original answer": "Yes",
+            "The question with details": "During a hands-on lab activity, after grabbing the test tube, did the student later set down the conical flask?",
+            "The answer with details": "Yes, the student took the test tube and eventually set down the conical flask."
+        },
+        "9":{
+            "Original question": "After picking up the test tube, did the chemist directly take the iron clamp?",
+            "Original answer": "No",
+            "The question with details": "In a chemical process, once the test tube was in the chemist's possession, did they immediately opt for the iron clamp?",
+            "The answer with details": "No, the chemist took the conical flask after the test tube and before the iron clamp."
+        },
+        "10":{
+            "Original question": "In the set of actions, did the instructor begin with the test tube, pour the contents of the conical flask, and later screw the iron clamp?",
+            "Original answer": "Yes",
+            "The question with details": "During a methodical demonstration, did the instructor's series of steps include starting with the test tube, pouring the conical flask, and subsequently tightening the iron clamp?",
+            "The answer with details": "Yes, the instructor initiated with the test tube, poured the conical flask's contents, and then tightened the iron clamp."
+        }
+    },
+    "1.4":{
+        "1":{
+            "Original question": "After taking up the iron clamp, did the lab assistant proceed to screw the iron clamp?",
+            "Original answer": "Yes",
+            "The question with details": "In the laboratory procedure, once the iron clamp was in hand, did the lab assistant immediately start to screw it in place?",
+            "The answer with details": "Yes, the lab assistant screwed the iron clamp right after taking it."
+        },
+        "2":{
+            "Original question": "Following the iron clamp adjustment, did the student then take up the conical flask?",
+            "Original answer": "Yes",
+            "The question with details": "In the video, after making adjustments to the iron clamp, did the student reach out for the conical flask?",
+            "The answer with details": "Yes, the student took up the conical flask after adjusting the iron clamp."
+        },
+        "3":{
+            "Original question": "Did the researcher, after taking the conical flask, place it down before picking up the test tube?",
+            "Original answer": "Yes",
+            "The question with details": "In a sequence of steps, post grabbing the conical flask, was it observed that the researcher placed it back down prior to handling the test tube?",
+            "The answer with details": "Yes, after taking the conical flask, the researcher put it down and then picked up the test tube."
+        },
+        "4":{
+            "Original question": "Did the chemist handle the iron clamp before dealing with the conical flask?",
+            "Original answer": "Yes",
+            "The question with details": "In the experimental setup, did the chemist interact with the iron clamp ahead of the conical flask?",
+            "The answer with details": "Yes, the chemist took and adjusted the iron clamp before the conical flask."
+        },
+        "5":{
+            "Original question": "After picking up the test tube, did the instructor proceed to screw the iron clamp again?",
+            "Original answer": "Yes",
+            "The question with details": "During the equipment arrangement, post picking up the test tube, did the instructor make further adjustments to the iron clamp?",
+            "The answer with details": "Yes, the instructor adjusted the iron clamp after picking up the test tube."
+        },
+        "6":{
+            "Original question": "In the sequence, did the lab assistant begin with the iron clamp and later handle the test tube?",
+            "Original answer": "Yes",
+            "The question with details": "In the depicted series of actions, was the lab assistant's initial interaction with the iron clamp, followed later by the test tube?",
+            "The answer with details": "Yes, the lab assistant started with the iron clamp and later took the test tube."
+        },
+        "7":{
+            "Original question": "Did the student first adjust the iron clamp, then take the conical flask, and finally the test tube?",
+            "Original answer": "Yes",
+            "The question with details": "In the process observed, did the student's sequence involve adjusting the iron clamp, then taking the conical flask, followed by the test tube?",
+            "The answer with details": "Yes, that was the exact sequence of actions by the student."
+        },
+        "8":{
+            "Original question": "After adjusting the iron clamp for the first time, did the researcher directly pick up the test tube?",
+            "Original answer": "No",
+            "The question with details": "Post the initial iron clamp adjustment, did the researcher immediately go for the test tube?",
+            "The answer with details": "No, the researcher first took the conical flask after the initial adjustment of the iron clamp and before the test tube."
+        },
+        "9":{
+            "Original question": "Was the conical flask placed down by the chemist right after its acquisition?",
+            "Original answer": "Yes",
+            "The question with details": "Once the conical flask was in the chemist's hand, was the subsequent action placing it back down?",
+            "The answer with details": "Yes, the chemist put down the conical flask soon after taking it."
+        },
+        "10":{
+            "Original question": "In the actions demonstrated, did the instructor screw the iron clamp, later take the conical flask, and finally adjust the clamp again?",
+            "Original answer": "Yes",
+            "The question with details": "In the experiment's demonstration, post adjusting the iron clamp, did the instructor proceed with the conical flask and end with another clamp adjustment?",
+            "The answer with details": "Yes, after the initial adjustment of the iron clamp, the instructor took the conical flask and subsequently adjusted the clamp once more."
+        }
+    },
+    "1.5":{
+        "1":{
+            "Original question": "After taking up the iron clamp, did the chemist proceed to screw the iron clamp?",
+            "Original answer": "Yes",
+            "The question with details": "In the chemistry demonstration, after acquiring the iron clamp, did the chemist immediately start fixing it into place?",
+            "The answer with details": "Yes, the chemist proceeded to screw the iron clamp after taking it."
+        },
+        "2":{
+            "Original question": "Did the researcher take up the test tube before screwing the iron clamp for the second time?",
+            "Original answer": "Yes",
+            "The question with details": "In the sequence observed, after initially adjusting the iron clamp, did the researcher handle the test tube before making another adjustment to the clamp?",
+            "The answer with details": "Yes, the researcher took up the test tube and then screwed the iron clamp again."
+        },
+        "3":{
+            "Original question": "Following the second adjustment of the iron clamp, did the student then interact with the electronic scale?",
+            "Original answer": "Yes",
+            "The question with details": "Post the second iron clamp tightening, did the student pick up the electronic scale?",
+            "The answer with details": "Yes, the student took up the electronic scale after the second adjustment of the iron clamp."
+        },
+        "4":{
+            "Original question": "After taking the electronic scale, did the lab assistant promptly put it down?",
+            "Original answer": "Yes",
+            "The question with details": "In the procedure, upon acquiring the electronic scale, did the lab assistant quickly place it back on the table?",
+            "The answer with details": "Yes, the lab assistant put down the electronic scale shortly after taking it."
+        },
+        "5":{
+            "Original question": "Following the interaction with the electronic scale, did the instructor then pick up and pour contents from the conical flask?",
+            "Original answer": "Yes",
+            "The question with details": "After dealing with the electronic scale, did the instructor proceed to handle the conical flask and pour out its contents?",
+            "The answer with details": "Yes, the instructor took up the conical flask and poured it following the interaction with the electronic scale."
+        },
+        "6":{
+            "Original question": "After pouring the conical flask, did the chemist set it down?",
+            "Original answer": "Yes",
+            "The question with details": "Post pouring the solution from the conical flask, was the flask placed back on the table by the chemist?",
+            "The answer with details": "Yes, after pouring, the chemist put down the conical flask."
+        },
+        "7":{
+            "Original question": "Did the sequence showcase the lab assistant handling the electronic scale in between the test tube and the conical flask?",
+            "Original answer": "Yes",
+            "The question with details": "In the experiment's flow, did the lab assistant interact with the electronic scale after the test tube and before the conical flask?",
+            "The answer with details": "Yes, the lab assistant dealt with the electronic scale after the test tube and before taking up the conical flask."
+        },
+        "8":{
+            "Original question": "After the initial adjustment of the iron clamp, did the student directly move to the electronic scale?",
+            "Original answer": "No",
+            "The question with details": "Following the first adjustment of the iron clamp, did the student's immediate next action involve the electronic scale?",
+            "The answer with details": "No, the student took up the test tube and screwed the iron clamp again before handling the electronic scale."
+        },
+        "9":{
+            "Original question": "Was the electronic scale the first equipment that the researcher interacted with?",
+            "Original answer": "No",
+            "The question with details": "In the start of the procedure, was the electronic scale the primary equipment the researcher dealt with?",
+            "The answer with details": "No, the researcher began by taking and screwing the iron clamp, and the electronic scale was handled later."
+        },
+        "10":{
+            "Original question": "Post adjusting the iron clamp for the first time, did the instructor immediately use the electronic scale?",
+            "Original answer": "No",
+            "The question with details": "After the initial iron clamp adjustment, was the instructor's next immediate step involving the electronic scale?",
+            "The answer with details": "No, the instructor took up the test tube and adjusted the iron clamp again before using the electronic scale."
+        }
+    },
+    "2.1":{
+        "1":{
+            "Original question": "Did the researcher first uncover the jar cap and then pour the jar?",
+            "Original answer": "Yes",
+            "The question with details": "In a laboratory setting, amidst an experiment, after picking up a jar, did the researcher proceed to uncover its cap and subsequently pour the contents?",
+            "The answer with details": "Yes, the researcher first picked up the jar, then meticulously removed its cap, and eventually proceeded to pour out the contents."
+        },
+        "2":{
+            "Original question": "Did the instructor take up the jar before uncovering its cap?",
+            "Original answer": "Yes",
+            "The question with details": "During a class demonstration, while explaining a chemical reaction, did the instructor pick up the jar before going ahead to uncover its cap?",
+            "The answer with details": "Yes, in the demonstration, the instructor first held the jar securely in hand before deciding to uncover its cap."
+        },
+        "3":{
+            "Original question": "Did the student pour the jar and then cover it back with the jar cap?",
+            "Original answer": "Yes",
+            "The question with details": "In a classroom assignment, when tasked to demonstrate a certain procedure, did the student pour the contents of the jar and subsequently ensure it was sealed back with its cap?",
+            "The answer with details": "Yes, after pouring the substance from the jar, the student was diligent enough to place the cap back onto the jar."
+        },
+        "4":{
+            "Original question": "After pouring the jar, did the chemist take up the jar cap?",
+            "Original answer": "Yes",
+            "The question with details": "In the research facility, while preparing a sample for testing, after emptying the jar, did the chemist immediately reach out to pick the jar cap?",
+            "The answer with details": "Indeed, post emptying the jar, the chemist without delay took the jar cap in preparation to seal it."
+        },
+        "5":{
+            "Original question": "Did the lab assistant uncover the jar cap before pouring the jar?",
+            "Original answer": "Yes",
+            "The question with details": "During a routine lab check, when the lab assistant intended to inspect the contents of a jar, did they first uncover the jar cap prior to pouring it out?",
+            "The answer with details": "Absolutely, before the lab assistant poured out the contents, they first unveiled the jar by removing its cap."
+        },
+        "6":{
+            "Original question": "After uncovering the jar cap, did the researcher put down the jar cap and then pour the jar?",
+            "Original answer": "Yes",
+            "The question with details": "In the midst of an intricate experiment, after carefully uncovering the jar cap, did the researcher place it aside and then go on to pour the jar's contents?",
+            "The answer with details": "Correctly so, the researcher after uncovering the jar cap, placed it down and then poured the contents of the jar."
+        },
+        "7":{
+            "Original question": "Did the student take up the jar and subsequently uncover its cap?",
+            "Original answer": "Yes",
+            "The question with details": "In a practical examination setting, when the student was tasked with a procedure, did they initially take up the jar and immediately after, uncover its cap?",
+            "The answer with details": "Indeed, in the practical scenario, the student first took the jar in hand and then went on to uncover its cap."
+        },
+        "8":{
+            "Original question": "After taking up the jar cap, did the instructor cover the jar with it?",
+            "Original answer": "Yes",
+            "The question with details": "During an instructional session on proper storage methods, post lifting the jar cap, did the instructor place it back to cover the jar securely?",
+            "The answer with details": "Yes, post demonstration, the instructor took the jar cap and aptly placed it back on the jar to seal it."
+        },
+        "9":{
+            "Original question": "Did the chemist uncover the jar cap, pour its contents, and then cover the jar back?",
+            "Original answer": "Yes",
+            "The question with details": "In a chemical analysis scenario, did the chemist first remove the protective cap from the jar, pour out its samples and then ensure the jar was capped back securely?",
+            "The answer with details": "Precisely so, the chemist initially removed the cap, poured the necessary samples and then made sure to cap the jar securely."
+        },
+        "10":{
+            "Original question": "Did the lab assistant put down the jar after covering it with the jar cap?",
+            "Original answer": "Yes",
+            "The question with details": "In the process of safely storing laboratory samples, post securely placing the cap onto the jar, did the lab assistant place the jar back to its designated spot?",
+            "The answer with details": "Yes, ensuring safety and order, the lab assistant after sealing the jar with its cap, placed it back in its designated storage location."
+        }
+    },
+    "2.2":{
+        "1":{
+            "Original question": "After taking up the jar, did the chemist uncover its cap?",
+            "Original answer": "Yes",
+            "The question with details": "In a laboratory bustling with activity, a curious chemist embarked on a unique experiment. After taking up a peculiar jar from the counter, can you confirm if they proceeded to uncover its cap?",
+            "The answer with details": "Indeed, upon observing the detailed sequence of the video, the chemist, after lifting the jar, deftly uncovered its cap, revealing the contents within. This action appeared to be a preparatory step in the experiment they were conducting."
+        },
+        "2":{
+            "Original question": "Following the uncovering of the jar cap, did the researcher pour out its contents?",
+            "Original answer": "Yes",
+            "The question with details": "The laboratory was filled with a sense of anticipation. After the researcher meticulously uncovered the jar cap, did they then proceed to pour out the mysterious liquid within?",
+            "The answer with details": "Yes, as the scene progressed in the video, the researcher, having previously uncovered the jar cap, carefully tilted the jar, pouring its contents into a designated container, furthering their experiment."
+        },
+        "3":{
+            "Original question": "After pouring the jar, did the lab assistant reseal it with its original cap?",
+            "Original answer": "Yes",
+            "The question with details": "In an environment where precision is paramount, the lab assistant seemed to be following a specific procedure. Post pouring the jar's contents, did they ensure it was securely sealed back with its original cap?",
+            "The answer with details": "Absolutely. Following the action of pouring the jar, the diligent lab assistant promptly resealed the jar using its original cap, ensuring no contamination and maintaining the integrity of the contents left inside."
+        },
+        "4":{
+            "Original question": "Did the student uncover the jar cap, pour its contents, and then cover it again?",
+            "Original answer": "Yes",
+            "The question with details": "During a practical class, a student was seen handling a jar with utmost care. Did the sequence involve them first uncovering the jar cap, then pouring its contents, and finally resealing it?",
+            "The answer with details": "Indeed, that's an accurate observation. The student, in a methodical manner, first uncovered the jar cap, proceeded to pour out a certain amount of its contents, and then, without delay, resealed it securely with the original cap."
+        },
+        "5":{
+            "Original question": "Following the pouring of the jar, did the researcher put it down?",
+            "Original answer": "Yes",
+            "The question with details": "After conducting a particular phase of the experiment which involved pouring the jar's contents, did the attentive researcher place the jar back on the workstation?",
+            "The answer with details": "Yes, in line with maintaining laboratory protocols, post pouring the contents, the researcher placed the jar back down on the designated spot on the workstation."
+        },
+        "6":{
+            "Original question": "After uncovering the jar cap, was the subsequent action pouring the jar by the lab assistant?",
+            "Original answer": "Yes",
+            "The question with details": "In a sequence showcasing lab procedures, following the lab assistant's action of uncovering the jar cap, did they promptly pour out its contents?",
+            "The answer with details": "Indeed, the sequence clearly showcased the lab assistant, after deftly removing the jar cap, pouring out its contents for further analysis."
+        },
+        "7":{
+            "Original question": "Did the instructor uncover the jar cap and then proceed to pour the jar?",
+            "Original answer": "Yes",
+            "The question with details": "During a demonstration, the instructor was seen explaining a procedure. Did this involve them uncovering the jar cap first and then pouring its contents?",
+            "The answer with details": "Yes, to provide a clear view to all attendees, the instructor meticulously uncovered the jar cap and then proceeded to pour its contents, illustrating the procedure step by step."
+        },
+        "8":{
+            "Original question": "After the jar was poured, did the student put it back down?",
+            "Original answer": "Yes",
+            "The question with details": "As the class continued, a student appeared to be replicating a demonstrated procedure. After pouring the contents of the jar, did they place the jar back onto the table?",
+            "The answer with details": "Correct. Following the procedure as demonstrated, the student, after pouring the necessary amount from the jar, set it back down on the table, aligning with the steps shown."
+        },
+        "9":{
+            "Original question": "In the sequence, was the jar's cap first uncovered, followed by the pouring action by the chemist?",
+            "Original answer": "Yes",
+            "The question with details": "A chemist, keen on following every protocol, was seen handling a jar. Was the initial action uncovering its cap, followed by pouring its intriguing contents?",
+            "The answer with details": "Absolutely. The chemist began by carefully uncovering the jar's cap, ensuring no spillage, and then proceeded to pour its contents into another vessel, all while maintaining the strictest laboratory standards."
+        },
+        "10":{
+            "Original question": "After the jar was poured and resealed, was it finally placed back down by the researcher?",
+            "Original answer": "Yes",
+            "The question with details": "In a meticulous sequence of steps, after the researcher poured and resealed the jar, did they conclude by placing the jar back in its original position?",
+            "The answer with details": "Yes, wrapping up that particular segment of their work, the researcher, having poured and then resealed the jar, ensured it was placed back in its designated spot, ensuring continuity for the next steps."
+        }
+    },
+    "2.3": {
+        "1": {
+            "Original question": "Did the researcher first take up the jar and then pour its contents?",
+            "Original answer": "Yes",
+            "The question with details": "In a controlled lab environment, where precise measurements and sequences are of utmost importance, did the chemist first take up the jar, ensuring a steady grip, before proceeding to pour its potentially hazardous contents?",
+            "The answer with details": "Absolutely, in the video, the chemist, with utmost precision and care, first took up the jar, ensuring it was securely held. Following this, the chemist proceeded to pour the contents of the jar with a calculated approach to avoid any spillage or mishaps."
+        },
+        "2": {
+            "Original question": "After uncovering the jar cap, did the researcher pour the jar?",
+            "Original answer": "Yes",
+            "The question with details": "Following a sequence of actions, once the lab assistant meticulously uncovered the jar cap, did they then proceed to pour the contents of the jar without any hesitation?",
+            "The answer with details": "Indeed, after carefully and meticulously removing the jar cap, the lab assistant, showcasing their training, immediately poured the contents of the jar ensuring no time was wasted in between the actions."
+        },
+        "3": {
+            "Original question": "Did the student cover the jar with the jar cap after pouring it?",
+            "Original answer": "Yes",
+            "The question with details": "In a step-by-step tutorial observed by many, after the student demonstrated the pouring of the jar's contents, did they ensure safety by promptly covering the jar with its respective cap?",
+            "The answer with details": "Certainly, the student, after showcasing the pouring technique, swiftly yet safely secured the jar by covering it with its dedicated cap, ensuring that no contaminants could enter."
+        },
+        "4": {
+            "Original question": "Following the sequence, did the instructor put down the jar at the end?",
+            "Original answer": "Yes",
+            "The question with details": "After successfully completing all the necessary steps with the jar, from uncovering to pouring, did the experienced instructor finally put the jar down as the conclusive action?",
+            "The answer with details": "Yes, the instructor, having completed all the essential steps with the jar, including pouring its contents and sealing it again, finally and gently put down the jar, signifying the end of that particular procedure."
+        },
+        "5": {
+            "Original question": "Before pouring the jar, did the researcher first take it up?",
+            "Original answer": "Yes",
+            "The question with details": "In the chronological sequence of events demonstrated in the lab, did the researcher initially grasp and take up the jar before making any attempts to pour its contents?",
+            "The answer with details": "Without a doubt, the researcher, understanding the importance of sequence in lab procedures, first securely took up the jar in their hands and only then proceeded to pour its contents, ensuring precision in every step."
+        },
+        "6": {
+            "Original question": "Did the researcher uncover the jar cap, pour the jar, and then cover it back?",
+            "Original answer": "Yes",
+            "The question with details": "In a systematic procedure, did the chemist first remove the cap of the jar, then pour the jar's contents, and finally ensure its closure by placing the cap back on the jar?",
+            "The answer with details": "Yes, in a clearly defined sequence, the chemist first removed the jar's cap, then emptied its contents by pouring, and finally, for safety and containment, covered the jar back with its original cap."
+        },
+        "7": {
+            "Original question": "Before putting the jar down, did the student cover it with the jar cap?",
+            "Original answer": "Yes",
+            "The question with details": "Ensuring the integrity of the contents and safety in the lab, before concluding the demonstration by placing the jar down, did the student first make sure to tightly seal the jar with its cap?",
+            "The answer with details": "Absolutely, the student, highlighting the importance of safety and containment, ensured that before setting the jar down, it was tightly sealed with its cap to prevent any exposure or spillage."
+        },
+        "8": {
+            "Original question": "Did the lab assistant pour the jar twice in the sequence?",
+            "Original answer": "Yes",
+            "The question with details": "Given the meticulous sequence of events captured in the video, is it accurate to say that the lab assistant poured the contents of the jar on two separate occasions?",
+            "The answer with details": "Yes, the lab assistant, adhering to the specific requirements of the experiment, poured the contents of the jar twice, ensuring each pour was done with precision and accuracy."
+        },
+        "9": {
+            "Original question": "After taking up the jar, did the researcher uncover its cap?",
+            "Original answer": "No",
+            "The question with details": "In the captured sequence, once the instructor took up the jar in preparation, did they immediately proceed to uncover its protective cap?",
+            "The answer with details": "No, after taking up the jar, the instructor's immediate next step was not to uncover its cap. The action of pouring was performed first before any uncovering took place."
+        },
+        "10": {
+            "Original question": "Did the researcher cover the jar cap before pouring the jar?",
+            "Original answer": "No",
+            "The question with details": "Observing the chronological events in the video, did the chemist ensure to cover the jar with its cap before initiating the pouring of its contents?",
+            "The answer with details": "No, in the video, the chemist did not cover the jar before pouring. The sequence clearly shows that the jar was uncovered, then poured, and only afterward was it sealed with its cap."
+        }
+    },
+    "2.4":{
+        "1":{
+            "Original question": "After taking up the jar, did the chemist uncover the jar cap?",
+            "Original answer": "Yes",
+            "The question with details": "In a meticulously set up laboratory, a chemist is preparing for an experiment. Given the meticulous nature of his work, every action is crucial. After carefully lifting the jar from the counter, did he then proceed to uncover its cap?",
+            "The answer with details": "Yes, after the chemist took up the jar, the next action he performed was to uncover the jar cap, indicating the start of the process where the contents of the jar would be utilized."
+        },
+        "2":{
+            "Original question": "Did the researcher pour the jar after uncovering the jar cap?",
+            "Original answer": "Yes",
+            "The question with details": "In an advanced research facility, precision is key. The researcher is handling various chemicals for a sensitive experiment. After removing the cap from a jar, was the subsequent action to pour out its contents?",
+            "The answer with details": "Yes, following the act of uncovering the jar cap, the researcher proceeded to pour the jar, demonstrating the sequential steps of the procedure."
+        },
+        "3":{
+            "Original question": "Did the lab assistant put down the jar cap before pouring the jar?",
+            "Original answer": "Yes",
+            "The question with details": "A lab assistant, working diligently under the supervision of a senior scientist, has been given a jar with vital reactants. After removing the cap from the jar, did she ensure to place the cap down before pouring out the substance?",
+            "The answer with details": "Indeed, the lab assistant, with caution and method, put down the jar cap and only then proceeded to pour the contents from the jar."
+        },
+        "4":{
+            "Original question": "After pouring the jar, did the student place it back on the counter?",
+            "Original answer": "Yes",
+            "The question with details": "In a classroom experiment, a student is attempting to demonstrate a chemical reaction to peers. After pouring a specific substance from a jar, was his next action to set the jar back on its designated place?",
+            "The answer with details": "Yes, following the act of pouring, the student ensured that the jar was returned to its original place by putting it down on the counter."
+        },
+        "5":{
+            "Original question": "Did the instructor take up the jar and then uncover its cap?",
+            "Original answer": "Yes",
+            "The question with details": "During a lecture demonstration, the instructor aims to illustrate a chemical principle. Beginning the process, did she take up a jar and immediately uncover its cap to proceed?",
+            "The answer with details": "Absolutely, the instructor first took up the jar, and without any delay, uncovered its cap to move forward with the demonstration."
+        },
+        "6":{
+            "Original question": "After uncovering the jar cap, did the lab assistant pour its contents?",
+            "Original answer": "Yes",
+            "The question with details": "In a biochemical laboratory, a lab assistant is following a protocol. Having removed the jar's cap, was her subsequent action to pour out what was inside?",
+            "The answer with details": "Yes, in keeping with the established procedure, the lab assistant, after uncovering the jar cap, went on to pour the contents of the jar."
+        },
+        "7":{
+            "Original question": "Did the chemist first take up the jar, then uncover the cap, and finally pour the substance?",
+            "Original answer": "Yes",
+            "The question with details": "Amidst an array of chemicals, a chemist is involved in a critical reaction synthesis. In the observed sequence, did he initiate by taking the jar, followed by uncovering its cap, and culminating by pouring the contained liquid?",
+            "The answer with details": "Yes, the observed order of actions was such that the chemist began by taking up the jar, then moved on to uncover its cap, and eventually poured out the substance within."
+        },
+        "8":{
+            "Original question": "After uncovering the jar cap, did the researcher subsequently put it down and pour the jar?",
+            "Original answer": "Yes",
+            "The question with details": "In a pursuit of scientific discovery, a researcher is meticulously handling reagents. Upon removing the jar's cap, did he make sure to set the cap aside before pouring its contents?",
+            "The answer with details": "Indeed, the researcher, after uncovering the jar cap, ensured to put it down, and then he poured the contents of the jar as part of the process."
+        },
+        "9":{
+            "Original question": "In the sequence of actions, did the student uncover the jar cap, place it down, and then pour the jar?",
+            "Original answer": "Yes",
+            "The question with details": "In an academic setting, a student is replicating a famous experiment. In his demonstrated steps, did he first uncover the jar cap, then place it aside, and subsequently pour the substance within the jar?",
+            "The answer with details": "Yes, in his demonstration, the student methodically uncovered the jar cap, set it aside by putting it down, and then proceeded to pour the jar's substance."
+        },
+        "10":{
+            "Original question": "Did the instructor pour the jar after setting down its cap?",
+            "Original answer": "Yes",
+            "The question with details": "In a pedagogical demonstration, the instructor aims to emphasize a concept to her students. Following the removal of the jar's cap and setting it down, did she then pour out the jar's contents to illustrate her point?",
+            "The answer with details": "Exactly, the instructor, after setting down the jar cap, went ahead to pour the jar, showcasing the intended chemical demonstration to her pupils."
+        }
+    },
+    "2.5":{
+        "1":{
+            "Original question": "Did the researcher take up the jar before pouring its contents?",
+            "Original answer": "Yes",
+            "The question with details": "In a sterile laboratory environment, an observant student notices a researcher handling various tools and chemicals. The student is trying to emulate the procedure later. She is keen to understand every single step. In this context, did the researcher first take up the jar before pouring its contents into another container?",
+            "The answer with details": "Yes, in the procedure observed in the laboratory, the researcher first securely gripped the jar, ensuring a firm hold, and only after that did they proceed to pour the contents, perhaps to ensure a measured and precise transfer of the substance within."
+        },
+        "2":{
+            "Original question": "After uncovering the jar cap, did the chemist immediately pour the jar?",
+            "Original answer": "No",
+            "The question with details": "At a chemical demonstration, attendees watched intently as a chemist worked with a sealed jar. The anticipation was palpable, as they were eager to see the contents of the jar. After the chemist removed the jar's cap, did they instantly pour out the jar's contents?",
+            "The answer with details": "No, after carefully uncovering the jar cap, the chemist first placed the cap down before methodically pouring the contents of the jar, ensuring accuracy and precision in the procedure."
+        },
+        "3":{
+            "Original question": "Was the glass rod stirred after it was taken up?",
+            "Original answer": "Yes",
+            "The question with details": "During a lab session, a student was fascinated by the mixing technique employed by the instructor. The student recalls the instructor using a glass rod. Did the instructor stir using the glass rod immediately after taking it up?",
+            "The answer with details": "Yes, after the instructor took up the glass rod, they utilized it to stir, ensuring a thorough mix of the substances present in the container."
+        },
+        "4":{
+            "Original question": "Did the lab assistant put down the jar cap before taking it up again?",
+            "Original answer": "Yes",
+            "The question with details": "While observing a lab assistant working diligently on a procedure, a fellow researcher took mental notes to replicate the process later. During this, did the lab assistant put down the jar cap before deciding to take it up again for a subsequent step?",
+            "The answer with details": "Yes, the lab assistant, ensuring a step-by-step methodology, placed the jar cap down before taking it up again, possibly to maintain an orderly process."
+        },
+        "5":{
+            "Original question": "After pouring the jar, did the researcher immediately stir with the glass rod?",
+            "Original answer": "No",
+            "The question with details": "In an advanced chemistry workshop, participants watched as a researcher meticulously performed an experiment. After pouring the contents of a jar, did the researcher straight away use a glass rod to stir the mixture?",
+            "The answer with details": "No, after pouring the contents of the jar, the researcher went through a couple of intermediary steps, including sealing the jar again, before eventually picking up and using the glass rod for stirring."
+        },
+        "6":{
+            "Original question": "Did the chemist cover the jar after taking up the jar cap?",
+            "Original answer": "Yes",
+            "The question with details": "During a chemical demonstration, an apprentice took keen interest in the safety procedures followed by the lead chemist. In the process involving a jar, after taking up its cap, did the chemist immediately proceed to cover the jar?",
+            "The answer with details": "Yes, ensuring a safe and methodological approach, the chemist, after taking up the jar cap, proceeded to cover the jar, ensuring its contents remained uncontaminated and safe."
+        },
+        "7":{
+            "Original question": "Before stirring with the glass rod, was the jar put down?",
+            "Original answer": "Yes",
+            "The question with details": "A lab assistant, training under a senior researcher, wanted to ensure they remembered every detail of a procedure involving a mixture. Prior to using a glass rod for stirring, was the jar securely placed down?",
+            "The answer with details": "Yes, maintaining the sequence of the procedure, the jar was securely placed down before the glass rod was taken up for the purpose of stirring the mixture."
+        },
+        "8":{
+            "Original question": "Was the glass rod taken up after the jar was put down?",
+            "Original answer": "Yes",
+            "The question with details": "At a laboratory seminar, attendees were introduced to a new procedure. In the sequence of events, after the jar was safely placed down, did the demonstrator take up the glass rod?",
+            "The answer with details": "Yes, following the sequence, after ensuring the jar was securely placed down, the demonstrator proceeded to take up the glass rod, possibly for mixing or observing the reaction."
+        },
+        "9":{
+            "Original question": "After uncovering the jar cap, was the next action to put down the jar cap?",
+            "Original answer": "Yes",
+            "The question with details": "During a meticulous lab procedure, a student keenly observed a researcher's actions involving a jar. After the researcher uncovered the jar cap, was their immediate action to place the jar cap down?",
+            "The answer with details": "Yes, in a sequence that ensures clarity and order, after the researcher uncovered the jar cap, they promptly placed it down, perhaps to make sure it doesn't interfere with the next steps."
+        },
+        "10":{
+            "Original question": "After stirring with the glass rod, did the researcher immediately pour the jar?",
+            "Original answer": "No",
+            "The question with details": "In a chemical experiment demo, attendees noted each step to understand the methodology. After the researcher stirred the mixture with a glass rod, did they proceed directly to pour the contents of the jar?",
+            "The answer with details": "No, after the researcher used the glass rod to ensure a thorough mix, they did not immediately pour the jar. There were specific steps to follow, ensuring the accuracy and precision of the experiment."
+        }
+    },
+    "3.1":{
+        "1":{
+            "Original question": "Did the lab assistant uncover the dropper bottle before squeezing the dropper?",
+            "Original answer": "Yes",
+            "The question with details": "During a laboratory demonstration, an eager student took notes as the lab assistant manipulated a dropper bottle. To begin the experiment, did the lab assistant first uncover the dropper bottle before proceeding to squeeze the dropper to extract its contents?",
+            "The answer with details": "Yes, the lab assistant methodically uncovered the dropper bottle before squeezing the dropper, ensuring a controlled extraction of the liquid inside."
+        },
+        "2":{
+            "Original question": "After covering the dropper bottle with the dropper, did the researcher immediately take up the test tube?",
+            "Original answer": "No",
+            "The question with details": "While watching a video on chemical procedures, a student noted each step carried out by the researcher. After the researcher sealed the dropper bottle using the dropper, did they directly proceed to take up the test tube for further actions?",
+            "The answer with details": "No, after the researcher covered the dropper bottle with the dropper, they first placed the dropper bottle down before picking up the test tube."
+        },
+        "3":{
+            "Original question": "Before shaking the test tube, did the chemist take it up?",
+            "Original answer": "Yes",
+            "The question with details": "In a chemical analysis session, attendees observed the chemist's techniques for handling test tubes. Prior to shaking the test tube vigorously, did the chemist ensure to pick it up securely?",
+            "The answer with details": "Yes, the chemist, prioritizing safety and accuracy, took up the test tube securely before proceeding to shake it to ensure the contents were mixed well."
+        },
+        "4":{
+            "Original question": "After squeezing the dropper, was the next step to put down the dropper bottle?",
+            "Original answer": "No",
+            "The question with details": "During an experiment, a student keenly observed the steps taken by the instructor using a dropper bottle. After the instructor squeezed the dropper, did they immediately put down the dropper bottle?",
+            "The answer with details": "No, after squeezing the dropper, the instructor first made sure to cover the dropper bottle with the dropper before putting it down."
+        },
+        "5":{
+            "Original question": "After covering the dropper bottle, was the dropper bottle immediately put down?",
+            "Original answer": "Yes",
+            "The question with details": "At a biology workshop, participants observed the safe handling of liquid substances by an expert. After securely covering the dropper bottle with the dropper, did the expert then promptly place the dropper bottle down?",
+            "The answer with details": "Yes, following the procedure, after securely covering the dropper bottle with the dropper, the expert promptly placed the dropper bottle down to proceed with the next steps."
+        },
+        "6":{
+            "Original question": "Did the researcher shake the test tube after taking it up?",
+            "Original answer": "Yes",
+            "The question with details": "In a chemistry lab, a trainee observed a researcher's methodology for handling test samples. Upon picking up the test tube, did the researcher proceed to shake it to ensure a thorough mix?",
+            "The answer with details": "Yes, right after taking up the test tube securely, the researcher shook it, possibly to ensure the contents were adequately mixed or to observe any reactions."
+        },
+        "7":{
+            "Original question": "After uncovering the dropper bottle, did the chemist immediately put down the dropper bottle?",
+            "Original answer": "No",
+            "The question with details": "In a demonstration, attendees were keen to understand the sequence of actions involving a dropper bottle. Once the chemist uncovered the dropper bottle, did they straightaway put the bottle down?",
+            "The answer with details": "No, the chemist did not immediately put the dropper bottle down after uncovering it. Instead, they squeezed the dropper, possibly to extract some liquid, before proceeding with the subsequent steps."
+        },
+        "8":{
+            "Original question": "Was the test tube taken up before it was shaken?",
+            "Original answer": "Yes",
+            "The question with details": "During a hands-on session in the lab, students practiced different techniques under the guidance of a senior lab assistant. In the sequence of events, was the test tube securely taken up before being shaken?",
+            "The answer with details": "Yes, the test tube was securely taken up first before it was shaken, ensuring a safe and controlled handling."
+        },
+        "9":{
+            "Original question": "Before putting down the test tube, was it shaken by the lab assistant?",
+            "Original answer": "Yes",
+            "The question with details": "In a procedure demonstrated to a group of students, the lab assistant highlighted the importance of proper handling of test tubes. Before placing the test tube down, was it thoroughly shaken by the lab assistant?",
+            "The answer with details": "Yes, the lab assistant ensured to shake the test tube well before placing it down, possibly to make sure the contents were thoroughly mixed or to settle any sediments."
+        },
+        "10":{
+            "Original question": "After squeezing the dropper, did the chemist immediately shake the test tube?",
+            "Original answer": "No",
+            "The question with details": "At a live demonstration, a group of students watched as a chemist went through a sequence of steps involving a dropper bottle and a test tube. After squeezing the dropper, did the chemist directly proceed to shake the test tube?",
+            "The answer with details": "No, after squeezing the dropper, the chemist first covered the dropper bottle and then placed it down before picking up and shaking the test tube."
+        }
+    },
+    "3.2":{
+        "1":{
+            "Original question": "After taking up the dropper bottle, did the student uncover it?",
+            "Original answer": "Yes",
+            "The question with details": "While conducting an experiment, a student meticulously followed steps involving a dropper bottle. Initially, after taking up the dropper bottle, did they proceed to uncover it?",
+            "The answer with details": "Yes, after taking up the dropper bottle, the student carefully uncovered it to access its contents."
+        },
+        "2":{
+            "Original question": "After uncovering the dropper bottle, was the next step to take up the test tube?",
+            "Original answer": "No",
+            "The question with details": "In a lab session, a lab assistant provided guidance on handling chemicals. Once the dropper bottle was uncovered, did the lab assistant immediately take up the test tube?",
+            "The answer with details": "No, after uncovering the dropper bottle, the lab assistant placed the dropper bottle down before picking up the test tube."
+        },
+        "3":{
+            "Original question": "Before squeezing the dropper, did the chemist take up the test tube?",
+            "Original answer": "Yes",
+            "The question with details": "During a chemical analysis, attendees watched as a chemist utilized both a dropper bottle and a test tube. Prior to squeezing the dropper, did the chemist take up the test tube?",
+            "The answer with details": "Yes, the chemist took up the test tube before squeezing the dropper, ensuring a systematic approach."
+        },
+        "4":{
+            "Original question": "Did the researcher put down the dropper bottle before taking up the test tube?",
+            "Original answer": "Yes",
+            "The question with details": "In a video tutorial, the researcher demonstrated the sequence of steps for an experiment. After uncovering the dropper bottle, did they put it down before picking up the test tube?",
+            "The answer with details": "Yes, the researcher did put down the dropper bottle first and then took up the test tube, ensuring organized task management."
+        },
+        "5":{
+            "Original question": "After squeezing the dropper, did the student immediately cover the dropper bottle?",
+            "Original answer": "No",
+            "The question with details": "In a practical class, a student was observed while handling the dropper and dropper bottle. Following the squeezing of the dropper, did the student immediately cover the dropper bottle?",
+            "The answer with details": "No, after squeezing the dropper, the student shook the test tube before covering the dropper bottle."
+        },
+        "6":{
+            "Original question": "After taking up the test tube, was the very next step to shake it?",
+            "Original answer": "No",
+            "The question with details": "During a live demo, an instructor showcased how to work with a test tube and dropper bottle. After taking up the test tube, did the instructor directly proceed to shake it?",
+            "The answer with details": "No, after taking up the test tube, the instructor squeezed the dropper first and then proceeded to shake the test tube."
+        },
+        "7":{
+            "Original question": "After shaking the test tube, did the researcher cover the dropper bottle?",
+            "Original answer": "Yes",
+            "The question with details": "In a chemistry workshop, participants keenly observed a researcher's sequence of actions. Once the test tube was shaken, did the researcher cover the dropper bottle with the dropper?",
+            "The answer with details": "Yes, after shaking the test tube, the researcher proceeded to cover the dropper bottle, ensuring safety and avoiding contamination."
+        },
+        "8":{
+            "Original question": "Did the chemist squeeze the dropper after putting down the dropper bottle?",
+            "Original answer": "No",
+            "The question with details": "In a laboratory experiment, the steps taken by a seasoned chemist were noted. After putting down the dropper bottle, did the chemist squeeze the dropper right away?",
+            "The answer with details": "No, after putting down the dropper bottle, the chemist took up the test tube before squeezing the dropper."
+        },
+        "9":{
+            "Original question": "Before shaking the test tube, did the lab assistant squeeze the dropper?",
+            "Original answer": "Yes",
+            "The question with details": "In a hands-on laboratory session, the lab assistant guided the participants on handling lab equipment. Prior to shaking the test tube, was the dropper squeezed by the lab assistant?",
+            "The answer with details": "Yes, before shaking the test tube, the lab assistant did squeeze the dropper, possibly to add some contents to the test tube."
+        },
+        "10":{
+            "Original question": "Did the student put down the test tube before covering the dropper bottle?",
+            "Original answer": "Yes",
+            "The question with details": "During an experimental session, a student was observed for adherence to lab procedures. After shaking the test tube, did the student ensure to put it down before covering the dropper bottle?",
+            "The answer with details": "Yes, after shaking the test tube, the student placed it down and then covered the dropper bottle to conclude the sequence."
+        }
+    },
+    "3.3":{
+        "1":{
+            "Original question": "Did the instructor begin by taking up the test tube?",
+            "Original answer": "Yes",
+            "The question with details": "In a detailed lab demonstration, the instructor began by interacting with some lab equipment. Was the first action taking up the test tube?",
+            "The answer with details": "Yes, the instructor started by taking up the test tube, signaling the start of the experiment."
+        },
+        "2":{
+            "Original question": "After shaking the test tube, did the lab assistant immediately take up the dropper bottle?",
+            "Original answer": "No",
+            "The question with details": "During the demonstration, the lab assistant performed a sequence of actions with precision. After shaking the test tube, did they immediately take up the dropper bottle?",
+            "The answer with details": "No, after shaking the test tube, the lab assistant first put down the test tube before taking up the dropper bottle."
+        },
+        "3":{
+            "Original question": "After taking up the dropper bottle, did the chemist squeeze the dropper right away?",
+            "Original answer": "No",
+            "The question with details": "While conducting an intricate chemical reaction, the chemist was observed handling a dropper bottle. Once they took up the dropper bottle, did they immediately squeeze the dropper?",
+            "The answer with details": "No, the chemist uncovered the dropper bottle first before squeezing the dropper."
+        },
+        "4":{
+            "Original question": "Did the researcher shake the test tube before taking up the dropper bottle?",
+            "Original answer": "Yes",
+            "The question with details": "In a lab experiment video, the researcher demonstrated the steps to the audience. Before taking up the dropper bottle, did the researcher shake the test tube?",
+            "The answer with details": "Yes, the researcher shook the test tube first and then proceeded to take up the dropper bottle."
+        },
+        "5":{
+            "Original question": "After uncovering the dropper bottle, was the next step to cover it back?",
+            "Original answer": "No",
+            "The question with details": "In a chemistry tutorial, a student replicated a procedure. Once the dropper bottle was uncovered, did the student immediately cover it back?",
+            "The answer with details": "No, after uncovering the dropper bottle, the student squeezed the dropper and then proceeded to cover the dropper bottle."
+        },
+        "6":{
+            "Original question": "Did the lab assistant squeeze the dropper before covering the dropper bottle?",
+            "Original answer": "Yes",
+            "The question with details": "During the lab procedure, the lab assistant showcased various steps. Before covering the dropper bottle, did the lab assistant squeeze the dropper?",
+            "The answer with details": "Yes, the lab assistant squeezed the dropper before securing it with its cover."
+        },
+        "7":{
+            "Original question": "After putting down the test tube, was the dropper bottle taken up next by the chemist?",
+            "Original answer": "Yes",
+            "The question with details": "In a chemical analysis video, the chemist adhered to a specific sequence. Upon placing the test tube down, was the subsequent action taking up the dropper bottle?",
+            "The answer with details": "Yes, after putting down the test tube, the chemist proceeded to take up the dropper bottle."
+        },
+        "8":{
+            "Original question": "Did the researcher uncover the dropper bottle after squeezing the dropper?",
+            "Original answer": "No",
+            "The question with details": "In the video, the researcher explained the importance of each step. Following the squeezing of the dropper, did they uncover the dropper bottle?",
+            "The answer with details": "No, the researcher had already uncovered the dropper bottle before squeezing the dropper."
+        },
+        "9":{
+            "Original question": "Before covering the dropper bottle, did the student squeeze the dropper?",
+            "Original answer": "Yes",
+            "The question with details": "In the lab, the student was keen on ensuring accuracy. Prior to covering the dropper bottle, was the dropper squeezed by the student?",
+            "The answer with details": "Yes, ensuring precision, the student squeezed the dropper before covering the dropper bottle."
+        },
+        "10":{
+            "Original question": "After covering the dropper bottle, did the instructor place it down?",
+            "Original answer": "Yes",
+            "The question with details": "While demonstrating, the instructor emphasized the importance of safe handling. Post covering the dropper bottle, did the instructor place it down?",
+            "The answer with details": "Yes, the instructor safely placed down the dropper bottle after covering it, completing the sequence."
+        }
+    },
+    "3.4": {
+        "1": {
+            "Original question": "After uncovering the dropper bottle, did the researcher then squeeze the dropper?",
+            "Original answer": "Yes",
+            "The question with details": "In the middle of a critical experiment, after carefully uncovering the dropper bottle, did the researcher immediately apply pressure to squeeze the dropper to obtain the required sample?",
+            "The answer with details": "Yes, the researcher, keen on maintaining the experiment's accuracy, swiftly proceeded to squeeze the dropper right after uncovering the dropper bottle, ensuring the precise collection of the desired sample."
+        },
+        "2": {
+            "Original question": "Did the lab assistant take up the dropper bottle before uncovering it?",
+            "Original answer": "Yes",
+            "The question with details": "In a meticulously organized laboratory setting, as the lab assistant began their series of actions, did they initially take up the dropper bottle before proceeding to uncover it?",
+            "The answer with details": "Yes, in a methodical manner befitting the controlled environment of the lab, the assistant first took up the dropper bottle and only then did they uncover it, ensuring that the content inside remains uncontaminated."
+        },
+        "3": {
+            "Original question": "After covering the dropper bottle with the dropper, was it followed by the action of putting it down?",
+            "Original answer": "Yes",
+            "The question with details": "In the process of wrapping up a segment of the experiment, once the chemist covered the dropper bottle with the dropper, did they then promptly put it down to move onto the next step?",
+            "The answer with details": "Yes, once the dropper bottle was securely covered with the dropper, the chemist immediately put it down, indicating the completion of that specific procedure and readiness to proceed further."
+        },
+        "4": {
+            "Original question": "Was the action of taking up the test tube succeeded by putting it down?",
+            "Original answer": "Yes",
+            "The question with details": "In the detailed protocol of the laboratory process, after the student carefully took up the test tube, did they subsequently put it down without performing any intermediary tasks?",
+            "The answer with details": "Yes, in the sequential steps of the protocol, after taking up the test tube, the student immediately placed it back down, showing adherence to the procedural guidelines."
+        },
+        "5": {
+            "Original question": "After squeezing the dropper, did the lab assistant cover the dropper bottle?",
+            "Original answer": "Yes",
+            "The question with details": "Ensuring no contaminants enter the dropper bottle, after the lab assistant exerted pressure to squeeze the dropper, did they take a precautionary step to cover the dropper bottle with the dropper?",
+            "The answer with details": "Yes, in line with the best practices of lab safety and precision, the lab assistant, after squeezing the dropper, made sure to immediately cover the dropper bottle with the dropper."
+        },
+        "6": {
+            "Original question": "Before taking up the test tube, did the student put down the dropper bottle?",
+            "Original answer": "Yes",
+            "The question with details": "During a classroom demonstration, prior to the student's action of taking up the test tube, was there a moment where they set down the dropper bottle?",
+            "The answer with details": "Yes, in the organized sequence of events, the student first ensured that the dropper bottle was safely put down before they proceeded to handle the test tube, ensuring safety and order in the process."
+        },
+        "7": {
+            "Original question": "Did the researcher take up the dropper bottle and subsequently uncover it?",
+            "Original answer": "Yes",
+            "The question with details": "While conducting a sensitive chemical analysis, did the researcher start by picking up the dropper bottle and then follow it up by uncovering its top?",
+            "The answer with details": "Yes, adhering to the precise sequence of steps essential for the experiment's integrity, the researcher initially took up the dropper bottle and then proceeded to uncover it."
+        },
+        "8": {
+            "Original question": "After squeezing the dropper, did the chemist immediately cover the dropper bottle?",
+            "Original answer": "Yes",
+            "The question with details": "In an intricate procedure, post the action of squeezing the dropper for obtaining a sample, did the chemist act promptly to cover the dropper bottle ensuring no contamination?",
+            "The answer with details": "Yes, highlighting the meticulous nature of the procedure, right after squeezing the dropper to get the needed sample, the chemist promptly covered the dropper bottle."
+        },
+        "9": {
+            "Original question": "Following the act of uncovering the dropper bottle, did the lab assistant then cover it back after squeezing the dropper?",
+            "Original answer": "Yes",
+            "The question with details": "During a sequence of careful operations in the lab, once the dropper bottle was uncovered, after the squeezing action, did the lab assistant make sure to cover it back?",
+            "The answer with details": "Yes, ensuring that each step was executed with precision, after uncovering and then squeezing the dropper, the lab assistant made it a point to cover the dropper bottle back."
+        },
+        "10": {
+            "Original question": "After the lab assistant took up the dropper bottle, was the next action to squeeze the dropper?",
+            "Original answer": "No",
+            "The question with details": "While meticulously following the experiment steps, after the lab assistant picked up the dropper bottle, was the immediate next step to squeeze the dropper for obtaining the sample?",
+            "The answer with details": "No, the lab assistant, ensuring no steps were skipped, first uncovered the dropper bottle before moving on to squeeze the dropper."
+        }
+    },
+    "3.5": {
+        "1": {
+            "Original question": "Did the researcher take up the dropper bottle before uncovering it?",
+            "Original answer": "Yes",
+            "The question with details": "In a detailed experimental setup, did the researcher, as the initial step, take up the dropper bottle and subsequently uncover it to access its contents?",
+            "The answer with details": "Yes, ensuring the correct procedure, the researcher first took up the dropper bottle and then proceeded to uncover it, setting the stage for subsequent actions."
+        },
+        "2": {
+            "Original question": "After taking up the test tube, was the student's next action to squeeze the dropper?",
+            "Original answer": "Yes",
+            "The question with details": "During the demonstration, once the student took up the test tube, did they immediately use the dropper by squeezing it to extract or add any substance?",
+            "The answer with details": "Yes, in the instructional sequence, right after taking up the test tube, the student proceeded to squeeze the dropper."
+        },
+        "3": {
+            "Original question": "After squeezing the dropper for the first time, did the chemist shake the test tube?",
+            "Original answer": "Yes",
+            "The question with details": "In the procedure, post the initial squeezing of the dropper, did the chemist follow up by giving the test tube a shake to mix its contents?",
+            "The answer with details": "Yes, as a crucial step in the experiment, after the first squeeze of the dropper, the chemist made sure to shake the test tube."
+        },
+        "4": {
+            "Original question": "Did the lab assistant squeeze the dropper twice before putting down the test tube?",
+            "Original answer": "Yes",
+            "The question with details": "During the experiment, did the lab assistant ensure to squeeze the dropper twice, adding contents to the test tube, prior to setting the test tube back down?",
+            "The answer with details": "Yes, in a precise sequence, the lab assistant squeezed the dropper twice, each time followed by shaking the test tube, before finally putting the test tube down."
+        },
+        "5": {
+            "Original question": "Was the test tube shaken twice after the instructor squeezed the dropper?",
+            "Original answer": "Yes",
+            "The question with details": "To ensure thorough mixing, after the instructor used the dropper, did they shake the test tube twice during the course of the demonstration?",
+            "The answer with details": "Yes, emphasizing the importance of mixing, the instructor squeezed the dropper and followed up with shaking the test tube, repeating this sequence twice."
+        },
+        "6": {
+            "Original question": "After uncovering the dropper bottle, did the researcher immediately squeeze the dropper?",
+            "Original answer": "No",
+            "The question with details": "Upon unveiling the contents by uncovering the dropper bottle, did the researcher directly squeeze the dropper to obtain the substance?",
+            "The answer with details": "No, the researcher, after uncovering the dropper bottle, placed it down and then proceeded with other actions before squeezing the dropper."
+        },
+        "7": {
+            "Original question": "Did the student shake the test tube and then cover the dropper bottle without any intervening steps?",
+            "Original answer": "No",
+            "The question with details": "In the sequence of actions, post shaking the test tube, did the student directly move to cover the dropper bottle without performing any other tasks in between?",
+            "The answer with details": "No, the student, after shaking the test tube, repeated the sequence of squeezing the dropper and shaking the tube before finally covering the dropper bottle."
+        },
+        "8": {
+            "Original question": "Was the action of putting down the dropper bottle succeeded by taking up the test tube?",
+            "Original answer": "Yes",
+            "The question with details": "In the lab's structured procedure, once the dropper bottle was set down, was the immediate next step to take up the test tube for the upcoming actions?",
+            "The answer with details": "Yes, ensuring a seamless flow of actions, after putting down the dropper bottle, the next immediate action was to take up the test tube."
+        },
+        "9": {
+            "Original question": "After squeezing the dropper for the second time, did the lab assistant shake the test tube?",
+            "Original answer": "Yes",
+            "The question with details": "Ensuring proper methodology, post the second squeeze of the dropper, did the lab assistant follow it up by shaking the test tube to mix or react the contents?",
+            "The answer with details": "Yes, highlighting the repetitive yet crucial steps, the lab assistant, after the second squeeze of the dropper, proceeded to shake the test tube."
+        },
+        "10": {
+            "Original question": "Before covering the dropper bottle with the dropper, did the chemist first put down the test tube?",
+            "Original answer": "Yes",
+            "The question with details": "Wrapping up the series of actions, did the chemist ensure to put down the test tube before moving to cover the dropper bottle with the dropper?",
+            "The answer with details": "Yes, in the final stages of the procedure, the chemist first placed the test tube down and then proceeded to cover the dropper bottle with the dropper."
+        }
+    },
+    "4.1": {
+        "1": {
+            "Original question": "Did the instructor take up the test tube prior to screwing the iron clamp?",
+            "Original answer": "Yes",
+            "The question with details": "In the video, did the instructor first take up the test tube in preparation before proceeding to secure it by screwing the iron clamp?",
+            "The answer with details": "Yes, for ensuring a secure setup, the instructor first took up the test tube and then moved on to screw the iron clamp."
+        },
+        "2": {
+            "Original question": "After screwing the iron clamp, did the researcher proceed to take up the horn tube?",
+            "Original answer": "Yes",
+            "The question with details": "In the lab demonstration, once the iron clamp was screwed in place, did the researcher immediately take up the horn tube for the subsequent step?",
+            "The answer with details": "Yes, maintaining the sequence, after screwing the iron clamp, the researcher's next action was to take up the horn tube."
+        },
+        "3": {
+            "Original question": "Was the horn tube inserted into a setup right after the lab assistant took it up?",
+            "Original answer": "Yes",
+            "The question with details": "Following the action where the lab assistant took up the horn tube, did they immediately insert it into a specific apparatus or setup?",
+            "The answer with details": "Yes, adhering to the procedure, once the horn tube was taken up by the lab assistant, it was swiftly inserted into the desired setup."
+        },
+        "4": {
+            "Original question": "After inserting the horn tube, did the student take up the conical flask?",
+            "Original answer": "Yes",
+            "The question with details": "Ensuring progression in the experiment, after the insertion of the horn tube, was the student's next step to take up the conical flask?",
+            "The answer with details": "Yes, as a sequential step post the horn tube insertion, the student took up the conical flask."
+        },
+        "5": {
+            "Original question": "Upon taking up the conical flask, did the chemist immediately pour its contents?",
+            "Original answer": "Yes",
+            "The question with details": "During the demonstration, after the chemist took up the conical flask, did they proceed to pour out its contents without any intervening steps?",
+            "The answer with details": "Yes, to ensure accurate results, immediately after taking up the conical flask, the chemist poured out its contents."
+        },
+        "6": {
+            "Original question": "After pouring the contents of the conical flask, was the flask put down by the researcher?",
+            "Original answer": "Yes",
+            "The question with details": "To wrap up a phase of the experiment, post pouring its contents, did the researcher set the conical flask down?",
+            "The answer with details": "Yes, signifying the completion of a step, after pouring the conical flask's contents, the researcher placed it down."
+        },
+        "7": {
+            "Original question": "Did the lab assistant screw the iron clamp before taking up the test tube?",
+            "Original answer": "No",
+            "The question with details": "In the demonstration, was the initial step of the lab assistant to screw the iron clamp prior to taking up the test tube?",
+            "The answer with details": "No, the sequence started with the lab assistant taking up the test tube, followed by screwing the iron clamp."
+        },
+        "8": {
+            "Original question": "Before pouring the conical flask, was the horn tube inserted by the student?",
+            "Original answer": "Yes",
+            "The question with details": "In the sequence of events, prior to the pouring action involving the conical flask, did the student insert the horn tube into the setup?",
+            "The answer with details": "Yes, ensuring systematic progression, before the pouring action, the student had previously inserted the horn tube."
+        },
+        "9": {
+            "Original question": "After screwing the iron clamp, did the chemist immediately insert the horn tube?",
+            "Original answer": "No",
+            "The question with details": "Post securing the setup by screwing the iron clamp, was the chemist's next immediate action to insert the horn tube?",
+            "The answer with details": "No, after screwing the iron clamp, the chemist first took up the horn tube before inserting it."
+        },
+        "10": {
+            "Original question": "In the video, did the sequence involve the instructor first screwing the iron clamp, followed by taking up the horn tube, and later pouring the conical flask?",
+            "Original answer": "Yes",
+            "The question with details": "Displaying methodical steps, in the video, was there a sequence where the instructor screwed the iron clamp, then took up the horn tube, and subsequently poured contents from the conical flask?",
+            "The answer with details": "Yes, showcasing a detailed experimental sequence, the instructor followed the mentioned actions one after the other."
+        }
+    },
+    "4.2": {
+        "1": {
+            "Original question": "Did the student first take up the test tube and then proceed to handle the horn tube?",
+            "Original answer": "Yes",
+            "The question with details": "In the video, was the initial step of the student to take up the test tube, followed by taking up the horn tube without intervening actions?",
+            "The answer with details": "Yes, in a sequenced manner, the student first took up the test tube and then immediately took up the horn tube."
+        },
+        "2": {
+            "Original question": "After taking up the horn tube, did the researcher insert it?",
+            "Original answer": "Yes",
+            "The question with details": "Post the action where the researcher took up the horn tube, was the immediate next step to insert it into the apparatus?",
+            "The answer with details": "Yes, in line with the procedure, the researcher took up the horn tube and then inserted it."
+        },
+        "3": {
+            "Original question": "Once the horn tube was inserted, did the lab assistant screw the iron clamp?",
+            "Original answer": "Yes",
+            "The question with details": "Following the insertion of the horn tube, did the lab assistant proceed to screw the iron clamp to secure the setup?",
+            "The answer with details": "Yes, to ensure the apparatus was stable, after inserting the horn tube, the lab assistant screwed the iron clamp."
+        },
+        "4": {
+            "Original question": "Did the chemist take up the conical flask after screwing the iron clamp?",
+            "Original answer": "Yes",
+            "The question with details": "In the experimental sequence, once the iron clamp was tightened, was the next action of the chemist to take up the conical flask?",
+            "The answer with details": "Yes, ensuring the flow of the procedure, the chemist took up the conical flask after securing the setup with the iron clamp."
+        },
+        "5": {
+            "Original question": "Upon holding the conical flask, did the instructor pour its contents?",
+            "Original answer": "Yes",
+            "The question with details": "As the experiment advanced, after the instructor took hold of the conical flask, did they proceed to pour out its contents?",
+            "The answer with details": "Yes, maintaining the sequence, the instructor took up the conical flask and then poured its contents."
+        },
+        "6": {
+            "Original question": "Post the pouring action from the conical flask, did the student put it down?",
+            "Original answer": "Yes",
+            "The question with details": "After transferring the contents from the conical flask, did the student place the flask down?",
+            "The answer with details": "Yes, concluding that part of the process, the student put down the conical flask after pouring."
+        },
+        "7": {
+            "Original question": "Before inserting the horn tube, did the researcher take up both the test tube and the horn tube?",
+            "Original answer": "Yes",
+            "The question with details": "Ahead of the action where the horn tube was inserted, did the researcher sequentially handle the test tube and then the horn tube?",
+            "The answer with details": "Yes, following the protocol, the researcher first took up the test tube and then the horn tube before insertion."
+        },
+        "8": {
+            "Original question": "In the video, was the sequence such that the instructor took up the test tube, then the horn tube, followed by inserting the horn tube?",
+            "Original answer": "Yes",
+            "The question with details": "For clarity, in the depicted sequence, did the instructor first handle the test tube, then the horn tube, and finally insert the horn tube?",
+            "The answer with details": "Yes, as the video portrays, the instructor's actions involved taking up the test tube, then the horn tube, and inserting it next."
+        },
+        "9": {
+            "Original question": "Did the lab assistant insert the horn tube before taking it up?",
+            "Original answer": "No",
+            "The question with details": "Considering the order of events, was the horn tube inserted by the lab assistant prior to its being taken up?",
+            "The answer with details": "No, logically and as shown, the lab assistant took up the horn tube first and then proceeded to insert it."
+        },
+        "10": {
+            "Original question": "After inserting the horn tube and screwing the iron clamp, did the student then take up and pour the conical flask?",
+            "Original answer": "Yes",
+            "The question with details": "Capturing the flow, post the insertion of the horn tube and screwing of the iron clamp, was the student's consecutive action to handle and pour the conical flask?",
+            "The answer with details": "Yes, aligning with the steps of the experiment, after ensuring the apparatus was secure, the student took up and poured the conical flask."
+        }
+    },
+    "4.3": {
+        "1": {
+            "Original question": "Did the instructor first take up the test tube before handling the conical flask?",
+            "Original answer": "Yes",
+            "The question with details": "In the video sequence, did the instructor begin by taking up the test tube and then moved to handle the conical flask?",
+            "The answer with details": "Yes, the instructor initiated by taking up the test tube and then proceeded to take up the conical flask."
+        },
+        "2": {
+            "Original question": "After taking up the conical flask, did the student pour its contents?",
+            "Original answer": "Yes",
+            "The question with details": "Once the student had the conical flask in hand, was the subsequent action to pour out its contents?",
+            "The answer with details": "Yes, after taking up the conical flask, the student proceeded to pour it."
+        },
+        "3": {
+            "Original question": "Upon pouring the contents of the conical flask, did the researcher put it down?",
+            "Original answer": "Yes",
+            "The question with details": "Did the researcher, following the act of pouring the contents from the conical flask, set it down?",
+            "The answer with details": "Yes, subsequent to pouring, the researcher placed the conical flask down."
+        },
+        "4": {
+            "Original question": "Post setting down the conical flask, did the lab assistant tighten the iron clamp?",
+            "Original answer": "Yes",
+            "The question with details": "After placing the conical flask back on the table, was the lab assistant's next action to screw the iron clamp?",
+            "The answer with details": "Yes, after the conical flask was put down, the lab assistant screwed the iron clamp."
+        },
+        "5": {
+            "Original question": "Following the tightening of the iron clamp, did the chemist handle the horn tube?",
+            "Original answer": "Yes",
+            "The question with details": "Upon securing the iron clamp, did the chemist then proceed to take up the horn tube?",
+            "The answer with details": "Yes, the sequence shows that after screwing the iron clamp, the chemist took up the horn tube."
+        },
+        "6": {
+            "Original question": "After the horn tube was taken up, was it inserted into the apparatus?",
+            "Original answer": "Yes",
+            "The question with details": "Did the video depict the action where, following the action of taking up the horn tube, it was then inserted?",
+            "The answer with details": "Yes, following the retrieval of the horn tube, it was inserted."
+        },
+        "7": {
+            "Original question": "In the sequence, was the iron clamp tightened before the horn tube was managed?",
+            "Original answer": "Yes",
+            "The question with details": "Considering the sequence, was the act of screwing the iron clamp completed prior to any actions involving the horn tube?",
+            "The answer with details": "Yes, the iron clamp was secured before any steps involving the horn tube were taken."
+        },
+        "8": {
+            "Original question": "Did the student pour the contents of the conical flask before taking it up?",
+            "Original answer": "No",
+            "The question with details": "In the described sequence, did the student pour from the conical flask before actually holding it?",
+            "The answer with details": "No, the student first took up the conical flask and then poured its contents."
+        },
+        "9": {
+            "Original question": "In the sequence, after taking up the test tube, did the chemist perform any actions with the horn tube before managing the conical flask?",
+            "Original answer": "No",
+            "The question with details": "Upon taking up the test tube, did the chemist immediately move to the horn tube before engaging with the conical flask?",
+            "The answer with details": "No, the chemist first managed the conical flask after the test tube, and only then did actions with the horn tube follow."
+        },
+        "10": {
+            "Original question": "Did the researcher handle and insert the horn tube before tightening the iron clamp?",
+            "Original answer": "No",
+            "The question with details": "Based on the sequence, did the researcher manage the horn tube and its insertion before the step of securing the iron clamp?",
+            "The answer with details": "No, the researcher first tightened the iron clamp and only afterward took up and inserted the horn tube."
+        }
+    },
+    "4.4": {
+        "1": {
+            "Original question": "After taking up the test tube, did the researcher tighten the iron clamp?",
+            "Original answer": "Yes",
+            "The question with details": "In the video sequence, once the researcher had the test tube in hand, did they then proceed to screw the iron clamp?",
+            "The answer with details": "Yes, right after picking up the test tube, the researcher tightened the iron clamp."
+        },
+        "2": {
+            "Original question": "Following the tightening of the iron clamp, did the student then take up the conical flask?",
+            "Original answer": "Yes",
+            "The question with details": "Once the iron clamp was secured, was the subsequent action of the student to take up the conical flask?",
+            "The answer with details": "Yes, after the iron clamp was tightened, the student took up the conical flask."
+        },
+        "3": {
+            "Original question": "After holding the conical flask, did the chemist pour out its contents?",
+            "Original answer": "Yes",
+            "The question with details": "In the sequence, once the chemist had the conical flask, was the next action to pour from it?",
+            "The answer with details": "Yes, the chemist poured the contents after taking up the conical flask."
+        },
+        "4": {
+            "Original question": "Did the lab assistant, upon pouring from the conical flask, place it back down?",
+            "Original answer": "Yes",
+            "The question with details": "Following the pouring of the conical flask, did the lab assistant then set it down?",
+            "The answer with details": "Yes, after pouring the contents, the lab assistant put down the conical flask."
+        },
+        "5": {
+            "Original question": "Did the instructor pour the contents of the conical flask before taking it up?",
+            "Original answer": "No",
+            "The question with details": "In the described sequence, was the conical flask poured by the instructor prior to them actually holding it?",
+            "The answer with details": "No, the instructor first took up the conical flask and then poured its contents."
+        },
+        "6": {
+            "Original question": "In the video, did the researcher handle the horn tube after screwing the iron clamp?",
+            "Original answer": "No",
+            "The question with details": "Post tightening the iron clamp, did the researcher perform any actions related to the horn tube?",
+            "The answer with details": "No, there were no actions involving the horn tube after screwing the iron clamp in this sequence."
+        },
+        "7": {
+            "Original question": "After taking up the test tube, did the chemist immediately engage with the conical flask?",
+            "Original answer": "No",
+            "The question with details": "Following the action where the chemist took up the test tube, did they directly move to handle the conical flask?",
+            "The answer with details": "No, after taking up the test tube, the chemist first tightened the iron clamp and only then managed the conical flask."
+        },
+        "8": {
+            "Original question": "Did the lab assistant tighten the iron clamp after pouring from the conical flask?",
+            "Original answer": "No",
+            "The question with details": "In the sequence, did the lab assistant screw the iron clamp post the action of pouring from the conical flask?",
+            "The answer with details": "No, the iron clamp was tightened before the conical flask was even taken up."
+        },
+        "9": {
+            "Original question": "Once the conical flask was emptied, did the student immediately screw the iron clamp?",
+            "Original answer": "No",
+            "The question with details": "After pouring the contents from the conical flask, did the student's subsequent action involve screwing the iron clamp?",
+            "The answer with details": "No, after the pouring action, the student placed the conical flask down."
+        },
+        "10": {
+            "Original question": "Did the sequence involve the researcher first screwing the iron clamp and later pouring from the conical flask?",
+            "Original answer": "Yes",
+            "The question with details": "Based on the actions depicted, did the sequence have the researcher initially tighten the iron clamp and at a later point pour out the conical flask?",
+            "The answer with details": "Yes, the researcher first tightened the iron clamp and later on poured from the conical flask."
+        }
+    },
+    "4.5": {
+        "1": {
+            "Original question": "After taking up the test tube, did the lab assistant immediately handle the horn tube?",
+            "Original answer": "No",
+            "The question with details": "In the video, once the lab assistant had the test tube in hand, was the next action to pick up the horn tube?",
+            "The answer with details": "No, after holding the test tube, the lab assistant tightened the iron clamp before managing the horn tube."
+        },
+        "2": {
+            "Original question": "Did the chemist, after picking up the horn tube, proceed to insert it?",
+            "Original answer": "Yes",
+            "The question with details": "Once the horn tube was in the chemist's possession, did they then insert it?",
+            "The answer with details": "Yes, following the action of taking up the horn tube, the chemist inserted it."
+        },
+        "3": {
+            "Original question": "In the sequence, after taking up the alcohol burner, did the researcher uncover it?",
+            "Original answer": "Yes",
+            "The question with details": "In the depicted actions, once the researcher took hold of the alcohol burner, was the immediate next step to uncover it?",
+            "The answer with details": "Yes, after grabbing the alcohol burner, the researcher took off its cover."
+        },
+        "4": {
+            "Original question": "Post pouring from the conical flask, did the student immediately cover the alcohol burner?",
+            "Original answer": "No",
+            "The question with details": "After emptying the contents of the conical flask, did the student's subsequent action directly involve covering the alcohol burner?",
+            "The answer with details": "No, after pouring from the conical flask, the student first set it down before handling the alcohol burner cap."
+        },
+        "5": {
+            "Original question": "After uncovering the alcohol burner, did the instructor place it down without its cap?",
+            "Original answer": "Yes",
+            "The question with details": "Upon removing the cap from the alcohol burner, did the instructor set the alcohol burner aside without its cover?",
+            "The answer with details": "Yes, after uncovering the alcohol burner, the instructor placed it down and then separately placed down the cap."
+        },
+        "6": {
+            "Original question": "Following the action of taking up the conical flask, did the researcher pour its contents?",
+            "Original answer": "Yes",
+            "The question with details": "In the described actions, once the researcher had the conical flask, was the very next move to pour from it?",
+            "The answer with details": "Yes, the researcher poured the contents after taking up the conical flask."
+        },
+        "7": {
+            "Original question": "Did the lab assistant handle the conical flask right after putting down the alcohol burner cap?",
+            "Original answer": "No",
+            "The question with details": "Following the action where the lab assistant set down the alcohol burner's cap, did they immediately engage with the conical flask?",
+            "The answer with details": "No, the lab assistant first took up the conical flask, poured it, and then put it down before handling the alcohol burner cap."
+        },
+        "8": {
+            "Original question": "After taking up the horn tube, did the student use the alcohol burner?",
+            "Original answer": "No",
+            "The question with details": "Post the action where the student took up the horn tube, did they proceed to any actions related to the alcohol burner?",
+            "The answer with details": "No, the student first inserted the horn tube before managing the alcohol burner in the sequence."
+        },
+        "9": {
+            "Original question": "In the video, did the sequence involve the instructor first uncovering the alcohol burner and then placing it back capped?",
+            "Original answer": "Yes",
+            "The question with details": "Based on the depicted actions, did the instructor first remove the cover from the alcohol burner and at a later point place it back with the cap on?",
+            "The answer with details": "Yes, the instructor first uncovered the alcohol burner and later covered it back."
+        },
+        "10": {
+            "Original question": "Did the researcher, after inserting the horn tube, move on to actions concerning the conical flask?",
+            "Original answer": "No",
+            "The question with details": "After the horn tube insertion, did the researcher immediately transition to handling the conical flask?",
+            "The answer with details": "No, the researcher first managed the alcohol burner post horn tube insertion before engaging with the conical flask."
+        }
+    },
+    "5.1": {
+        "1": {
+            "Original question": "Did the researcher take up the reagent bottle?",
+            "Original answer": "Yes",
+            "The question with details": "In the laboratory video, where procedures involving various equipment are carried out meticulously, did the researcher initiate his sequence of actions by picking up the reagent bottle?",
+            "The answer with details": "Yes, the researcher, dressed appropriately for a lab setting, began the sequence of tasks by carefully taking up the reagent bottle."
+        },
+        "2": {
+            "Original question": "After taking up the reagent bottle, did the researcher proceed to screw its cap?",
+            "Original answer": "Yes",
+            "The question with details": "After the lab assistant secured the reagent bottle in their hand, did they immediately secure the cap of the bottle by screwing it tight?",
+            "The answer with details": "Yes, right after acquiring the reagent bottle, the lab assistant ensured its contents remained uncontaminated by screwing its cap on tightly."
+        },
+        "3": {
+            "Original question": "Was the pouring of the reagent done right after screwing the bottle cap?",
+            "Original answer": "Yes",
+            "The question with details": "Following the action of securing the reagent bottle cap, did the chemist proceed to pour its contents into a different container or apparatus?",
+            "The answer with details": "Yes, after the initial preparation and securing of the reagent bottle, the chemist carefully poured the liquid from the bottle."
+        },
+        "4": {
+            "Original question": "Did the researcher screw the cap after pouring the reagent?",
+            "Original answer": "Yes",
+            "The question with details": "Once the researcher emptied the desired amount of reagent, did he make sure to seal the bottle by screwing the cap back on?",
+            "The answer with details": "Yes, for safety and to prevent any contamination, the researcher immediately screwed the cap back onto the reagent bottle after pouring."
+        },
+        "5": {
+            "Original question": "After securing the bottle, did the researcher place the reagent bottle down?",
+            "Original answer": "Yes",
+            "The question with details": "In the sequence of actions in the lab, following the task of screwing the reagent bottle cap, did the researcher then safely place the bottle back on the table or the designated storage area?",
+            "The answer with details": "Yes, to ensure an organized work area, the researcher carefully put the reagent bottle back down after securing its cap."
+        },
+        "6": {
+            "Original question": "Did the instructor take up the glass rod before taking up the beaker?",
+            "Original answer": "No",
+            "The question with details": "In the complex procedure demonstrated in the video, did the instructor initially pick up the glass rod before handling the beaker?",
+            "The answer with details": "No, the instructor first picked up the beaker and then proceeded to handle the glass rod."
+        },
+        "7": {
+            "Original question": "After taking the beaker, did the researcher use the glass rod to stir?",
+            "Original answer": "Yes",
+            "The question with details": "After securely holding the beaker, did the lab assistant utilize the glass rod to mix or stir the contents within the beaker?",
+            "The answer with details": "Yes, with the beaker in one hand, the lab assistant expertly used the glass rod to stir and mix the solution inside."
+        },
+        "8": {
+            "Original question": "Was the glass rod put down after the stirring?",
+            "Original answer": "Yes",
+            "The question with details": "Following the action of mixing the solution with the glass rod, did the student promptly place the glass rod back on the designated area?",
+            "The answer with details": "Yes, maintaining lab cleanliness and order, the student carefully placed the glass rod back down after completing the stirring."
+        },
+        "9": {
+            "Original question": "Did the lab assistant put down the beaker right after the glass rod?",
+            "Original answer": "Yes",
+            "The question with details": "In the sequence of the lab procedure, once the glass rod was safely placed down, did the lab assistant immediately follow up by setting the beaker down as well?",
+            "The answer with details": "Yes, ensuring that all apparatus are kept in their rightful places, the lab assistant placed the beaker down immediately after the glass rod."
+        },
+        "10": {
+            "Original question": "After pouring the reagent, did the researcher take the beaker before the glass rod?",
+            "Original answer": "Yes",
+            "The question with details": "Following the action of pouring the reagent, did the chemist in the video sequence first reach out for the beaker before handling the glass rod?",
+            "The answer with details": "Yes, the sequence involved the chemist first taking up the beaker and subsequently handling the glass rod."
+        }
+    },
+    "7.1": {
+        "1": {
+            "Original question": "Did the instructor uncover the crucible before taking it up?",
+            "Original answer": "Yes",
+            "The question with details": "In the video, as the researcher prepared for the experiment, did they first uncover the crucible and then proceed to take it up?",
+            "The answer with details": "Yes, in the video, the researcher meticulously uncovered the crucible as a part of their preparation. Subsequently, they took up the crucible, possibly to inspect or to place it in a specific location."
+        },
+        "2": {
+            "Original question": "Did the lab assistant move the alcohol burner after putting down the crucible?",
+            "Original answer": "Yes",
+            "The question with details": "After the lab assistant carefully set the crucible down, did they then move the alcohol burner to a different location?",
+            "The answer with details": "Yes, following the careful placement of the crucible, the lab assistant shifted the alcohol burner. This might be to ensure a safe distance or for another step in their procedure."
+        },
+        "3": {
+            "Original question": "Was the crucible clamped using the crucible tong?",
+            "Original answer": "Yes",
+            "The question with details": "In the scene, did the student utilize the crucible tong to firmly clamp and handle the crucible?",
+            "The answer with details": "Yes, in the footage, the student, ensuring safety, took the crucible tong and used it to securely clamp the crucible, showing the importance of using the right tools in a lab environment."
+        },
+        "4": {
+            "Original question": "Before covering the crucible with its cap, did the researcher take up the crucible cap?",
+            "Original answer": "Yes",
+            "The question with details": "Prior to sealing the crucible with its respective cap, did the chemist first pick up the crucible cap?",
+            "The answer with details": "Yes, in a structured manner, the chemist first took up the crucible cap and, subsequently, used it to cover the crucible, ensuring the contents within remain undisturbed."
+        },
+        "5": {
+            "Original question": "Did the lab assistant put down the crucible before moving the alcohol burner?",
+            "Original answer": "Yes",
+            "The question with details": "In the sequence of events, did the lab assistant ensure the crucible was set down prior to repositioning the alcohol burner?",
+            "The answer with details": "Yes, the lab assistant showed methodical precision by first setting down the crucible and then proceeded to move the alcohol burner, possibly for the next steps of the experiment."
+        },
+        "6": {
+            "Original question": "Was the crucible taken up before it was clamped using the tong?",
+            "Original answer": "No",
+            "The question with details": "In the depicted sequence, did the instructor take up the crucible first and then use the tong to clamp it?",
+            "The answer with details": "No, in the provided sequence, the instructor first used the crucible tong to clamp the crucible and then performed other activities. They did not take up the crucible before clamping."
+        },
+        "7": {
+            "Original question": "After clamping the crucible with the tong, did the student immediately cover it with the cap?",
+            "Original answer": "No",
+            "The question with details": "Once the student clamped the crucible using the tong, did they promptly seal it using the crucible cap?",
+            "The answer with details": "No, post clamping the crucible with the tong, the student undertook other activities before eventually covering the crucible with its cap."
+        },
+        "8": {
+            "Original question": "Did the chemist uncover the crucible and then immediately move the alcohol burner?",
+            "Original answer": "No",
+            "The question with details": "In the chronological events of the video, did the chemist first uncover the crucible and without delay proceed to reposition the alcohol burner?",
+            "The answer with details": "No, after uncovering the crucible, the chemist had several intermediate steps before moving the alcohol burner."
+        },
+        "9": {
+            "Original question": "Before clamping the crucible, did the researcher take up the crucible tong?",
+            "Original answer": "Yes",
+            "The question with details": "In the preparation phase, did the researcher ensure to take up the crucible tong before utilizing it to clamp the crucible?",
+            "The answer with details": "Yes, demonstrating attention to detail, the researcher took up the crucible tong, which they later used to securely clamp the crucible during the experiment."
+        },
+        "10": {
+            "Original question": "After putting down the crucible, did the student immediately take up the crucible cap?",
+            "Original answer": "No",
+            "The question with details": "Post setting the crucible down, did the student without any delay pick up the crucible cap?",
+            "The answer with details": "No, after placing the crucible down, the student engaged in other activities before eventually taking up the crucible cap."
+        }
+    },
+    "8.2":{
+        "1":{
+            "Original question": "After taking up the test paper, did the lab assistant proceed to tear it?",
+            "Original answer": "Yes",
+            "The question with details": "In a well-organized chemistry laboratory, amidst the buzzing activity of various chemical tests, a lab assistant interacts with a test paper. The primary focus of the video is the sequence of this interaction. After initially taking up the test paper, did the lab assistant move forward to tear it?",
+            "The answer with details": "Indeed, as observed from the annotations of the video, after taking up the test paper, the lab assistant tore the test paper, following the standard procedure of the experiment. This action serves as a preparatory step before further tests could be conducted on the sample."
+        },
+        "2":{
+            "Original question": "Did the researcher first put down the test paper and then take up the tweezer?",
+            "Original answer": "Yes",
+            "The question with details": "In the meticulous environment of a research facility, where accuracy and precision are paramount, the actions of every researcher play a crucial role in ensuring the success of the experiment. Following this, did the researcher, after completing the interaction with the test paper, set it down and promptly pick up a tweezer?",
+            "The answer with details": "Yes, in the detailed video annotations, after interacting with the test paper, the researcher responsibly placed it down and then proceeded to pick up a tweezer. This transition of tools suggests the upcoming steps in the experimental procedure that demand different instruments."
+        },
+        "3":{
+            "Original question": "In the sequence, was the glass rod first pointed to the evaporating dish and then to the test paper?",
+            "Original answer": "Yes",
+            "The question with details": "A chemistry student keenly observes the video, trying to replicate the experiment demonstrated. The student wonders: After taking up the glass rod, did the instructor first point it towards an evaporating dish and subsequently towards the test paper?",
+            "The answer with details": "Absolutely, the video annotations clearly showcase that after the glass rod was taken up, it was initially directed towards the evaporating dish. Following that, the instructor pointed it at the test paper. This sequence of actions is critical in understanding the flow of the experiment and the interplay of materials used."
+        },
+        "4":{
+            "Original question": "Did the student take up the tweezer before putting down the test paper?",
+            "Original answer": "No",
+            "The question with details": "A group of students are reviewing the video to grasp the intricacies of the experiment. They debate on the sequence of events. One of them inquires: Did the student, eager to move to the next step, take up the tweezer before setting aside the test paper?",
+            "The answer with details": "No, based on the annotations from the video, the student exhibited patience and order in their approach. They first put down the test paper before picking up the tweezer, ensuring each action was completed before moving on to the next."
+        },
+        "5":{
+            "Original question": "After clamping the tweezer, did the chemist put down the test paper?",
+            "Original answer": "Yes",
+            "The question with details": "Amidst the structured setup of a chemistry lab, where every action is driven by purpose, a chemist is seen interacting with various tools. Post the action of clamping the tweezer, is it accurate to state that the chemist put down the test paper as the next step?",
+            "The answer with details": "Yes, from the video's annotations, it's evident that after the action of clamping the tweezer, the chemist proceeded to put down the test paper. This sequence reflects the logical progression of the experiment and the organized manner in which the chemist operates."
+        },
+        "6":{
+            "Original question": "Was the test paper torn after the glass rod was pointed to it?",
+            "Original answer": "No",
+            "The question with details": "In the analytical setting of a research lab, sequences are pivotal. A student, trying to understand the chronology, asks: After the glass rod was directed at the test paper, was that when the test paper was torn?",
+            "The answer with details": "No, as per the video's annotations, the tearing of the test paper happened before the glass rod was pointed towards it. The student's understanding of this sequence is essential to grasp the flow of the experiment."
+        },
+        "7":{
+            "Original question": "After tearing the test paper, did the researcher immediately take up the tweezer?",
+            "Original answer": "No",
+            "The question with details": "In a video demonstrating a complex chemical reaction, there's a meticulous sequence of actions followed by the researcher. Pondering on this, a viewer inquires: Post the tearing of the test paper, did the researcher instantly pick up the tweezer?",
+            "The answer with details": "No, the video annotations suggest that after tearing the test paper, the researcher did not immediately pick up the tweezer. Instead, there were other intermediate steps before the tweezer came into play, highlighting the careful procedure followed."
+        },
+        "8":{
+            "Original question": "After putting down the test paper, was the next action taking up the glass rod?",
+            "Original answer": "No",
+            "The question with details": "A chemistry instructor reviews the video to ensure the correct steps are taught to the students. She questions: Once the test paper was set aside, was the immediate subsequent action that of picking up the glass rod?",
+            "The answer with details": "No, the video annotations indicate that after putting down the test paper, the immediate next action wasn't picking up the glass rod. There were other steps in between, emphasizing the layered and systematic approach of the experiment."
+        },
+        "9":{
+            "Original question": "After taking up the tweezer, was the glass rod pointed to the evaporating dish?",
+            "Original answer": "No",
+            "The question with details": "In a practical chemistry class, a student keen on understanding the sequence jots down notes while watching the video. He asks: Once the tweezer was picked up, was the following action pointing the glass rod to the evaporating dish?",
+            "The answer with details": "No, according to the annotations from the video, after picking up the tweezer, the subsequent action wasn't directing the glass rod towards the evaporating dish. This highlights the importance of keen observation to understand the order of operations in the experiment."
+        },
+        "10":{
+            "Original question": "Was the test paper put down twice consecutively in the sequence?",
+            "Original answer": "Yes",
+            "The question with details": "A chemistry enthusiast, keen on replicating the experiment, focuses on the repetition of actions in the video. He wonders: In the progression of the experiment, was there a moment where the test paper was set down twice in a row?",
+            "The answer with details": "Yes, as described in the video annotations, there was indeed a sequence where the test paper was put down twice consecutively. This repetitive action might signify a specific step or checkpoint in the experimental process, ensuring accuracy."
+        }
+    },
+    "9.1":{
+        "1":{
+            "Original question": "After picking up the beaker, did the researcher proceed to put it down?",
+            "Original answer": "Yes",
+            "The question with details": "In the laboratory environment, a researcher was diligently setting up an experiment. After initially taking up the beaker, can you confirm if the next immediate action was placing the beaker back down?",
+            "The answer with details": "Yes, in the described sequence, the researcher initially took up the beaker and immediately after, proceeded to put it down."
+        },
+        "2":{
+            "Original question": "Did the chemist screw the iron ring after taking it up?",
+            "Original answer": "Yes",
+            "The question with details": "In the midst of the experiment, a chemist reached for certain equipment. Upon taking the iron ring, was the subsequent action fastening it securely?",
+            "The answer with details": "Yes, after the chemist took up the iron ring, the following action was to screw it in place."
+        },
+        "3":{
+            "Original question": "Did the lab assistant take up the filter paper after putting down the glass funnel?",
+            "Original answer": "Yes",
+            "The question with details": "During the preparation phase, the lab assistant was seen arranging various tools. After placing the glass funnel down, was the subsequent move to pick up a filter paper?",
+            "The answer with details": "Indeed, post placing down the glass funnel, the lab assistant's next move was to take up the filter paper."
+        },
+        "4":{
+            "Original question": "After taking the glass funnel, did the student immediately put it down?",
+            "Original answer": "Yes",
+            "The question with details": "While observing the sequence, a student seemed to be handling a glass funnel. After taking it into their hand, was their immediate response to put it back?",
+            "The answer with details": "Correct, after the student took up the glass funnel, they placed it down right after."
+        },
+        "5":{
+            "Original question": "Did the sequence involve the researcher first taking up the beaker, and then the iron ring?",
+            "Original answer": "Yes",
+            "The question with details": "In a methodical order, a researcher was seen using multiple apparatus. Initially, they took a beaker. Was the iron ring the next item they interacted with?",
+            "The answer with details": "Yes, the researcher first took up the beaker, followed by taking up the iron ring in the sequence."
+        },
+        "6":{
+            "Original question": "Did the instructor fold the filter paper after picking it up?",
+            "Original answer": "Yes",
+            "The question with details": "An instructor, while demonstrating a technique, picked up a filter paper. Following this, did they proceed to fold it for the next step?",
+            "The answer with details": "Indeed, after picking up the filter paper, the instructor moved to fold it as a subsequent step."
+        },
+        "7":{
+            "Original question": "Did the lab assistant pick up the glass funnel after screwing the iron ring?",
+            "Original answer": "Yes",
+            "The question with details": "As the lab assistant progressed with their task, they were seen securing the iron ring. After this action, did they then proceed to pick up a glass funnel?",
+            "The answer with details": "Yes, post screwing the iron ring, the lab assistant's next move was to take up the glass funnel."
+        },
+        "8":{
+            "Original question": "After folding the filter paper, did the chemist immediately place it down?",
+            "Original answer": "Yes",
+            "The question with details": "Upon preparing for a filtration process, the chemist folded a piece of filter paper. After this specific action, did they set it aside by placing it down?",
+            "The answer with details": "Correct, after the chemist folded the filter paper, their next action was to put it down."
+        },
+        "9":{
+            "Original question": "Did the researcher take up the beaker before taking up the iron ring?",
+            "Original answer": "Yes",
+            "The question with details": "During the sequence, the researcher was seen handling various lab equipment. Was the beaker picked up prior to the researcher handling the iron ring?",
+            "The answer with details": "Yes, in the sequence, the researcher first took up the beaker before moving on to take the iron ring."
+        },
+        "10":{
+            "Original question": "After taking up the beaker, did the student proceed to screw the iron ring?",
+            "Original answer": "No",
+            "The question with details": "While setting up an apparatus, the student took a beaker into their hands. Was their subsequent move to screw an iron ring?",
+            "The answer with details": "No, after taking up the beaker, the student's next action was to put the beaker down, not to screw the iron ring."
+        }
+    },
+    "10.2":{
+        "1":{
+            "Original question": "After picking up the iron ring, did the lab assistant proceed to screw it in place?",
+            "Original answer": "Yes",
+            "The question with details": "In the setting of the laboratory, once the lab assistant took the iron ring, can you confirm if they immediately moved to screw it?",
+            "The answer with details": "Yes, after the lab assistant took up the iron ring, the next immediate action was to screw it."
+        },
+        "2":{
+            "Original question": "Did the student pick up the separating funnel after screwing the iron ring?",
+            "Original answer": "Yes",
+            "The question with details": "While the student was conducting the experiment, after screwing the iron ring securely, did they reach out for the separating funnel?",
+            "The answer with details": "Yes, the student took up the separating funnel right after screwing the iron ring."
+        },
+        "3":{
+            "Original question": "After taking the conical flask, did the chemist immediately pour its content?",
+            "Original answer": "Yes",
+            "The question with details": "In the middle of the procedure, once the chemist held the conical flask, was their subsequent move to pour out what was inside?",
+            "The answer with details": "Indeed, after the chemist took up the conical flask, they immediately proceeded to pour its content."
+        },
+        "4":{
+            "Original question": "Did the researcher put down the conical flask right after pouring it?",
+            "Original answer": "Yes",
+            "The question with details": "As the researcher progressed in the sequence, after pouring the content of the conical flask, was the following action setting it down?",
+            "The answer with details": "Yes, following the action of pouring, the researcher put down the conical flask."
+        },
+        "5":{
+            "Original question": "After picking up the separating funnel, did the instructor put it down without any action in between?",
+            "Original answer": "Yes",
+            "The question with details": "Observing the instructor's methodical approach, upon taking the separating funnel, did they place it back down without any intermediate action?",
+            "The answer with details": "Yes, post picking up the separating funnel, the instructor's next move was directly to put it down."
+        },
+        "6":{
+            "Original question": "Did the lab assistant insert the upper piston after placing down the conical flask?",
+            "Original answer": "Yes",
+            "The question with details": "Following the steps of the procedure, after the lab assistant set down the conical flask, was their subsequent action inserting the upper piston?",
+            "The answer with details": "Yes, right after putting down the conical flask, the lab assistant went ahead to insert the upper piston."
+        },
+        "7":{
+            "Original question": "Did the chemist take up the separating funnel after taking up the conical flask?",
+            "Original answer": "No",
+            "The question with details": "In the sequence, after the chemist took the conical flask, did they subsequently reach for the separating funnel?",
+            "The answer with details": "No, after taking up the conical flask, the chemist didn't immediately take the separating funnel. Instead, they proceeded to pour the flask."
+        },
+        "8":{
+            "Original question": "After inserting the upper piston, did the researcher move to screw the lower piston?",
+            "Original answer": "Yes",
+            "The question with details": "As the sequence unfolds, after the researcher inserted the upper piston, was the next action related to screwing the lower piston?",
+            "The answer with details": "Indeed, the subsequent action post inserting the upper piston was to screw the lower piston."
+        },
+        "9":{
+            "Original question": "Did the student screw the lower piston immediately after picking up the iron ring?",
+            "Original answer": "No",
+            "The question with details": "While setting up, once the student took the iron ring, did they then directly move to screw the lower piston?",
+            "The answer with details": "No, after taking up the iron ring, the student's subsequent action was to screw the iron ring, not the lower piston."
+        },
+        "10":{
+            "Original question": "In the video, was taking up the conical flask followed by pouring its content and then putting it down by the lab assistant?",
+            "Original answer": "Yes",
+            "The question with details": "Reviewing the sequence, can you confirm that the lab assistant, after taking the conical flask, poured its contents and subsequently set it down?",
+            "The answer with details": "Yes, in the described sequence, post taking up the conical flask, the lab assistant poured its content and then placed it down."
+        }
+    },
+    "11.5":{
+        "1":{
+            "Original question": "After screwing the knob, did the lab assistant proceed to take up the rubber stopper?",
+            "Original answer": "Yes",
+            "The question with details": "In a meticulously organized laboratory, with numerous tools and equipment laid out, the lab assistant is seen working diligently. Having just adjusted a certain piece of equipment, did they immediately move to pick up a rubber stopper following the action of screwing the knob?",
+            "The answer with details": "Indeed, the lab assistant, after ensuring the knob was securely fastened, swiftly reached out to take up the rubber stopper. It appeared to be a sequential action, possibly indicating a well-practiced procedure or experiment in the lab."
+        },
+        "2":{
+            "Original question": "Did the researcher take up the tweezer after putting down the rubber stopper?",
+            "Original answer": "Yes",
+            "The question with details": "Picture this: a precise operation is underway in a high-tech lab. A researcher, after setting aside a rubber stopper, needs a more delicate tool for the next step. Would it be correct to say they reached for a tweezer immediately after?",
+            "The answer with details": "Absolutely, in a fluid motion, having placed the rubber stopper safely aside, the researcher instinctively grabbed the tweezer, indicating familiarity with the procedure and the need for precision."
+        },
+        "3":{
+            "Original question": "After taking up the tweezer, did the student then clamp it before putting down a weight?",
+            "Original answer": "Yes",
+            "The question with details": "In a hands-on practical class, a student is observed meticulously following steps. Having picked up a tweezer, does the student ensure its proper use by clamping it prior to setting down a certain weight?",
+            "The answer with details": "Yes, the student, with a keen focus, after picking the tweezer, proceeded to clamp it. This action was immediately followed by setting down a weight, showcasing the student's understanding of the sequential tasks at hand."
+        },
+        "4":{
+            "Original question": "Was the tweezer clamped twice in the sequence?",
+            "Original answer": "Yes",
+            "The question with details": "In the span of the video, we observe repeated motions with certain tools. Was the action of clamping the tweezer executed twice by the lab assistant during the observed sequence?",
+            "The answer with details": "Indeed, throughout the captured sequence, the lab assistant showcased the action of clamping the tweezer not just once but twice. This repetition might hint at the importance or necessity of this specific action in the overall process."
+        },
+        "5":{
+            "Original question": "In the video, after clamping the tweezer for the second time, did the chemist immediately put down the weight?",
+            "Original answer": "Yes",
+            "The question with details": "Amidst a chemical experiment, a chemist is seen handling various tools. Following the second instance of clamping the tweezer, did the chemist then proceed to set a weight down?",
+            "The answer with details": "True to observation, after the chemist clamped the tweezer for the second time, without hesitation, they proceeded to put down the weight. This particular sequence of actions underscores the importance of following certain steps in order."
+        },
+        "6":{
+            "Original question": "After putting down the weight, was the next action by the researcher to put down the tweezer?",
+            "Original answer": "Yes",
+            "The question with details": "Imagine a meticulous operation in a lab setting. A researcher handles various tools in a specific order. After setting down a weight, does the video depict the researcher subsequently placing the tweezer down?",
+            "The answer with details": "Precisely, after carefully setting the weight down, the researcher, ensuring that each tool had its place, decisively put down the tweezer. This showcases the organized and methodical approach employed during the operation."
+        },
+        "7":{
+            "Original question": "Did the lab assistant move the vernier immediately after putting down the tweezer?",
+            "Original answer": "Yes",
+            "The question with details": "After a series of intricate steps in the lab, the lab assistant seems to be nearing the completion of a procedure. Upon placing the tweezer in its rightful spot, does the assistant then interact with the vernier?",
+            "The answer with details": "Exactly right, the video captures the lab assistant's methodical actions. Soon after ensuring the tweezer was safely placed, they proceeded to adjust or move the vernier, signaling the continuation or potential conclusion of the procedure."
+        },
+        "8":{
+            "Original question": "Was the knob screwed before taking up the rubber stopper?",
+            "Original answer": "Yes",
+            "The question with details": "In the initial stages of the procedure captured in the video, a certain action with the knob is observed. Is it correct to say the knob was securely fastened or screwed before the action of picking up the rubber stopper commenced?",
+            "The answer with details": "Indeed, the beginning of the video showcases the careful action of screwing or adjusting the knob. This action was promptly followed by the picking up of the rubber stopper, indicating a specific order to the procedure."
+        },
+        "9":{
+            "Original question": "Did the researcher perform the action of taking up the rubber stopper before putting it down?",
+            "Original answer": "Yes",
+            "The question with details": "Visualize a lab setting where each action has a purpose. In the sequence, is it observed that the researcher took the action of lifting or taking up the rubber stopper before subsequently placing it down?",
+            "The answer with details": "Absolutely, the sequence clearly depicts the researcher first taking up the rubber stopper. This action was naturally followed by placing it down, reinforcing the logical progression of tasks within the procedure."
+        },
+        "10":{
+            "Original question": "After clamping the tweezer for the first time, did the instructor set a weight down?",
+            "Original answer": "Yes",
+            "The question with details": "In a teaching demonstration, the instructor emphasizes the importance of specific steps. Post the action of clamping the tweezer for the first instance, does the instructor set an example by putting a weight down?",
+            "The answer with details": "Spot on, after demonstrating the correct way to clamp the tweezer, the instructor proceeded to put a weight down. This served as a model sequence for students or observers to understand and replicate."
+        }
+    },
+    "12.3": {
+        "1": {
+            "Original question": "After taking up the test tube, did the lab assistant proceed to take up the wash bottle?",
+            "Original answer": "Yes",
+            "The question with details": "In a controlled laboratory environment, a lab assistant is conducting an experiment. The primary focus is on handling various apparatus. After taking up the test tube, did the lab assistant proceed to take up the wash bottle, maintaining safety protocols?",
+            "The answer with details": "Yes, in the video sequence, following the action where the lab assistant picks up the test tube, the subsequent action captured shows the lab assistant taking up the wash bottle, ensuring adherence to the laboratory safety protocols."
+        },
+        "2": {
+            "Original question": "After squeezing the wash bottle, did the researcher put it down immediately?",
+            "Original answer": "Yes",
+            "The question with details": "In a meticulous procedure, a researcher is seen handling a wash bottle. After applying pressure and squeezing the bottle to release its contents, did the researcher promptly place the bottle back on the workstation?",
+            "The answer with details": "Yes, post the squeezing action, the researcher in the video sequence immediately puts down the wash bottle on the laboratory bench."
+        },
+        "3": {
+            "Original question": "Did the chemist pour the contents of the test tube before taking up the test tube brush?",
+            "Original answer": "Yes",
+            "The question with details": "In the video, a chemist is conducting a detailed chemical analysis. During this procedure, did the chemist pour the contents of the test tube before taking up the test tube brush for further cleaning or inspection?",
+            "The answer with details": "Yes, in the depicted sequence, the chemist first pours out the contents from the test tube and subsequently picks up the test tube brush."
+        },
+        "4": {
+            "Original question": "While pushing the test tube brush inside, did the student pull it out afterwards?",
+            "Original answer": "Yes",
+            "The question with details": "In an educational setting, a student is learning to clean a test tube using a brush. After pushing the brush inside the test tube, did the student then pull it out as part of the cleaning process?",
+            "The answer with details": "Yes, the student, after pushing the test tube brush inside the test tube for cleaning, subsequently pulls it out, ensuring the test tube is thoroughly cleaned."
+        },
+        "5": {
+            "Original question": "After putting down the test tube brush, did the instructor put down the test tube?",
+            "Original answer": "Yes",
+            "The question with details": "In a demonstrative session, an instructor showcases the correct method to handle laboratory apparatus. Following the action where they put down the test tube brush, did they proceed to place the test tube back in its designated position?",
+            "The answer with details": "Yes, in the sequence showcased in the video, post placing the test tube brush down, the instructor ensures to put down the test tube in its rightful place on the lab bench."
+        },
+        "6": {
+            "Original question": "Did the lab assistant first squeeze the wash bottle and then pour the test tube?",
+            "Original answer": "Yes",
+            "The question with details": "While conducting an experiment, the lab assistant has multiple tasks to ensure the process goes smoothly. Did the sequence involve the lab assistant first squeezing the wash bottle to release its contents and later pouring the solution from the test tube?",
+            "The answer with details": "Yes, in the illustrated sequence of the video, the lab assistant initially squeezes the wash bottle, and following that action, they pour the contents of the test tube into a receptacle."
+        },
+        "7": {
+            "Original question": "Did the researcher take up the test tube after putting down the test tube brush?",
+            "Original answer": "No",
+            "The question with details": "In the observed video, a researcher is involved in a series of actions pertaining to an experiment. Post placing the test tube brush down, did the researcher immediately take up the test tube?",
+            "The answer with details": "No, after putting down the test tube brush, the researcher did not immediately pick up the test tube. The sequence indicates that they first placed the brush down and subsequently performed other actions before handling the test tube again."
+        },
+        "8": {
+            "Original question": "After taking up the test tube, did the student then squeeze the wash bottle?",
+            "Original answer": "Yes",
+            "The question with details": "In a practical class session, a student is observed picking up a test tube. Post this action, did the student then squeeze the wash bottle, possibly to rinse or clean the test tube?",
+            "The answer with details": "Yes, after the student took up the test tube, they proceeded to squeeze the wash bottle, likely to release its contents for rinsing or cleaning purposes."
+        },
+        "9": {
+            "Original question": "After pouring the test tube, did the chemist push and pull the test tube brush?",
+            "Original answer": "Yes",
+            "The question with details": "In a meticulous chemical process, a chemist pours out the contents of a test tube. Following this, did the chemist push the test tube brush inside the test tube and then pull it out, ensuring thorough cleaning?",
+            "The answer with details": "Yes, post the pouring action, the chemist pushes the test tube brush inside to clean and subsequently pulls it out, ensuring the test tube is devoid of any residue."
+        },
+        "10": {
+            "Original question": "After squeezing the wash bottle, did the instructor take up the test tube brush?",
+            "Original answer": "No",
+            "The question with details": "During a laboratory session, an instructor is seen handling various apparatus. After squeezing the wash bottle, did the instructor immediately pick up the test tube brush?",
+            "The answer with details": "No, after squeezing the wash bottle, the instructor does not immediately pick up the test tube brush. The sequence depicts other actions being performed before the test tube brush is handled."
+        }
+    },
+    "13.3": {
+        "1": {
+            "Original question": "After uncovering the alcohol burner, did the researcher take up the test tube?",
+            "Original answer": "Yes",
+            "The question with details": "In a well-equipped lab, an eager researcher is conducting an experiment. After initially removing the cover from the alcohol burner, did this focused scientist immediately proceed to pick up a test tube?",
+            "The answer with details": "Yes, the diligent researcher, after uncovering the alcohol burner, promptly took up the test tube, suggesting a sequential procedure in the experiment."
+        },
+        "2": {
+            "Original question": "Did the chemist put down the alcohol burner cap and then take up the test tube clamp?",
+            "Original answer": "Yes",
+            "The question with details": "Upon ensuring the alcohol burner was open, did the chemist, ensuring precision, subsequently grab the test tube clamp?",
+            "The answer with details": "Yes, right after placing the alcohol burner cap down, the chemist, without any delay, proceeded to take up the test tube clamp."
+        },
+        "3": {
+            "Original question": "After scooping with the medicine spoon, did the lab assistant pour its contents?",
+            "Original answer": "Yes",
+            "The question with details": "With a clear intent in her eyes, the lab assistant scooped something using a medicine spoon. Did she then pour its contents into a container?",
+            "The answer with details": "Yes, after skillfully scooping with the medicine spoon, the lab assistant made sure to pour its contents, showcasing her methodical approach."
+        },
+        "4": {
+            "Original question": "After clamping the test tube, did the student shake the test tube clamp?",
+            "Original answer": "Yes",
+            "The question with details": "In a learning environment, a curious student clamped a test tube securely. Following this, did he give the test tube clamp a shake?",
+            "The answer with details": "Yes, once the test tube was securely clamped, the student, with a hint of anticipation, proceeded to shake the test tube clamp."
+        },
+        "5": {
+            "Original question": "Did the researcher scoop with the medicine spoon and then immediately pour its contents?",
+            "Original answer": "Yes",
+            "The question with details": "During the intricate process, the researcher utilized a medicine spoon for scooping. Was the subsequent step pouring out what was scooped?",
+            "The answer with details": "Indeed, the researcher, after utilizing the medicine spoon for scooping, made certain to pour out its contents without hesitation."
+        },
+        "6": {
+            "Original question": "After shaking the test tube clamp, did the lab assistant pour its contents?",
+            "Original answer": "Yes",
+            "The question with details": "In the midst of the experiment, the lab assistant gave the test tube clamp a shake. Did she then proceed to pour out the contents of the test tube?",
+            "The answer with details": "Yes, following the act of shaking the test tube clamp, the lab assistant meticulously poured out the contents from the test tube."
+        },
+        "7": {
+            "Original question": "Did the chemist take up the medicine spoon before pouring its contents?",
+            "Original answer": "Yes",
+            "The question with details": "Engrossed in the procedure, the chemist reached out for the medicine spoon. Before he poured its contents, did he scoop something up?",
+            "The answer with details": "Yes, the dedicated chemist, after taking up the medicine spoon, scooped up some material, and only then did he pour out its contents."
+        },
+        "8": {
+            "Original question": "After pouring the test tube, did the student place the test tube clamp down?",
+            "Original answer": "Yes",
+            "The question with details": "Following a careful pouring from the test tube, did the attentive student then set the test tube clamp on the bench?",
+            "The answer with details": "Yes, post the act of pouring from the test tube, the student placed the test tube clamp down on the lab bench, signaling the end of that particular step."
+        },
+        "9": {
+            "Original question": "Did the instructor take up the test tube and then pick up the test tube clamp?",
+            "Original answer": "Yes",
+            "The question with details": "In demonstrating the procedure to the class, the instructor picked up a test tube. Did she then immediately reach for the test tube clamp?",
+            "The answer with details": "Yes, right after picking up the test tube, the instructor swiftly reached for the test tube clamp, showcasing the sequential steps of the procedure."
+        },
+        "10": {
+            "Original question": "After using the medicine spoon, did the researcher place it back on the table?",
+            "Original answer": "Yes",
+            "The question with details": "Following the usage of the medicine spoon in his experimental steps, did the researcher ensure to set it back on the lab table?",
+            "The answer with details": "Yes, upon completing his task with the medicine spoon, the researcher promptly placed it back on the lab table, ensuring a tidy workspace."
+        }
+    },
+    "14.1":{
+        "1":{
+            "Original question": "After picking up the wash bottle, did the lab assistant squeeze it?",
+            "Original answer": "Yes",
+            "The question with details": "In the setting of a laboratory experiment, after carefully taking up the wash bottle, did the lab assistant proceed to squeeze its contents?",
+            "The answer with details": "Yes, in the video, it can be seen that in the context of the laboratory experiment, the lab assistant took up the wash bottle and then squeezed it to release its contents."
+        },
+        "2":{
+            "Original question": "Did the student pull the injector after taking it up?",
+            "Original answer": "Yes",
+            "The question with details": "During an experiment, after the student carefully took up the injector, did they then pull its plunger?",
+            "The answer with details": "Yes, after the student took up the injector, they pulled its plunger, drawing the liquid inside."
+        },
+        "3":{
+            "Original question": "Was the wash bottle put down before taking up the injector?",
+            "Original answer": "Yes",
+            "The question with details": "In the sequence of events, after the researcher utilized the wash bottle, was it placed down before they took up the injector?",
+            "The answer with details": "Yes, the researcher first utilized the wash bottle and then placed it down. Only after this did they take up the injector."
+        },
+        "4":{
+            "Original question": "After picking up the test tube, did the chemist immediately push the injector?",
+            "Original answer": "No",
+            "The question with details": "Once the chemist had the test tube in hand, was their immediate next action to push the contents of the injector into it?",
+            "The answer with details": "No, in the sequence, the chemist didn't immediately push the injector after picking up the test tube."
+        },
+        "5":{
+            "Original question": "Did the researcher squeeze the wash bottle before taking up the test tube?",
+            "Original answer": "No",
+            "The question with details": "In the experimental process, after handling the wash bottle, did the researcher transition directly to the test tube without squeezing the wash bottle?",
+            "The answer with details": "No, the researcher first squeezed the wash bottle and then took up other equipment, not directly the test tube."
+        },
+        "6":{
+            "Original question": "Did the lab assistant take up the wash bottle after putting down the injector?",
+            "Original answer": "No",
+            "The question with details": "In the experiment, once the lab assistant was done with the injector and put it down, did they immediately take up the wash bottle?",
+            "The answer with details": "No, after the lab assistant put down the injector, they did not immediately take up the wash bottle."
+        },
+        "7":{
+            "Original question": "Did the student pull the injector before taking up the wash bottle?",
+            "Original answer": "No",
+            "The question with details": "In the video sequence, was it observed that the student pulled the injector's plunger prior to lifting the wash bottle?",
+            "The answer with details": "No, the sequence didn't involve the student pulling the injector and then taking up the wash bottle."
+        },
+        "8":{
+            "Original question": "Was the injector pulled before taking up the test tube?",
+            "Original answer": "No",
+            "The question with details": "During the demonstration, did the student pull the injector's plunger prior to lifting the test tube?",
+            "The answer with details": "No, the student took up the test tube first, and only after that did they pull the injector's plunger."
+        },
+        "9":{
+            "Original question": "After squeezing the wash bottle, did the researcher take up the test tube?",
+            "Original answer": "No",
+            "The question with details": "Following the action where the chemist squeezed the wash bottle, did they directly proceed to pick up the test tube?",
+            "The answer with details": "No, after squeezing the wash bottle, the researcher didn't directly pick up the test tube."
+        },
+        "10":{
+            "Original question": "Did the lab assistant take up the injector, pull it, and then take up the test tube?",
+            "Original answer": "Yes",
+            "The question with details": "In the depicted procedure, did the lab assistant sequentially take up the injector, pull its plunger to draw in the liquid, and then shift to handling the test tube?",
+            "The answer with details": "Yes, the lab assistant took up the injector, pulled it to draw in the liquid, and then took up the test tube as part of the experiment."
+        }
+    },
+    "15.3":{
+        "1":{
+            "Original question": "After uncovering the alcohol burner, did the chemist put down its cap?",
+            "Original answer": "Yes",
+            "The question with details": "In a dimly lit chemistry lab, there's a meticulous chemist engrossed in his experiment. Ensuring safety and accuracy is of utmost priority. After he uncovers the alcohol burner, would it be correct to state that he responsibly put its cap down?",
+            "The answer with details": "Absolutely. After the chemist uncovers the alcohol burner, he ensures safety and immediately puts down the alcohol burner cap, ensuring no hazardous incidents occur."
+        },
+        "2":{
+            "Original question": "Did the chemist move the alcohol burner after putting down its cap?",
+            "Original answer": "Yes",
+            "The question with details": "Safety precautions are essential in any lab setting. After placing the alcohol burner cap on the table, did the chemist then proceed to relocate the alcohol burner to a safer spot or to make space for other equipment?",
+            "The answer with details": "Yes, after securing the cap of the alcohol burner, the chemist then proceeds to move the alcohol burner, probably to ensure the continuity of his experiment or to maintain safety standards."
+        },
+        "3":{
+            "Original question": "After taking up the mortar, did the chemist take up the medicine spoon?",
+            "Original answer": "Yes",
+            "The question with details": "In the intricate steps of preparing a chemical solution, tools play a vital role. Upon lifting the mortar, did the chemist then choose to lift a medicine spoon?",
+            "The answer with details": "Indeed, after picking up the mortar, the chemist, ensuring precision, took up the medicine spoon, likely to measure or transfer a particular substance."
+        },
+        "4":{
+            "Original question": "While holding the medicine spoon, did the chemist scoop with it?",
+            "Original answer": "Yes",
+            "The question with details": "With the medicine spoon in his hand, did the chemist use it to scoop up a certain amount of substance for his experiment?",
+            "The answer with details": "Yes, once the chemist had the medicine spoon in his possession, he utilized it to scoop up a specific amount of substance, showcasing his meticulous approach."
+        },
+        "5":{
+            "Original question": "After scooping with the medicine spoon, did the chemist pour its contents?",
+            "Original answer": "Yes",
+            "The question with details": "Following the action of scooping up a substance with the medicine spoon, did the researcher then proceed to pour out what he had scooped into another container or apparatus?",
+            "The answer with details": "Absolutely. Post scooping, the chemist expertly poured out the contents from the medicine spoon, likely into another apparatus for further processing or measurement."
+        },
+        "6":{
+            "Original question": "After pouring the contents of the medicine spoon, was the next action to put it down?",
+            "Original answer": "Yes",
+            "The question with details": "Having transferred the substance using the medicine spoon, did the chemist then place it back on the workbench?",
+            "The answer with details": "Correct. Once he completed the task of pouring the contents from the medicine spoon, the chemist then put it down, likely to free his hands for the next step in his procedure."
+        },
+        "7":{
+            "Original question": "Did the chemist stir with the pestle after taking it up?",
+            "Original answer": "Yes",
+            "The question with details": "Upon holding the pestle, was the chemist's immediate action to use it for stirring purposes within the mortar?",
+            "The answer with details": "Yes, the chemist, after picking up the pestle, utilized it directly to stir, indicating the importance of mixing or grinding substances in his experiment."
+        },
+        "8":{
+            "Original question": "After stirring with the pestle, did the chemist put down the mortar?",
+            "Original answer": "No",
+            "The question with details": "Post his stirring activity with the pestle, did the researcher immediately place the mortar back onto the table?",
+            "The answer with details": "No, after stirring with the pestle, the chemist did not immediately put down the mortar. The sequence suggests he might have continued using it or was yet to complete the intended task with it."
+        },
+        "9":{
+            "Original question": "After taking up the pestle and stirring, did the chemist subsequently put it down?",
+            "Original answer": "Yes",
+            "The question with details": "With the pestle being essential for grinding and mixing, after using it for his purpose, did the chemist place it back on the workspace?",
+            "The answer with details": "Indeed. Post his activity of stirring with the pestle, the chemist ensured to put it down, likely signifying the end of that specific procedure."
+        },
+        "10":{
+            "Original question": "After stirring with the pestle, did the chemist immediately use the medicine spoon?",
+            "Original answer": "No",
+            "The question with details": "Following the process of mixing with the pestle, did the chemist immediately switch to using the medicine spoon without any intermediary steps?",
+            "The answer with details": "No, after the stirring process with the pestle, the chemist did not directly use the medicine spoon. There were other actions that took place in between, showcasing the complexity of the procedure."
+        }
+    }
+}
