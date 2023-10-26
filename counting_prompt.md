@@ -1,56 +1,69 @@
-# Task: Sequence video verification
-## Dataset: CSV
+# Task: repetitive action counting
+## Dataset: RepCount
 **Prompt**  
 
 I want you to act as a professional annotator. You need to generate the question-and-answer pair data to train the model based on the provided data. I will give you the image sampled from the video or the image caption or video summary of this video and the original labels. All the information that the answer needs is contained in the label files. Please remember you are a professional annotator and finish your work as required. Do not consider to brefily the generation.
 
 There are some rules you need to obey:  
-1） For generating questions based on the provided video:
-    - Question Type: It could be a judgment question, essay question, or any other specified format.
 
-    - Contextual Background: Craft a background story that provides a context to the scene depicted in the image. This might involve describing the setting, the time, the atmosphere, or any relevant details that set the stage.
+### 1）For generating questions based on the provided image:
 
-    - Motivation: Explain the motivation or reason behind the question. For instance, begin with an introduction explaining the scenario or situation, then delve into why this particular question is being asked. Further, indicate what one hopes to achieve or understand by getting the answer.
+- Basic setting: The generated question should showcase this information: you are provided a video about something and need try to understand what happened this video.
 
-    - Activity Description: Describe the activities or events taking place in the video, but avoid direct mentions of the exact action being performed.
+- Question Type: It could be a judgment question, essay question, or any other specified format.
+  - If you want to create judgement question. Please ensure the response is No or Yes with the same probability.  Note that the probability of each response, i.e. Yes's and No's, should be equal and balanced, so ensure a balance in question devising.
+- Contextual Background: Craft a background story that provides a context to the scene depicted in the image. This might involve describing the setting, the time, the atmosphere, or any relevant details that set the stage.
 
-    - Variety in Storytelling: Ensure a diverse range of background stories. Repeating the same story or context should be avoided.
+- Motivation: Explain the motivation or reason behind the question. For instance, begin with an introduction explaining the scenario or situation, then delve into why this particular question is being asked. Further, indicate what one hopes to achieve or understand by getting the answer.
 
-    - Diversity in Format: The generated questions and answers should come in a variety of formats and narratives to cater to different interpretations of the video.
+- Activity Description: Describe the activities or events taking place in the video, but avoid direct mentions of the exact action being performed.
+
+- Variety in Storytelling: Ensure a diverse range of background stories. Repeating the same story or context should be avoided.
+
+- Diversity in Format: The generated questions and answers should come in a variety of formats and narratives to cater to different interpretations of the video.
 
 
-2） For generating answer:
-    Based on the annotation, video and original answer:
-    - First of all, you need to generate the standard original answer based on the annotations of this video for the original question.
-    - Following the generated question by you, you need to write many details. Examine the provided image carefully based on the supplied photograph or image caption. Describe the scene in great detail, focusing on the primary action. 
-    - Additionally, elaborate on the potential context or background story that could explain the circumstances leading up to this moment.
+### 2） For generating answer:
+Based on the annotation, video and original answer:
+- First of all, you need to generate the standard original answer based on the annotations of this video for the original question.
+- Following the generated question by you, you need to write many details. Examine the provided image carefully based on the supplied photograph or image caption. Describe the scene in great detail, focusing on the primary action. 
+- Additionally, elaborate on the potential context or background story that could explain the circumstances leading up to this moment.
      
-3） the generated results:
+### 3） the generated results:
 - Ensure Variety: While maintaining continuity, make sure each pair is unique and captures different aspects of the source materials.
 - Maintain Clarity: Despite the number of pairs, each question and answer should be clear, concise, and relevant to the source materials.
+- Reliability： Do not ask any question that cannot be answered confidently.
+- Accuracy: Do not omit the key information when generating the answer.
+
+### 4） the output format:
+- First of all， please use JSON format to reply to me.
+- Please follow this format to give the final result. For one video and its annotation, generate 10 continuous question-answer pairs based on the video annotations, images, and associated captions or video summaries. Do not include any interjected notes, disclaimers, or extraneous information. Simply produce the pairs consecutively. Do not pause, add notes, disclaimers, or any other commentary. 
+
+    ```json
+    {
+        "video name":{
+            "1":{
+            "Original question": "This is the question provided by me or generated by you",
+            "Original answer": "This is the answer you created based on the annotation and the original question",
+            "The question with details": "Your generated question, elaborated in depth, which should adhere to the requirements and incorporate more narrative or motivation elements",
+            "The answer with details": "Your answer, expanded and detailed, elaborated in depth, which should offer a comprehensive understanding by explaining the context, reasons, scene knowledge, action motivations, or other pertinent information.",
+            },
+            "2":{},
+            ...
+            "5":{},
+       },
+        "video name 2": {},
+        ...
+    }
+    ```
 
 
-4） the output format:
 
-First of all， please use JSON format to reply to me.
-
-Please follow this format to give the final result. Generate 10 continuous question-answer pairs based on the video annotations, images, and associated captions or video summaries. Do not include any interjected notes, disclaimers, or extraneous information. Simply produce the pairs consecutively. Do not pause, add notes, disclaimers, or any other commentary. Just provide 10 uninterrupted Q&A pairs.
-
-```json
-{
-    "1":{
-        "Original question": "This is the question provided by me or generated by you",
-        "Original answer": "This is the answer you created based on the annotation and the original question",
-        "The question with details": "Your generated question, elaborated in depth, which should adhere to the requirements and incorporate more narrative or motivation elements",
-        "The answer with details": "Your answer, expanded and detailed, elaborated in depth, which should offer a comprehensive understanding by explaining the context, reasons, scene knowledge, action motivations, or other pertinent information.",
-    },
-    "2":{},
-    ...
-    "5":{},
-}
-
-
-5) original annotation tabel format:
+### 5) Special requirements for this task.
+- You only could use video name which extracted from annotation to generation the output JSON file. This information should not appear in any question or answer.
+- I will give you two videos' annotations, you should provide 5 uninterrupted Q&A pairs for one video and its annotation.
+- Hence, you should generate 10 Q&A pairs for once input.
+- original annotation tabel format:
 
     | Action | Video Name | Repetition Count | Start Frame1 | End Frame1 | ... | Start FrameN | End FrameN |
     |--------|------------|------------------|--------------|------------|-----|--------------|------------|
@@ -58,8 +71,9 @@ Please follow this format to give the final result. Generate 10 continuous quest
 
     - The columns "Start FrameN" and "End FrameN" will appear based on the number of repetitions.
     - The ellipsis (...) indicates that the table can extend to as many repetitions as needed.
+--- 
 
-6) the example of the input by me and output by you.
+### 6) the example of the input by me and output by you.
 
 - Input(provided by me):
     - Question 1:
@@ -67,52 +81,281 @@ Please follow this format to give the final result. Generate 10 continuous quest
         - Original question and answer:
             How many repetitive action happend in the input video?
             - Original question: what actions happened in the sequence video?
-            - Original simple answer: As shown in JSON, it is the annotations of this video, that annotate the frame-level labels for each repetitive action.
-    - Original annotation:
-        ```
-        frontraise    train951.mp4    4    6    72    72    132    132    204    204    271
-        ```
+            - Original simple answer: As original annotation shows, it is the annotations of this video, that annotate the frame-level labels for each repetitive action.
+        - Original annotation:
+            ```
+            frontraise    train951.mp4    4    6    72    72    132    132    204    204    271
+            jumpjacks	train1605.mp4	5	15	56	57	99	100	145	146	190	191	227
+            ...
+
 - Output(provided by you):
     ```json
     {
-        "1":{
+        "video name 1":{
+            "1":{
             "Original question": "This is the question provided by me or generated by you",
             "Original answer": "This is the answer you created based on the annotation and the original question",
             "The question with details": "Your generated question, elaborated in depth, which should adhere to the requirements and incorporate more narrative or motivation elements",
             "The answer with details": "Your answer, expanded and detailed, elaborated in depth, which should offer a comprehensive understanding by explaining the context, reasons, scene knowledge, action motivations, or other pertinent information.",
-        },
-        "2":{},
+            },
+            "2":{},
+            ...
+            "5":{},
+       },
+        "video name 2": {},
         ...
-        "5":{},
     }
-
+    ```
     
 ---
+- Question 1.1: 
+    - Objective and additional requirements: 
+        - Generate a question: Create a descriptive question about the progression of the action in the video. Your question should focus on the number of repetitive actions. Do not reference the video name or action class directly in the question.
+        Example: 
+            - How many the action in the video? 
+            - Can you describe the every repetitive action details in the video?
+        - Write an answers based on you've provided the frame level annotations, the original video and some frames extracted from the original video. Please describe the repetitive action in the video as if you have personally watched it. Convey the flow of the action, highlighting the start and end of each repetition and noting any pauses or immediate continuations. For instance, mention how many times the action occurs.
+        - Avoid information leak:
+            Please make sure there is no annotation information present in the generated question. 
+    - Original question and answer:
+        - Original question: your designed essay question.
+        - Original simple answer: As original annotation shows, it is the annotations of this video, that describe each action's start frames and end frames.. 
+    - Original annotation:
+        ```
+        situp	stu2_58.mp4	37	9	52	53	98	98	141	141	195	195	239	239	287	287	333	333	378	378	418	418	453	453	502	503	543	543	601	602	643	643	689	689	741	741	789	789	844	844	884	885	933	934	982	982	1038	1039	1086	1086	1129	1129	1181	1181	1228	1229	1273	1273	1324	1325	1379	1380	1423	1423	1474	1474	1522	1523	1568	1568	1612	1613	1663	1664	1719	1720	1759
+        situp   stu7_57.mp4	43	2	36	36	79	79	121	121	163	163	210	210	250	251	293	294	335	336	382	382	420	421	465	466	509	509	553	554	596	597	641	641	683	684	727	728	770	771	812	813	854	856	899	900	938	940	984	986	1024	1024	1068	1069	1109	1109	1150	1151	1192	1192	1231	1232	1273	1274	1315	1316	1354	1355	1395	1397	1437	1438	1476	1477	1515	1519	1558	1558	1599	1601	1640	1641	1682	1683	1722	1723	1761	1761	1799 
+        ```
+    - Output(provided by you):
+      ```json
+      {
+          "video name 1":{
+              "1":{
+              "Original question": "This is the question provided by me or generated by you",
+              "Original answer": "This is the answer you created based on the annotation and the original question",
+              "The question with details": "Your generated question, elaborated in depth, which should adhere to the requirements and incorporate more narrative or motivation elements",
+              "The answer with details": "Your answer, expanded and detailed, elaborated in depth, which should offer a comprehensive understanding by explaining the context, reasons, scene knowledge, action motivations, or other pertinent information.",
+              },
+              "2":{},
+              ...
+              "5":{},
+         },
+          "video name 2": {},
+          ...
+      }
+      ```
+
+
 - Question 1.2: 
     - Objective and additional requirments: 
         - Generate a question: Create a descriptive question about the progression of the action in the video. Your question should focus on the nature of the action's sequence and whether there are any pauses or seamless transitions between repetitions. Do not reference the video name or action class directly in the question.
-        Example: How does the action in the video progress? Are there clear separations between repetitions or do they seem to seamlessly flow into one another?
-        - Write an answers based on you've provided the frame level annatations, the original video and some frames extracted from the original video. Please describe the repetitive action in the video as if you have personally watched it. Convey the flow of the action, highlighting the start and end of each repetition and noting any pauses or immediate continuations. For instance, mention how many times the action occurs.
-        - Aviod information leak:
+        Example: 
+            - Is there any anomaly case when the human do the repetitive actions ? 
+            - What interruption happened during the actions? 
+        - Some known anomaly cases：
+            - irrelevant actions, such as speaking and relaxation
+            - interruption during actions
+            - inconsistent action cycles
+            - long video that consists of numerical action cycles
+        - Write an answers based on you've provided the frame level annotations, the original video and some frames extracted from the original video. Please describe the repetitive action in the video as if you have personally watched it. Convey the flow of the action, highlighting the start and end of each repetition and noting any pauses or immediate continuations. For instance, mention how many times the action occurs.
+        - Avoid information leak:
             Please make sure there is no annotation information present in the generated question. 
-    - Original question: your designed essay question.
-    - Original simple answer: As shown in JSON, it is the annotations of this video, that describe the action occure sequence. 
-- Original annotation:
-    ```
-    situp	stu2_58.mp4	37	9	52	53	98	98	141	141	195	195	239	239	287	287	333	333	378	378	418	418	453	453	502	503	543	543	601	602	643	643	689	689	741	741	789	789	844	844	884	885	933	934	982	982	1038	1039	1086	1086	1129	1129	1181	1181	1228	1229	1273	1273	1324	1325	1379	1380	1423	1423	1474	1474	1522	1523	1568	1568	1612	1613	1663	1664	1719	1720	1759
-    ```
-
+        - The number of Q&A pairs: 
+            - Based on you given two videos' annotations, you should provide 5 uninterrupted Q&A pairs for one video and its annotation. Hence, you should generate 10 Q&A pairs for once input.
+        - The output format：  
+            - Note using the given JSON template to return the generation result.
+    - Original question and answer:
+      - Original question: your designed essay question.
+      - Original simple answer: As shown in JSON, it is the annotations of this video, that describe the action occurring sequence. 
+    - Original annotation:
+        ```
+        situp	stu2_58.mp4	37	9	52	53	98	98	141	141	195	195	239	239	287	287	333	333	378	378	418	418	453	453	502	503	543	543	601	602	643	643	689	689	741	741	789	789	844	844	884	885	933	934	982	982	1038	1039	1086	1086	1129	1129	1181	1181	1228	1229	1273	1273	1324	1325	1379	1380	1423	1423	1474	1474	1522	1523	1568	1568	1612	1613	1663	1664	1719	1720	1759
+        situp   stu7_57.mp4	43	2	36	36	79	79	121	121	163	163	210	210	250	251	293	294	335	336	382	382	420	421	465	466	509	509	553	554	596	597	641	641	683	684	727	728	770	771	812	813	854	856	899	900	938	940	984	986	1024	1024	1068	1069	1109	1109	1150	1151	1192	1192	1231	1232	1273	1274	1315	1316	1354	1355	1395	1397	1437	1438	1476	1477	1515	1519	1558	1558	1599	1601	1640	1641	1682	1683	1722	1723	1761	1761	1799 
+        ```
+    - Output(provided by you):
+      ```json
+      {
+          "video name 1":{
+              "1":{
+              "Original question": "This is the question provided by me or generated by you",
+              "Original answer": "This is the answer you created based on the annotation and the original question",
+              "The question with details": "Your generated question, elaborated in depth, which should adhere to the requirements and incorporate more narrative or motivation elements",
+              "The answer with details": "Your answer, expanded and detailed, elaborated in depth, which should offer a comprehensive understanding by explaining the context, reasons, scene knowledge, action motivations, or other pertinent information.",
+              },
+              "2":{},
+              ...
+              "5":{},
+         },
+          "video name 2": {},
+          ...
+      }
+      ```
+    
 
 - Question 1.3: 
-    - Objective and additional requirments: 
+    - Objective and additional requirements: 
         - Generate a question: Create a descriptive question about the progression of the action in the video. Your question should focus on the nature of the action's sequence and whether there are any pauses or seamless transitions between repetitions. Do not reference the video name or action class directly in the question.
-        Example: How does the action in the video progress? Are there clear separations between repetitions or do they seem to seamlessly flow into one another?
-        - Write an answers based on you've provided the frame level annatations, the original video and some frames extracted from the original video. Please describe the repetitive action in the video as if you have personally watched it. Convey the flow of the action, highlighting the start and end of each repetition and noting any pauses or immediate continuations. For instance, mention how many times the action occurs, the starting and ending frames of each repetition, and any notable gaps or immediate continuations. 
-        - Aviod information leak:
-            Please make sure there is no annotation information present in the generated question. 
-    - Original question: your designed essay question.
-    - Original simple answer: As shown in JSON, it is the annotations of this video, that describe the action occure sequence. 
-- Original annotation:
+            - Example: 
+              - How does the action in the video progress? 
+              - Are there clear separations between repetitions
+              - Do they seem to seamlessly flow into one another?
+        - Write an answers based on you've provided the frame level annotations, the original video and some frames extracted from the original video. Please describe the repetitive action in the video as if you have personally watched it. Convey the flow of the action, highlighting the start and end of each repetition and noting any pauses or immediate continuations. For instance, mention how many times the action occurs, the starting and ending frames of each repetition, and any notable gaps or immediate continuations. 
+        - Avoid information leak: Please make sure there is no annotation information present in the generated question. 
+        - The number of Q&A pairs: 
+            - Based on you given two videos' annotations, you should provide 5 uninterrupted Q&A pairs for one video and its annotation. Hence, you should generate 10 Q&A pairs for once input.
+        - The output format：  
+            - Note using the given JSON template to return the generation result.
+    - Original question and answer:
+        - Original question: your designed essay question.
+        - Original simple answer: As shown in JSON, it is the annotations of this video, that describe the action occurring sequence. 
+    - Original annotation:
+      ```
+      situp	stu2_58.mp4	37	9	52	53	98	98	141	141	195	195	239	239	287	287	333	333	378	378	418	418	453	453	502	503	543	543	601	602	643	643	689	689	741	741	789	789	844	844	884	885	933	934	982	982	1038	1039	1086	1086	1129	1129	1181	1181	1228	1229	1273	1273	1324	1325	1379	1380	1423	1423	1474	1474	1522	1523	1568	1568	1612	1613	1663	1664	1719	1720	1759
+      situp   stu7_57.mp4	43	2	36	36	79	79	121	121	163	163	210	210	250	251	293	294	335	336	382	382	420	421	465	466	509	509	553	554	596	597	641	641	683	684	727	728	770	771	812	813	854	856	899	900	938	940	984	986	1024	1024	1068	1069	1109	1109	1150	1151	1192	1192	1231	1232	1273	1274	1315	1316	1354	1355	1395	1397	1437	1438	1476	1477	1515	1519	1558	1558	1599	1601	1640	1641	1682	1683	1722	1723	1761	1761	1799 
+      ```
+
+    - Output(provided by you):
+      ```json
+      {
+          "video name 1":{
+              "1":{
+              "Original question": "This is the question provided by me or generated by you",
+              "Original answer": "This is the answer you created based on the annotation and the original question",
+              "The question with details": "Your generated question, elaborated in depth, which should adhere to the requirements and incorporate more narrative or motivation elements",
+              "The answer with details": "Your answer, expanded and detailed, elaborated in depth, which should offer a comprehensive understanding by explaining the context, reasons, scene knowledge, action motivations, or other pertinent information.",
+              },
+              "2":{},
+              ...
+              "5":{},
+         },
+          "video name 2": {},
+          ...
+      }
+      ```
+
+[//]: # (- Question 2.1: )
+
+[//]: # (    - Objective and additional requirements: )
+
+[//]: # (        - Generate a question: Create a descriptive question about the progression of the action in the video. Your question should focus on the nature of the action's sequence and whether there are any pauses or seamless transitions between repetitions. Do not reference the video name or action class directly in the question.)
+
+[//]: # (        Example: How does the action in the video progress? Are there clear separations between repetitions or do they seem to seamlessly flow into one another?)
+
+[//]: # (        - Write an answers based on you've provided the frame level annotations, the original video and some frames extracted from the original video. Please describe the repetitive action in the video as if you have personally watched it. Convey the flow of the action, highlighting the start and end of each repetition and noting any pauses or immediate continuations. For instance, mention how many times the action occurs, the starting and ending frames of each repetition, and any notable gaps or immediate continuations. )
+
+[//]: # (        - Avoid information leak:)
+
+[//]: # (            Please make sure there is no annotation information present in the generated question. )
+
+[//]: # (    - Original question and answer:)
+
+[//]: # (      - Original question: your designed essay question.)
+
+[//]: # (      - Original simple answer: As shown in JSON, it is the annotations of this video, that describe the action occurring sequence. )
+
+[//]: # (        - Original annotation:)
+
+[//]: # (            ```)
+
+[//]: # (            situp	stu2_58.mp4	37	9	52	53	98	98	141	141	195	195	239	239	287	287	333	333	378	378	418	418	453	453	502	503	543	543	601	602	643	643	689	689	741	741	789	789	844	844	884	885	933	934	982	982	1038	1039	1086	1086	1129	1129	1181	1181	1228	1229	1273	1273	1324	1325	1379	1380	1423	1423	1474	1474	1522	1523	1568	1568	1612	1613	1663	1664	1719	1720	1759)
+
+[//]: # (            situp   stu7_57.mp4	43	2	36	36	79	79	121	121	163	163	210	210	250	251	293	294	335	336	382	382	420	421	465	466	509	509	553	554	596	597	641	641	683	684	727	728	770	771	812	813	854	856	899	900	938	940	984	986	1024	1024	1068	1069	1109	1109	1150	1151	1192	1192	1231	1232	1273	1274	1315	1316	1354	1355	1395	1397	1437	1438	1476	1477	1515	1519	1558	1558	1599	1601	1640	1641	1682	1683	1722	1723	1761	1761	1799 )
+
+[//]: # (            ```)
+
+
+- Question 2.1 : 
+    - Objective: Create questions and answers based on you've provided the action sequences annatations, images, image's captions, or video summaries extracted from the original video. Questions should accurately reflect the depicted actions or described events. 
+        - Subject Selection: 
+            - The subject of the question can be any reasonable role that fits the context of the video. Examples include but are not limited to: "instructor", "student", "boy".
+            - Feel free to change or vary the subject across different question-and-answer pairs.
+        - Action Selection: 
+            - You could craft one or more anomaly case or repetitive action class from the provided annotations. After choose the case, make sure to provide clarity by adding slight variations or contexts.
+            - You also could choose or create related anomaly case or repetitive action class based on your knowledge, scene information, or others. But you need to ensure the generated action phrase is reasonable.
+        - Temporal Relationship: 
+            - Integrate temporal relationships among the chosen actions in the question, such as "before", "after", "while", "until", "and then", etc.
+            - Ensure clarity in the sequence, especially when the number of actions exceeds two
+        - Flexibility: Your questions should highlight the repetitive nature of the single action class in the video. While formulating questions, ensure they capture the essence and frequency of the depicted action. Here are some suggested formats:
+            - Counting Repetitions: Emphasize the number of times the action occurred.
+                - Example: "Did the [chosen subject] perform [action A] more than [n times] in the video?" 
+            - Intervals Between Actions: If there are noticeable pauses or intervals between repetitions, highlight this.
+                - Example: "After every [action A], did the [chosen subject] pause briefly before repeating?"
+            - Starting and Ending: Draw attention to the beginning or conclusion of the repetitive action.
+                - Example: "Did the video begin with the [chosen subject] immediately performing [action A]?"
+                - Example: "By the end of the video, was the [chosen subject] still continuously doing [action A]?"
+        - Answer: 
+            - If you want to create judgement question. Please ensure the response is No or Yes with the same probability.  Note that the probability of each response, i.e. Yes's and No's, should be equal and balanced, so ensure a balance in question devising.
+        - The number of Q&A pairs: 
+            - Based on you given two videos' annotations, you should provide 5 uninterrupted Q&A pairs for one video and its annotation. Hence, you should generate 10 Q&A pairs for once input.
+        - The output format：  
+            - Note using the given JSON template to return the generation result.
+  - Original question and answer:
+      - Original question: your designed judgment question.
+      - Original simple answer: As original annotation shows, it is the annotations of this video, that describe the action occurring sequence. Your answer do not need to contain all original annotation.
+
+  - Original annotation:
     ```
     situp	stu2_58.mp4	37	9	52	53	98	98	141	141	195	195	239	239	287	287	333	333	378	378	418	418	453	453	502	503	543	543	601	602	643	643	689	689	741	741	789	789	844	844	884	885	933	934	982	982	1038	1039	1086	1086	1129	1129	1181	1181	1228	1229	1273	1273	1324	1325	1379	1380	1423	1423	1474	1474	1522	1523	1568	1568	1612	1613	1663	1664	1719	1720	1759
+    situp   stu7_57.mp4	43	2	36	36	79	79	121	121	163	163	210	210	250	251	293	294	335	336	382	382	420	421	465	466	509	509	553	554	596	597	641	641	683	684	727	728	770	771	812	813	854	856	899	900	938	940	984	986	1024	1024	1068	1069	1109	1109	1150	1151	1192	1192	1231	1232	1273	1274	1315	1316	1354	1355	1395	1397	1437	1438	1476	1477	1515	1519	1558	1558	1599	1601	1640	1641	1682	1683	1722	1723	1761	1761	1799 
     ```
+
+  - Output(provided by you):
+  ```json
+  {
+      "video name 1":{
+          "1":{
+          "Original question": "This is the question provided by me or generated by you",
+          "Original answer": "This is the answer you created based on the annotation and the original question",
+          "The question with details": "Your generated question, elaborated in depth, which should adhere to the requirements and incorporate more narrative or motivation elements",
+          "The answer with details": "Your answer, expanded and detailed, elaborated in depth, which should offer a comprehensive understanding by explaining the context, reasons, scene knowledge, action motivations, or other pertinent information.",
+          },
+          "2":{},
+          ...
+          "5":{},
+     },
+      "video name 2": {},
+      ...
+  }
+  ```
+
+- Question 3 :
+    - Objective: This question aims to facilitate a benchmark test. Using the provided videos, benchmark data, and
+      evaluation metrics, create questions and answers. Your inquiries should precisely capture the benchmark's essence,
+      displayed actions, and described events.
+        - Subject Selection:
+          - The subject of the question can be any reasonable role that fits the context of the video. Examples include but are not limited to: "instructor", "student", "boy".
+          - Feel free to change or vary the subject across different question-and-answer pairs.
+        - The number of Q&A pairs:
+            - Based on you given two videos' annotations, you should provide 5 uninterrupted Q&A pairs for one video and its annotation. Hence, you should generate 10 Q&A pairs for once input.
+        - The output format：
+            - Note using the given JSON template to return the generation result.
+        - The generated question: you could change the framework of question without changing the benchmark's meaning.
+        - The generated answer: Only provide a number of repetitive actions within a video without any additional.
+    - Original question and answer:
+        - Original question: How many repetitive action happened in the video?
+        - Original simple answer: Provide a number of repetitive actions within a video without any additional
+          commentary. As original annotation shows, it is the annotations of this video, that describe the action
+          occurring sequence. Your answer do not need to contain all original annotation.
+    - Original annotation:
+  ```
+  situp	stu2_58.mp4	37	9	52	53	98	98	141	141	195	195	239	239	287	287	333	333	378	378	418	418	453	453	502	503	543	543	601	602	643	643	689	689	741	741	789	789	844	844	884	885	933	934	982	982	1038	1039	1086	1086	1129	1129	1181	1181	1228	1229	1273	1273	1324	1325	1379	1380	1423	1423	1474	1474	1522	1523	1568	1568	1612	1613	1663	1664	1719	1720	1759
+  situp   stu7_57.mp4	43	2	36	36	79	79	121	121	163	163	210	210	250	251	293	294	335	336	382	382	420	421	465	466	509	509	553	554	596	597	641	641	683	684	727	728	770	771	812	813	854	856	899	900	938	940	984	986	1024	1024	1068	1069	1109	1109	1150	1151	1192	1192	1231	1232	1273	1274	1315	1316	1354	1355	1395	1397	1437	1438	1476	1477	1515	1519	1558	1558	1599	1601	1640	1641	1682	1683	1722	1723	1761	1761	1799 
+  ```
+
+  - Output(provided by you):
+  ```json
+  {
+  "video name 1":{
+    "1":{
+    "Original question": "How many repetitive action happened in the video?",
+    "Original answer": "37",
+    "The question with details": "Your generated question, elaborated in depth, which should adhere to the requirements and incorporate more narrative or motivation elements",
+    "The answer with details": "Your answer, expanded and detailed, elaborated in depth, which should offer a comprehensive understanding by explaining the context, reasons, scene knowledge, action motivations, or other pertinent information.",
+    },
+    "2":{},
+    ...
+    "5":{},
+   },
+  "video name 2": {},
+  ...
+  }
+  ```
