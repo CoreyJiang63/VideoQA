@@ -1,0 +1,904 @@
+{
+"Question 1.1":
+    {
+        "stu1_0.mp4": {
+            "1": {
+                "Original question": "In the observed footage, can you discern the frequency of the primary activity?",
+                "Original answer": "Based on the annotation, the primary activity occurs 4 times.",
+                "The question with details": "While watching a training session, can you estimate how many times the individual engages in the vigorous activity, considering the effort and rest intervals?",
+                "The answer with details": "Observing the training session, the individual engages in the vigorous activity four times. Each time, they start with intense energy, pushing through before taking a brief moment to catch their breath. The cycle repeats, maintaining a consistent rhythm."
+            },
+            "2": {
+                "Original question": "Does the person in the video repeat the same physical activity multiple times?",
+                "Original answer": "Yes, the activity is repeated multiple times.",
+                "The question with details": "In the exercise video, does the athlete demonstrate consistency by repeating the same vigorous motion several times?",
+                "The answer with details": "Yes, the athlete demonstrates remarkable consistency and endurance. They repeat the intense physical activity four times, each burst of energy followed by a brief but well-deserved rest."
+            },
+            "3": {
+                "Original question": "Can you identify the intervals of active performance in the video?",
+                "Original answer": "The intervals of active performance occur four times.",
+                "The question with details": "During the workout session, can you pinpoint the specific intervals when the participant is actively engaged in the strenuous exercise?",
+                "The answer with details": "In the workout session, the participant is actively engaged in the strenuous exercise during four distinct intervals. These intervals are marked by vigorous motion and focused exertion, separated by brief periods of rest."
+            },
+            "4": {
+                "Original question": "Is there a repetitive pattern of exertion and rest in the video?",
+                "Original answer": "Yes, there is a repetitive pattern of exertion and rest.",
+                "The question with details": "Observing the training routine, can you notice a structured pattern where the participant alternates between phases of intense exertion and rest?",
+                "The answer with details": "Indeed, in the training routine, there's a clear structured pattern. The participant alternates between intense exertion and rest, repeating this cycle four times. Each phase of exertion is followed by a moment to recuperate."
+            },
+            "5": {
+                "Original question": "In the video, does the participant engage in the same activity repeatedly?",
+                "Original answer": "Yes, the participant engages in the same activity repeatedly.",
+                "The question with details": "In the fitness session captured in the video, does the participant demonstrate dedication by repeatedly engaging in the same strenuous activity?",
+                "The answer with details": "In the fitness session, the participant demonstrates remarkable dedication and stamina. They engage in the same strenuous activity repeatedly, completing four cycles of intense motion and brief rest."
+            }
+        },
+        "stu5_1.mp4": {
+            "1": {
+                "Original question": "Is there a recurrent action pattern evident in the video?",
+                "Original answer": "Yes, there is a recurrent action pattern.",
+                "The question with details": "While observing the training session, can you detect a consistent pattern of action that is repeated numerous times?",
+                "The answer with details": "In the training session, there's a distinct and consistent pattern of action. The individual repeats a specific strenuous activity 17 times, showcasing endurance and determination."
+            },
+            "2": {
+                "Original question": "Does the video showcase a series of repetitive motions?",
+                "Original answer": "Yes, the video showcases a series of repetitive motions.",
+                "The question with details": "In the exercise video, does the participant demonstrate a high level of stamina by executing a series of repetitive motions?",
+                "The answer with details": "Yes, in the exercise video, the participant exhibits remarkable stamina. They execute a series of repetitive motions 17 times, maintaining a steady pace throughout."
+            },
+            "3": {
+                "Original question": "Can you identify multiple instances of the same activity in the video?",
+                "Original answer": "Yes, multiple instances of the same activity are identifiable.",
+                "The question with details": "During the fitness routine, are you able to identify multiple instances where the participant engages in the same demanding activity?",
+                "The answer with details": "During the fitness routine, it's evident that the participant engages in the same demanding activity multiple times. They repeat this strenuous action 17 times, displaying impressive consistency and strength."
+            },
+            "4": {
+                "Original question": "Is there a repetitive exercise sequence in the video?",
+                "Original answer": "Yes, there is a repetitive exercise sequence.",
+                "The question with details": "In the workout footage, does the individual follow a repetitive exercise sequence, demonstrating endurance and regularity?",
+                "The answer with details": "In the workout footage, the individual indeed follows a repetitive exercise sequence. They perform the same challenging activity 17 times, exemplifying endurance and regularity in their routine."
+            },
+            "5": {
+                "Original question": "Does the video capture repeated cycles of a particular exercise?",
+                "Original answer": "Yes, the video captures repeated cycles of a particular exercise.",
+                "The question with details": "In the recorded training session, can you observe the participant performing repeated cycles of a particular exercise, indicating a structured routine?",
+                "The answer with details": "In the recorded training session, the participant is observed performing repeated cycles of a particular exercise. They complete 17 cycles, indicating a structured and disciplined routine."
+            }
+        },
+        "stu10_0.mp4": {
+            "1": {
+                "Original question": "How many times does the repetitive motion occur in the video?",
+                "Original answer": "The repetitive motion occurs 23 times in the video.",
+                "The question with details": "Can you estimate the frequency of the repeated action observed in the video, noting its consistency and any variations in rhythm?",
+                "The answer with details": "The repeated action in the video occurs 23 times. Each repetition is marked by a vigorous motion, followed by a brief pause. The rhythm is mostly consistent, with slight variations in speed and intensity during some repetitions."
+            },
+            "2": {
+                "Original question": "Can you describe the repetitive action pattern in the video?",
+                "Original answer": "The video shows a repetitive action pattern that occurs 23 times.",
+                "The question with details": "Could you elaborate on the nature of the repetitive action in the video, including how many times it occurs and any notable changes in its execution?",
+                "The answer with details": "The video features a repetitive action that occurs 23 times. Each cycle starts energetically and ends with a momentary pause. While the action remains consistent, there are subtle changes in execution, such as variations in speed or intensity in certain cycles."
+            },
+            "3": {
+                "Original question": "Is the action in the video repeated several times, and if so, how many?",
+                "Original answer": "Yes, the action is repeated several times, specifically 23 times.",
+                "The question with details": "In the video, is there a discernible pattern of a certain action being repeated multiple times, and can you quantify these repetitions?",
+                "The answer with details": "In the video, there's a clear pattern of a certain action being repeated multiple times, specifically 23 times. Each repetition is executed with precision and ends with a brief pause before the next begins, forming a rhythmical sequence."
+            },
+            "4": {
+                "Original question": "How frequently does the main action recur in the video?",
+                "Original answer": "The main action recurs 23 times in the video.",
+                "The question with details": "Could you detail the recurrence rate of the main action in the video, highlighting any pauses or shifts in execution?",
+                "The answer with details": "The main action in the video recurs 23 times. Each recurrence is marked by a robust movement, followed by a brief pause. The execution is consistent, though some variations in intensity and pace are noticeable in certain repetitions."
+            },
+            "5": {
+                "Original question": "In the video, how often is the specific action repeated?",
+                "Original answer": "The specific action is repeated 23 times in the video.",
+                "The question with details": "Can you analyze how often the specific action is repeated in the video and comment on any changes in its execution over time?",
+                "The answer with details": "The specific action in the video is repeated 23 times. Each repetition is executed with vigor and ends with a pause. Over time, slight variations in the execution, such as changes in speed or intensity, are observable in some repetitions."
+            }
+        },
+        "stu8_0.mp4": {
+            "1": {
+                "Original question": "How many times does the participant repeat the action in the video?",
+                "Original answer": "The participant repeats the action 62 times in the video.",
+                "The question with details": "Can you quantify the number of times the action is repeated by the participant in the video, noting any changes in rhythm or intensity?",
+                "The answer with details": "The participant repeats the action 62 times in the video. Each repetition is marked by dynamic movement, followed by a brief interval. The rhythm is mostly steady, though there are occasional changes in intensity or speed during some repetitions."
+            },
+            "2": {
+                "Original question": "Can you describe the repetition of the action in the video?",
+                "Original answer": "The video depicts the action being repeated 62 times.",
+                "The question with details": "Could you provide insights into the repetition pattern of the action in the video, including the frequency and any variations in its execution?",
+                "The answer with details": "The video showcases a repetition pattern where the action is repeated 62 times. Each cycle commences energetically and concludes with a short pause. While the action remains generally consistent, there are subtle shifts in its execution, such as variations in pace or force in certain cycles."
+            },
+            "3": {
+                "Original question": "Is the action in the video repeated multiple times, and how many times if so?",
+                "Original answer": "Yes, the action is repeated multiple times, precisely 62 times.",
+                "The question with details": "In the video, is there an observable pattern of a particular action being repeated several times, and could you quantify these repetitions?",
+                "The answer with details": "In the video, there's an evident pattern of a particular action being repeated several times, precisely 62 times. Each repetition is carried out with accuracy and is followed by a brief pause, creating a rhythmic sequence."
+            },
+            "4": {
+                "Original question": "How often does the primary action recur in the video?",
+                "Original answer": "The primary action recurs 62 times in the video.",
+                "The question with details": "Could you elucidate the recurrence frequency of the primary action in the video, highlighting any pauses or shifts in execution?",
+                "The answer with details": "The primary action in the video recurs 62 times. Each occurrence is characterized by a vigorous movement, succeeded by a short interval. The execution is generally consistent, though some variations in force and pace are noticeable in certain repetitions."
+            },
+            "5": {
+                "Original question": "How frequently is the specific action repeated in the video?",
+                "Original answer": "The specific action is repeated 62 times in the video.",
+                "The question with details": "Can you analyze the frequency of repetition of the specific action in the video and comment on any variations in its execution?",
+                "The answer with details": "The specific action in the video is repeated 62 times. Each repetition is performed with enthusiasm and concludes with a pause. Over time, slight changes in the execution, such as alterations in speed or strength, can be observed in some repetitions."
+            }
+        },
+        "stu5_0.mp4": {
+            "1": {
+                "Original question": "How many repetitive actions are there in the video?",
+                "Original answer": "Based on the frame level annotations, the video contains 49 repetitive actions.",
+                "The question with details": "In the video, can you discern and count the number of times a particular motion is repeated? Focus on the consistency and flow of the movement.",
+                "The answer with details": "Observing the video closely, it's apparent that the action is repeated 49 times. Each repetition is marked by a distinct start and end, where the movement begins with vigor and concludes with a momentary pause before the next repetition commences."
+            },
+            "2": {
+                "Original question": "Can you describe every repetitive action detail in the video?",
+                "Original answer": "Each action starts and ends at specific frames, clearly demarcating the repetitions.",
+                "The question with details": "Could you provide a detailed description of the repetitive action seen in the video, highlighting the nuances and distinct phases of each repetition?",
+                "The answer with details": "In each repetition of the action, there's a rhythmic pattern. The motion starts energetically, reaches a peak, and then gradually slows down towards the end, only to be followed by a brief pause before the next cycle starts."
+            },
+            "3": {
+                "Original question": "Does the repetitive action in the video exhibit consistency throughout?",
+                "Original answer": "Yes, the repetitive action maintains consistency across all repetitions.",
+                "The question with details": "Watching the video, do you notice any fluctuations in the intensity or rhythm of the repetitive action, or does it maintain a steady pace throughout?",
+                "The answer with details": "The action, while repetitive, showcases remarkable consistency. The intensity and rhythm are maintained throughout the 49 repetitions, displaying an impressive level of endurance and control."
+            },
+            "4": {
+                "Original question": "Is there any notable variation in the repetitions of the action in the video?",
+                "Original answer": "No, there is no significant variation; the repetitions are consistent.",
+                "The question with details": "As you observe the video, can you identify any significant changes or variations in the way the action is performed in different repetitions?",
+                "The answer with details": "Throughout the video, the repetitions are executed with remarkable consistency. There's no significant variation observed; each cycle of the action mirrors the others, reflecting a disciplined and well-practiced routine."
+            },
+            "5": {
+                "Original question": "Does the video show a gradual increase in the intensity of the repetitive action?",
+                "Original answer": "No, the intensity remains consistent throughout the repetitions.",
+                "The question with details": "While watching the video, can you perceive any gradual escalation or decrease in the intensity or speed of the repetitive action as it progresses?",
+                "The answer with details": "The video portrays a steady pace and intensity throughout the repetitions. There's no discernible escalation or decrease in vigor; the performer maintains a consistent tempo from start to finish."
+            }
+        },
+        "stu9_0.mp4": {
+            "1": {
+                "Original question": "How many times is the action repeated in the video?",
+                "Original answer": "The action is repeated 44 times in the video.",
+                "The question with details": "Could you count the number of repetitions of the main action observed in the video, paying attention to the rhythm and sequence?",
+                "The answer with details": "Upon careful observation, it's evident that the main action is repeated 44 times. Each repetition is distinct, following a rhythmic pattern that's maintained throughout the video."
+            },
+            "2": {
+                "Original question": "Can you elaborate on the details of each repetitive action in the video?",
+                "Original answer": "Each repetition is defined by specific start and end frames, delineating the actions clearly.",
+                "The question with details": "Please provide a detailed breakdown of the repetitive action in the video, focusing on the subtleties and phases within each repetition.",
+                "The answer with details": "The repetitive action in the video is quite precise. Each cycle begins with a burst of energy, progresses through a well-defined motion, and concludes with a brief pause. This pattern is consistently followed in all 44 repetitions."
+            },
+            "3": {
+                "Original question": "Is there a uniform pace maintained in the repetitive action throughout the video?",
+                "Original answer": "Yes, the pace of the repetitive action is uniform throughout the video.",
+                "The question with details": "As you watch the video, do you observe a consistent pace in the repetitive action, or are there variations in speed or intensity?",
+                "The answer with details": "The video shows a uniform pace in the repetitive action. From the first to the last repetition, the intensity and speed are meticulously maintained, indicating a well-practiced and controlled performance."
+            },
+            "4": {
+                "Original question": "Are there any noticeable changes in the way the action is repeated in the video?",
+                "Original answer": "No, the repetitions are consistent without noticeable changes.",
+                "The question with details": "In your observation of the video, can you identify any changes or deviations in the repetitions of the action, or do they remain identical throughout?",
+                "The answer with details": "The video reveals a high level of consistency in the repetitions. Each cycle of the action is a mirror image of the others, with no noticeable deviations or changes, showcasing remarkable precision."
+            },
+            "5": {
+                "Original question": "Does the intensity of the repetitive action fluctuate as the video progresses?",
+                "Original answer": "No, the intensity is steady throughout the repetitions.",
+                "The question with details": "While viewing the video, can you detect any fluctuation in the intensity or vigor of the repetitive action from start to finish?",
+                "The answer with details": "The repetitive action in the video maintains a steady intensity. There's no apparent fluctuation; the performer exhibits consistent energy and focus in each of the 44 repetitions."
+            }
+        },
+        "stu1_1.mp4": {
+            "1": {
+                "Original question": "How many times is the specific action performed in the video?",
+                "Original answer": "The action is performed 23 times in the video.",
+                "The question with details": "Can you observe and count how many times the main action is repeated in the video, noting any variations in its execution?",
+                "The answer with details": "Upon closely watching the video, it's clear that the main action is performed 23 times. Each repetition begins with an energetic initiation, maintains a steady rhythm, and concludes with a brief pause before the next repetition. There are subtle variations in the execution, adding a dynamic quality to the overall sequence."
+            },
+            "2": {
+                "Original question": "What details can you provide about the repetitive actions in the video?",
+                "Original answer": "The repetitive actions are consistent, with each starting and ending at specific frames.",
+                "The question with details": "Could you describe the characteristics and nuances of each repetitive action in the video, including any pauses or changes in intensity?",
+                "The answer with details": "Each repetitive action in the video starts with a burst of energy, followed by a fluid motion that gradually slows down before the next repetition. The pauses between repetitions vary slightly, creating a rhythm that feels both consistent and dynamic. The intensity remains relatively constant, though there are moments of slight fluctuation that add to the action's complexity."
+            },
+            "3": {
+                "Original question": "How does the action evolve throughout the video?",
+                "Original answer": "The action evolves with variations in intensity and pauses.",
+                "The question with details": "In observing the entire video, can you identify any changes or evolution in the way the action is performed from start to finish?",
+                "The answer with details": "Throughout the video, the action evolves subtly. It starts with high energy, which is consistently maintained, but there are slight variations in the intensity and duration of each repetition. Towards the middle, the pauses become slightly more pronounced, indicating a shift in the performer's tempo. By the end, the action returns to its initial brisk pace, completing the cycle."
+            },
+            "4": {
+                "Original question": "Are there any notable differences in the repetitions?",
+                "Original answer": "Yes, there are subtle differences in execution and pacing.",
+                "The question with details": "While watching the video, did you notice any particular differences or unique aspects in how some of the repetitions are performed compared to others?",
+                "The answer with details": "Yes, upon close observation, there are notable differences in some repetitions. A few are executed with slightly more vigor, while others have a marginally longer pause between them. These variations add a sense of unpredictability and keep the viewer engaged, wondering if the next repetition will follow the pattern or introduce a new variation."
+            },
+            "5": {
+                "Original question": "Does the action maintain a consistent rhythm throughout the video?",
+                "Original answer": "The action mostly maintains a consistent rhythm, with minor variations.",
+                "The question with details": "In your observation of the video, did the action maintain a consistent rhythm, or were there fluctuations in the tempo?",
+                "The answer with details": "While the action largely maintains a consistent rhythm, there are subtle fluctuations in the tempo. These are most noticeable in the middle section of the video, where the pauses slightly lengthen, altering the established rhythm. However, these fluctuations are minor, and the overall consistency of the rhythm is maintained."
+            }
+        },
+        "stu5_2.mp4": {
+            "1": {
+                "Original question": "Can you count and describe the number of repetitive movements in the video?",
+                "Original answer": "The video contains 40 repetitive movements.",
+                "The question with details": "In watching the video, how many times do you observe the repetitive movement occurring, and can you describe the flow and tempo of these repetitions?",
+                "The answer with details": "The video showcases the repetitive movement occurring 40 times. Each repetition has a distinct start and end, with a brisk initiation, a consistent tempo during execution, and a short pause before the next begins. The flow of action is smooth, with each repetition mirroring the previous ones in terms of speed and intensity, maintaining a rhythmic and mesmerizing pattern throughout."
+            },
+            "2": {
+                "Original question": "What can you tell about the details of each repetition in the video?",
+                "Original answer": "Each repetition has specific start and end frames, indicating consistent execution.",
+                "The question with details": "Could you delve into the finer points of each repetition observed in the video, focusing on aspects like pacing, intensity, and any brief halts?",
+                "The answer with details": "Every repetition in the video is executed with precision. They begin sharply, proceed at a steady pace, and conclude with a moment of stillness before the next starts. The intensity is uniform across the repetitions, but there's a subtle ebb and flow in the pacing, which adds a layer of complexity. The brief halts between repetitions serve as a reset, allowing for a moment of anticipation before the action resumes."
+            },
+            "3": {
+                "Original question": "Does the intensity of the action change over time?",
+                "Original answer": "Yes, there are slight changes in intensity.",
+                "The question with details": "As you watched the video, did you notice any variations in the intensity of the action across different repetitions?",
+                "The answer with details": "Throughout the video, the intensity of the action does exhibit slight variations. In the initial repetitions, the action is performed with robust energy. Midway through, there's a noticeable, albeit subtle, decrease in intensity, lending a sense of ebb and flow to the overall performance. As the video progresses, the intensity picks up again, bringing a renewed vigor to the concluding repetitions."
+            },
+            "4": {
+                "Original question": "Is there a consistent rhythm maintained in the action?",
+                "Original answer": "The action mostly maintains a consistent rhythm.",
+                "The question with details": "In your observation, did the action in the video maintain a consistent rhythm throughout, or were there noticeable changes?",
+                "The answer with details": "For the most part, the action maintains a consistent rhythm. Each repetition follows a similar tempo, contributing to a sense of continuity. However, there are moments where the rhythm slightly shifts, particularly in the pauses between repetitions, which vary in length. These changes, while not drastic, add an element of unpredictability to the rhythm."
+            },
+            "5": {
+                "Original question": "Are there any pauses or breaks in the action?",
+                "Original answer": "Yes, there are pauses between repetitions.",
+                "The question with details": "While viewing the video, did you observe any pauses or breaks in the action, and how did they influence the overall flow?",
+                "The answer with details": "Yes, there are pauses between the repetitions, which play a significant role in the video's rhythm. These pauses vary in duration, with some being barely perceptible and others more pronounced. They provide a momentary break in the action, allowing for anticipation to build before the next repetition. These pauses contribute to the dynamic nature of the performance, adding depth to the overall flow."
+            }
+        },
+        "stu4_0.mp4": {
+            "1": {
+                "Original question": "How many times does the repetitive action occur in the video?",
+                "Original answer": "Based on the annotations, the repetitive action occurs 11 times in the video.",
+                "The question with details": "Imagine you are observing a fitness training session in a modern gym. In the video, an individual is doing a particular exercise. Can you determine how many times the individual completes a full repetition of this exercise?",
+                "The answer with details": "Upon close observation, the individual is engaging in an exercise involving battle ropes. They start their first repetition at frame 104 and finish it by frame 126. Immediately, without a break, they continue and finish their second repetition by frame 147. This pattern of immediate continuations persists with slight variations in the duration of each repetition, concluding with the eleventh repetition ending at frame 317."
+            },
+            "2": {
+                "Original question": "Does the individual pause between repetitions or continue immediately?",
+                "Original answer": "The individual continues immediately without any noticeable pause between repetitions.",
+                "The question with details": "In the setting of a fitness training session, consistency and rhythm can be vital. In the provided video, does the individual take any breaks between repetitions, or do they maintain a consistent rhythm throughout?",
+                "The answer with details": "The individual maintains a consistent rhythm during the exercise. Each repetition starts immediately after the previous one ends, showcasing their stamina and determination in the battle rope exercise. For instance, the first repetition ends at frame 126, and without any pause, the second one begins at frame 126 itself."
+            },
+            "3": {
+                "Original question": "How long does the tenth repetition last in terms of frames?",
+                "Original answer": "The tenth repetition lasts from frame 277 to frame 298.",
+                "The question with details": "Given a glimpse into the training session, can you pinpoint and describe the duration of the tenth repetition of the exercise in terms of frames?",
+                "The answer with details": "During the strenuous battle rope exercise, the individual's tenth repetition starts at frame 277. Demonstrating their consistent effort, they complete this repetition by frame 298. Thus, the duration for this particular repetition spans from frame 277 to frame 298."
+            },
+            "4": {
+                "Original question": "Is there any significant variation in the duration of repetitions?",
+                "Original answer": "There are slight variations in the duration of repetitions, but they are generally consistent.",
+                "The question with details": "In an exercise regimen, consistency can be the key. From the video, can you identify if the individual maintains a consistent duration for each repetition or if there are noticeable variations?",
+                "The answer with details": "Throughout the video, the individual's dedication to the battle rope exercise is evident. While there are slight variations in the number of frames each repetition takes, the individual generally maintains a consistent rhythm. For example, the span between the start and end frames of the third repetition is slightly shorter than that of the fifth repetition."
+            },
+            "5": {
+                "Original question": "How does the individual conclude their exercise session?",
+                "Original answer": "The individual concludes after completing the eleventh repetition at frame 317.",
+                "The question with details": "Every exercise session has its culmination. In the video, after how many repetitions and at which frame does the individual decide to wrap up their battle rope exercise?",
+                "The answer with details": "In the rigorous training session, after pouring in considerable effort, the individual decides to conclude their battle rope exercise after the eleventh repetition. This final repetition ends at frame 317, marking the end of this specific session in the video."
+            }
+        },
+        "stu5_3.mp4": {
+            "1": {
+                "Original question": "How many repetitions of the action are performed in the video?",
+                "Original answer": "The video showcases 95 repetitions of the action.",
+                "The question with details": "Envision a setting where an athlete is engrossed in a repetitive exercise. In the video clip, can you count the number of times the athlete performs the full motion of the activity?",
+                "The answer with details": "The athlete is deeply engrossed in a battle rope workout. Starting from the first repetition which begins at frame 36 and ends at frame 40, the athlete demonstrates immense stamina. With minor fluctuations in repetition duration, the athlete perseveres, eventually completing a whopping 95 repetitions by the end of the video."
+            },
+            "2": {
+                "Original question": "During which frames does the fiftieth repetition occur?",
+                "Original answer": "The fiftieth repetition spans from frame 242 to frame 246.",
+                "The question with details": "While observing the athlete's intense workout, can you identify the specific frames that mark the start and end of the fiftieth repetition of the exercise?",
+                "The answer with details": "Amidst the vigorous battle rope routine, the athlete's fiftieth repetition starts at frame 242. Maintaining the intensity, they finish this repetition at frame 246, showcasing their unwavering commitment to the exercise."
+            },
+            "3": {
+                "Original question": "Is there a consistent pattern in the duration of repetitions?",
+                "Original answer": "There are slight variations, but the durations are relatively consistent.",
+                "The question with details": "Workout consistency can be vital for athletes. In the video, does the athlete maintain a regular time duration for each repetition, or are there evident discrepancies?",
+                "The answer with details": "Throughout the video, the athlete's dedication to maintaining rhythm in the battle rope exercise stands out. There are minor variations in the duration of some repetitions. For instance, the duration between the start and end frames of the sixtieth repetition is slightly different from the seventieth. However, on the whole, the athlete remains relatively consistent."
+            },
+            "4": {
+                "Original question": "How long is the break, in terms of frames, between the seventy-fifth and seventy-sixth repetition?",
+                "Original answer": "There is no break; the seventy-sixth repetition starts immediately after the seventy-fifth.",
+                "The question with details": "In a strenuous workout regimen, brief breaks can sometimes be taken. In the video, after the completion of the seventy-fifth repetition, how long does the athlete pause before starting the seventy-sixth repetition?",
+                "The answer with details": "Despite the intensity of the battle rope exercise, the athlete showcases remarkable stamina. After completing the seventy-fifth repetition at frame 289, without any pause, the athlete immediately embarks on the seventy-sixth repetition, starting at frame 289 itself. It's a testament to their endurance and training."
+            },
+            "5": {
+                "Original question": "What can be inferred about the athlete's stamina from the video?",
+                "Original answer": "The athlete has remarkable stamina, demonstrated by 95 repetitions without noticeable breaks.",
+                "The question with details": "Endurance is a key attribute for athletes, especially in intensive workouts. Based on the video's depiction of the athlete's performance with the battle ropes, what insights can you gather about their stamina?",
+                "The answer with details": "The athlete's performance in the video is nothing short of exemplary. Undertaking a challenging battle rope exercise, they manage to perform 95 repetitions with minor variations in duration but without any significant breaks. This continuous effort, coupled with the sheer number of repetitions, attests to the athlete's exceptional stamina and dedication to their fitness regimen."
+            }
+        },
+        "stu2_1.mp4": {
+            "1": {
+                "Original question": "How many repetitive actions occur in this video?",
+                "Original answer": "According to the annotations, there are 44 repetitions of the action.",
+                "The question with details": "In the given video, can you count and describe the frequency of the recurring physical activity, noting each time the motion starts and ends?",
+                "The answer with details": "Upon observation, the video shows a rigorous physical activity repeated 44 times. Each repetition is marked by a distinct start and stop motion. The individual performing the activity shows consistency in executing these repetitions, with each cycle comprising similar movements. The action starts energetically, followed by a brief moment of pause, and then a renewed burst of energy marking the beginning of the next cycle. The entire sequence is fluid yet intense, showcasing the repetitive nature of the task."
+            },
+            "2": {
+                "Original question": "Does the action in the video involve continuous movement without significant pauses?",
+                "Original answer": "No, there are pauses between repetitions.",
+                "The question with details": "Watching the video, do you observe any noticeable pauses or breaks between the repetitions of the action, or does it appear as a continuous, uninterrupted sequence?",
+                "The answer with details": "In the video, the action isn't one continuous flow. Instead, there are discernible pauses between repetitions. After each cycle of movement, there's a brief moment where the activity halts before the next repetition begins. These pauses are crucial as they provide a short recovery time, indicating the intense nature of each repetition."
+            },
+            "3": {
+                "Original question": "Is the pace of the repetitive action in the video consistent throughout?",
+                "Original answer": "Yes, the pace is relatively consistent.",
+                "The question with details": "As you watch the progression of the action in the video, would you describe the pace of the repetitive movements as uniform and consistent, or does it vary noticeably throughout?",
+                "The answer with details": "The video showcases a notable consistency in the pace of the repetitive action. From start to end, the individual maintains a steady rhythm, ensuring each repetition is executed with similar speed and intensity. There is no significant variation in the pace, suggesting a level of endurance and control over the activity."
+            },
+            "4": {
+                "Original question": "Is there a gradual increase in the intensity of the action as the video progresses?",
+                "Original answer": "No, the intensity remains consistent.",
+                "The question with details": "In the sequence of actions you observed in the video, is there an escalation in the intensity or energy levels as the repetitions progress, or does it remain steady throughout?",
+                "The answer with details": "The video doesn't show a gradual increase in intensity as the repetitions progress. Instead, the individual maintains a consistent level of energy and intensity from the beginning to the end of the video. Each repetition is executed with similar vigor, indicating a controlled and sustained approach to the activity."
+            },
+            "5": {
+                "Original question": "Does the action in the video appear to be physically demanding?",
+                "Original answer": "Yes, it seems physically demanding.",
+                "The question with details": "Considering the repetitive nature and execution of the action in the video, would you classify it as physically demanding or relatively easy to perform?",
+                "The answer with details": "The action observed in the video appears to be quite physically demanding. The repetitive nature, combined with the consistent intensity and pace, suggests a high level of physical exertion. The individual performing the action shows signs of effort and endurance, indicating the challenging nature of the task."
+            }
+        },
+        "stu4_1.mp4": {
+            "1": {
+                "Original question": "How many times is the repetitive action performed in this video?",
+                "Original answer": "The action is performed 14 times.",
+                "The question with details": "Can you determine and describe the number of times the repetitive motion is carried out in the video, paying attention to the initiation and completion of each cycle?",
+                "The answer with details": "In this video, the repetitive motion is carried out 14 times. Each cycle of the action is distinct, beginning with a clear initiation of movement and concluding with a definite cessation. The individual involved displays a focused approach, ensuring that each repetition is clearly defined and separate from the others."
+            },
+            "2": {
+                "Original question": "Are there noticeable breaks between each repetition of the action in the video?",
+                "Original answer": "Yes, there are breaks.",
+                "The question with details": "While observing the video, did you notice any distinct breaks or intervals of rest between the repetitions of the action, or does it appear as a seamless, continuous activity?",
+                "The answer with details": "Yes, there are noticeable breaks between each repetition of the action in the video. These intervals vary in length, providing moments of rest and recovery. The breaks contribute to the overall rhythm of the activity, marking the end of one cycle and the preparation for the next."
+            },
+            "3": {
+                "Original question": "Does the video show a consistent speed in the repetitive action from start to end?",
+                "Original answer": "Yes, the speed is consistent.",
+                "The question with details": "When you consider the action depicted in the video, does the speed of the repetitive movements remain steady throughout, or are there fluctuations in the pace?",
+                "The answer with details": "The video demonstrates a consistent speed in the repetitive action from start to end. Despite the varying breaks between repetitions, once the action resumes, it maintains a uniform pace. This consistency suggests a deliberate control over the speed of the movements."
+            },
+            "4": {
+                "Original question": "Is there a noticeable increase in the action's intensity as the video progresses?",
+                "Original answer": "No, the intensity remains constant.",
+                "The question with details": "As you watch the action unfold in the video, do you observe an escalation in intensity or effort as the repetitions continue, or does it maintain a consistent level?",
+                "The answer with details": "Throughout the video, the intensity of the action remains consistent. There is no noticeable escalation in effort or energy as the repetitions continue. Each cycle of the action is performed with a steady level of intensity, indicating a controlled approach."
+            },
+            "5": {
+                "Original question": "Does the repetitive action in the video seem to require significant physical effort?",
+                "Original answer": "Yes, it appears to require significant effort.",
+                "The question with details": "From your observation of the video, would you describe the repetitive action as one that demands considerable physical effort, or does it seem relatively effortless?",
+                "The answer with details": "The repetitive action depicted in the video seems to require significant physical effort. The consistent intensity and pace, combined with the total number of repetitions, suggest a considerable level of exertion. The individual performing the action demonstrates a physical commitment to the task, indicating its demanding nature."
+            }
+        },
+        "stu3_0.mp4": {
+            "1": {
+                "Original question": "How many times is the repetitive action performed in this video?",
+                "Original answer": "The action is repeated 12 times.",
+                "The question with details": "Could you observe and count the number of repetitive motions performed in the video, noting the rhythm and any brief pauses between each cycle?",
+                "The answer with details": "The video showcases a repetitive motion performed 12 times. Each repetition is marked by a smooth yet vigorous action, followed by a brief pause. These pauses are not long but are sufficient for a momentary reset before the next cycle begins. The flow of the action is rhythmic and deliberate, emphasizing the start and end of each repetition."
+            },
+            "2": {
+                "Original question": "Is there a consistent rhythm in the repetitive action throughout the video?",
+                "Original answer": "Yes, the rhythm is consistent.",
+                "The question with details": "As you watch the video, do you notice a consistent rhythm in the repetition of the action, or does it vary at different points?",
+                "The answer with details": "Observing the video reveals a consistent rhythm in the repetitive action. Despite the brief pauses between cycles, each repetition follows a similar tempo, creating a steady and predictable pattern. This rhythm is maintained throughout the video, adding a sense of fluidity to the motion."
+            },
+            "3": {
+                "Original question": "Does the intensity of the action change over the course of the video?",
+                "Original answer": "No, the intensity is consistent.",
+                "The question with details": "In observing the video, can you detect any changes in the intensity of the repetitive action as it progresses, or does it remain steady throughout?",
+                "The answer with details": "Throughout the video, the intensity of the repetitive action remains steady. There are no noticeable fluctuations in energy or effort; the individual maintains a consistent level of intensity from the first to the last repetition. This consistent intensity speaks to the controlled nature of the activity."
+            },
+            "4": {
+                "Original question": "Is there a variation in the speed of the repetitions in the video?",
+                "Original answer": "No, the speed is consistent.",
+                "The question with details": "While watching the video, do you observe any variations in the speed of the repetitions, or does it stay uniform throughout the sequence?",
+                "The answer with details": "The video shows no variation in the speed of the repetitions. From start to finish, each cycle of the action is carried out at a uniform speed, maintaining a steady pace. This consistency in speed contributes to the rhythmic nature of the activity."
+            },
+            "5": {
+                "Original question": "Does the repetitive action in the video require a high level of physical exertion?",
+                "Original answer": "Yes, it appears physically demanding.",
+                "The question with details": "Considering the repetitive nature and execution of the action in the video, would you classify it as physically demanding or relatively easy to perform?",
+                "The answer with details": "The action observed in the video appears to be quite physically demanding. The consistency in intensity and pace, coupled with the total number of repetitions, suggests a significant level of physical exertion. The individual performing the action shows signs of effort and endurance, indicating the challenging nature of the task."
+            }
+        },
+        "stu9_2.mp4": {
+            "1": {
+                "Original question": "How many times is the action repeated in this video?",
+                "Original answer": "The action is repeated 3 times.",
+                "The question with details": "Can you count and describe the frequency of the recurring action in the video, paying attention to the start and completion of each cycle?",
+                "The answer with details": "In this video, the recurring action is performed 3 times. Each repetition is distinct and deliberate, starting with a clear initiation and ending with a definitive completion. The individual involved in the action shows focus and precision, ensuring that each repetition is cleanly executed."
+            },
+            "2": {
+                "Original question": "Is the rhythm of the action consistent throughout the video?",
+                "Original answer": "Yes, the rhythm is consistent.",
+                "The question with details": "In your observation of the video, do you notice a consistent rhythm in the execution of the action, or are there variations at different points?",
+                "The answer with details": "The video demonstrates a consistent rhythm in the execution of the action. Each repetition follows a similar tempo, creating a predictable and steady pattern. This rhythm is maintained throughout, adding a sense of control and precision to the activity."
+            },
+            "3": {
+                "Original question": "Does the intensity of the action change as the video progresses?",
+                "Original answer": "No, the intensity remains constant.",
+                "The question with details": "As you watch the video, do you observe any changes in the intensity of the action over time, or does it remain steady from beginning to end?",
+                "The answer with details": "Throughout the video, the intensity of the action remains constant. There are no noticeable fluctuations in energy or effort; the individual maintains a consistent level of intensity for each repetition. This steady intensity underscores the controlled and measured approach to the activity."
+            },
+            "4": {
+                "Original question": "Is there a variation in the speed of the action throughout the video?",
+                "Original answer": "No, the speed is uniform.",
+                "The question with details": "While observing the video, do you notice any changes in the speed of the action, or does it maintain a consistent pace throughout?",
+                "The answer with details": "The video displays a uniform speed in the action throughout. Each repetition is carried out at a steady pace, without any noticeable changes in speed. This consistency contributes to the rhythmic and controlled nature of the activity."
+            },
+            "5": {
+                "Original question": "Does the action in the video seem to require significant physical effort?",
+                "Original answer": "Yes, it seems physically demanding.",
+                "The question with details": "Based on your observation of the video, would you consider the action to be physically demanding or relatively easy to perform?",
+                "The answer with details": "The action in the video appears to be physically demanding. The consistency in intensity and pace, coupled with the number of repetitions, indicates a high level of physical exertion. The individual's focused effort and physical engagement suggest the challenging nature of the task."
+            }
+        },
+        "test138.mp4": {
+            "1": {
+                "Original question": "How many repetitions of the exercise can be observed in the video?",
+                "Original answer": "The video depicts 12 repetitions of the exercise.",
+                "The question with details": "Considering the physical exertion involved, could you estimate the number of times the person managed to complete the exercise routine within the video?",
+                "The answer with details": "Upon close observation, it's evident that the person in the video demonstrates remarkable endurance, completing the exercise routine a total of 12 times. Each repetition is marked by a distinct start and end, with brief moments of pause in between to regain strength. The smooth transition from one repetition to the next showcases the individual's proficiency and stamina in performing the exercise."
+            },
+            "2": {
+                "Original question": "Does the individual in the video take breaks between the repetitions of the exercise?",
+                "Original answer": "Yes, there are brief pauses between the repetitions.",
+                "The question with details": "In the exercise routine shown in the video, does the person performing take any momentary pauses for recovery between the repetitions, and if so, how does this affect the flow of the exercise?",
+                "The answer with details": "Indeed, the individual takes short breaks between repetitions. These pauses are crucial for recovery, allowing the person to maintain proper form and prevent fatigue. Despite these interruptions, the overall flow of the exercise remains consistent and fluid, reflecting the individual's experience and control in executing the exercise."
+            },
+            "3": {
+                "Original question": "Is the pace of the exercise consistent throughout the video?",
+                "Original answer": "No, the pace varies slightly across the repetitions.",
+                "The question with details": "Observing the video, can you discern any variation in the pace or rhythm of the exercise as it progresses, and how does this impact the overall performance?",
+                "The answer with details": "Upon scrutiny, it becomes apparent that the pace of the exercise isn't entirely uniform. There are subtle fluctuations in speed, particularly noticeable towards the latter repetitions. This variance could be attributed to increasing physical strain or strategic pacing by the individual. Despite these variations, the overall performance remains impressive, with the individual showcasing resilience and adaptability."
+            },
+            "4": {
+                "Original question": "Does the individual display any signs of fatigue as the repetitions progress in the video?",
+                "Original answer": "Yes, there are indications of increasing fatigue.",
+                "The question with details": "While watching the video, could you point out any indicators of physical fatigue or strain that become more pronounced with each successive repetition of the exercise?",
+                "The answer with details": "As the video unfolds, signs of fatigue gradually become more evident. The individual's movements start to slow down, and there's a slight decrease in the fluidity of motion. The brief pauses between repetitions also appear to lengthen slightly, indicating a growing need for recovery. Despite these signs of weariness, the person commendably perseveres, maintaining a commendable level of performance throughout."
+            },
+            "5": {
+                "Original question": "Are the start and end points of each repetition clearly defined in the video?",
+                "Original answer": "Yes, each repetition has distinct start and end points.",
+                "The question with details": "In the exercise routine shown in the video, how clearly demarcated are the beginning and conclusion of each repetition, and does this affect the overall structure of the routine?",
+                "The answer with details": "Each repetition in the exercise routine is well-defined, with clear starting and ending points. This precision contributes to the structured and methodical nature of the routine, allowing for accurate tracking of performance and ensuring consistency in execution. The clear demarcation of each repetition aids in maintaining focus and intensity throughout the routine."
+            }
+        },
+        "stu9_22.mp4": {
+            "1": {
+                "Original question": "How many repetitions of the exercise are performed in the video?",
+                "Original answer": "The video shows 6 repetitions of the exercise.",
+                "The question with details": "Could you count the number of times the individual successfully completes the exercise cycle in the video, and describe the consistency of these repetitions?",
+                "The answer with details": "The individual in the video skillfully completes the exercise cycle a total of 6 times. Each repetition is executed with remarkable consistency, reflecting a high level of skill and dedication. The uniformity in execution helps in maintaining a steady rhythm and showcases the individual's mastery of the exercise."
+            },
+            "2": {
+                "Original question": "Does the person take any significant breaks during the exercise in the video?",
+                "Original answer": "Yes, there are noticeable breaks within the exercise routine.",
+                "The question with details": "In the sequence of movements captured in the video, are there any discernible pauses taken by the person performing the exercise, and how do these pauses integrate into the routine?",
+                "The answer with details": "The person does take noticeable breaks within the routine, strategically placed to allow for recovery and preparation for the next set of movements. These pauses are seamlessly integrated into the routine, ensuring that the momentum and focus are maintained. The breaks contribute to the effectiveness of the exercise by preventing overexertion and promoting sustained performance."
+            },
+            "3": {
+                "Original question": "Is there any variation in the speed or intensity of the exercise as shown in the video?",
+                "Original answer": "Yes, there are slight variations in speed and intensity.",
+                "The question with details": "As you observe the video, can you identify any changes in the speed or intensity of the exercise as it progresses, and how does this impact the individual's performance?",
+                "The answer with details": "Throughout the video, there are subtle changes in the speed and intensity of the exercise. These variations appear to be intentional, possibly to target different aspects of physical endurance and strength. Despite these fluctuations, the individual's performance remains steady and controlled, indicating a well-planned and executed exercise routine."
+            },
+            "4": {
+                "Original question": "Are there any visible signs of strain or discomfort in the individual performing the exercise in the video?",
+                "Original answer": "No, there are no evident signs of strain or discomfort.",
+                "The question with details": "While watching the individual perform the exercise in the video, can you detect any indications of physical strain, discomfort, or difficulty, and how does the individual handle these challenges?",
+                "The answer with details": "Throughout the video, the individual maintains a composed demeanor, with no visible signs of strain or discomfort. Even during the more challenging parts of the exercise, the person's form and posture remain steady. This poise under pressure reflects the individual's physical fitness and mental focus, enabling them to handle the demands of the exercise with grace."
+            },
+            "5": {
+                "Original question": "Is the completion of each repetition in the exercise clearly defined in the video?",
+                "Original answer": "Yes, each repetition has a distinct completion point.",
+                "The question with details": "In the exercise routine shown in the video, how well-defined are the completion points of each repetition, and what impact does this have on the overall flow of the routine?",
+                "The answer with details": "Each repetition within the exercise routine is marked by a distinct completion point, which is evident in the video. This clear demarcation helps in maintaining a smooth and continuous flow, preventing any ambiguity in the execution of the routine. The precise completion points also enable the individual to track progress and ensure a consistent performance throughout."
+            }
+        },
+        "stu7_34.mp4": {
+            "1": {
+                "Original question": "Can you estimate the number of times a specific exercise is performed in this video?",
+                "Original answer": "The video features a series of repetitive exercises.",
+                "The question with details": "Imagine watching a fitness video focused on cardio exercises. Can you estimate how many times a single type of exercise is repeated throughout the video, considering the rhythm and pace of the activity?",
+                "The answer with details": "Upon observing the video, it's clear that the individual is engaged in a cardio exercise, precisely a 'jump jack'. The exercise is repeated consistently, and I counted a total of 44 repetitions. Each repetition starts and ends distinctly, allowing for an accurate count. The person maintains a steady rhythm, initiating a new repetition immediately after completing the previous one, which indicates a high level of stamina and fitness."
+            },
+            "2": {
+                "Original question": "Does the video show a repetitive physical activity being performed more than 40 times?",
+                "Original answer": "Yes, the video does show a repetitive physical activity.",
+                "The question with details": "While observing a workout session, does the individual in the video demonstrate the stamina to perform a specific cardio exercise, like a jump jack, more than 40 times without significant pauses?",
+                "The answer with details": "Yes, the video showcases an impressive display of endurance. The individual performs a cardio exercise, resembling a jump jack, more than 40 times. Specifically, there are 44 repetitions, executed with minimal pauses. This consistent performance highlights the individual's physical fitness and dedication to the workout."
+            },
+            "3": {
+                "Original question": "In the fitness video, is the exercise repeated consistently without significant breaks?",
+                "Original answer": "Yes, the exercise in the video is repeated consistently.",
+                "The question with details": "When watching a fitness routine, can you observe if the person maintains a consistent pace throughout the session, especially in repeating a specific exercise like a jump jack, without taking significant breaks?",
+                "The answer with details": "Yes, the video depicts a remarkable level of consistency in the workout routine. The individual performs a specific exercise, similar to a jump jack, repeatedly. There are 44 repetitions in total, and they are done consecutively without significant breaks. This consistency not only highlights the individual's physical capability but also their commitment to maintaining a steady pace during the workout."
+            },
+            "4": {
+                "Original question": "Is there a discernible pattern in the way the exercise is performed in the video?",
+                "Original answer": "Yes, there is a discernible pattern in the exercise performance.",
+                "The question with details": "Considering the structure of a workout video, can you identify a pattern in the way a certain exercise, possibly a jump jack, is performed repeatedly throughout the session?",
+                "The answer with details": "Observing the video closely, there is a discernible pattern in the exercise routine. The individual performs an exercise resembling a jump jack. This activity is repeated 44 times, following a consistent pattern. Each repetition starts and ends clearly, and the transition between repetitions is smooth, indicating a well-structured and thought-out exercise routine."
+            },
+            "5": {
+                "Original question": "Is the number of repetitions of the exercise in the video more than 30?",
+                "Original answer": "Yes, the exercise is repeated more than 30 times in the video.",
+                "The question with details": "In a fitness video, where a cardio exercise is the focus, does the participant manage to perform this exercise, possibly a jump jack, more than 30 times throughout the duration?",
+                "The answer with details": "Yes, the individual in the video surpasses the 30-repetition mark. Specifically, the exercise, which closely resembles a jump jack, is performed 44 times. This indicates not only the individual's stamina but also their dedication to a rigorous and intensive cardio workout."
+            }
+        },
+        "stu11_40.mp4": {
+            "1": {
+                "Original question": "Can you count the number of times a gymnastic exercise is performed in the video?",
+                "Original answer": "The video contains multiple repetitions of a gymnastic exercise.",
+                "The question with details": "While watching a gymnastics training session, can you count how many times a particular apparatus-based exercise is repeated, taking note of the fluidity and precision of each movement?",
+                "The answer with details": "In the video, an individual is seen performing an exercise on a gymnastic apparatus, likely a pommel horse. The exercise is repeated with impressive fluidity and precision. I counted a total of 32 repetitions. Each repetition is executed with a clear start and finish, demonstrating the gymnast's control and expertise."
+            },
+            "2": {
+                "Original question": "Is the gymnastic routine in the video repeated more than 25 times?",
+                "Original answer": "Yes, the gymnastic routine is repeated multiple times in the video.",
+                "The question with details": "In a gymnastics practice session, does the athlete demonstrate the ability to perform a routine on an apparatus, such as the pommel horse, more than 25 times without considerable interruptions?",
+                "The answer with details": "Yes, the gymnast in the video showcases an exceptional level of skill and endurance. The routine, which involves an apparatus resembling a pommel horse, is repeated more than 25 times, totaling 32 repetitions. The athlete maintains a consistent performance throughout, without considerable interruptions, highlighting their proficiency and stamina."
+            },
+            "3": {
+                "Original question": "In the gymnastics video, is the routine executed consistently without significant breaks?",
+                "Original answer": "Yes, the gymnastic routine is executed consistently in the video.",
+                "The question with details": "Observing a gymnastics training video, can you notice if the gymnast maintains a steady flow in their routine, particularly in repeating an exercise on an apparatus like the pommel horse, without taking notable breaks?",
+                "The answer with details": "Yes, the video portrays a commendable level of consistency in the gymnastics routine. The gymnast performs an exercise on an apparatus, likely the pommel horse, repeatedly. The routine is executed 32 times, continuously without significant breaks. This consistent execution not only demonstrates the gymnast's physical capability but also their focus and dedication to the training."
+            },
+            "4": {
+                "Original question": "Is there a discernible pattern in the gymnastic routine performed in the video?",
+                "Original answer": "Yes, there is a discernible pattern in the gymnastic routine.",
+                "The question with details": "In a gymnastics training session, can you discern a pattern in the way a certain exercise, perhaps on the pommel horse, is performed repeatedly throughout the routine?",
+                "The answer with details": "Watching the video attentively, a discernible pattern emerges in the gymnastics routine. The gymnast performs an exercise on an apparatus resembling the pommel horse. This activity is repeated 32 times, following a consistent pattern. Each repetition is executed with defined start and finish points, and the transitions between repetitions are smooth, indicating a well-planned and structured routine."
+            },
+            "5": {
+                "Original question": "Is the number of repetitions of the gymnastic routine in the video more than 30?",
+                "Original answer": "Yes, the gymnastic routine is repeated more than 30 times in the video.",
+                "The question with details": "During a gymnastics training video, does the athlete manage to perform a routine on an apparatus, potentially the pommel horse, more than 30 times without losing form?",
+                "The answer with details": "Indeed, the gymnast in the video exceeds the 30-repetition mark. The routine, likely involving the pommel horse, is performed 32 times. This indicates not only the gymnast's physical strength and endurance but also their commitment to a demanding and rigorous training regimen."
+            }
+        },
+        "stu8_35.mp4": {
+            "1": {
+                "Original question": "Can you identify the repetitive physical activity observed in the video and describe its progression?",
+                "Original answer": "The video showcases a repetitive physical activity with distinct start and end points for each repetition.",
+                "The question with details": "Imagine you are observing a workout session. Based on the flow of movement, can you delineate the number of times a specific strenuous action is repeated, noting the brief pauses and continuations?",
+                "The answer with details": "In the video, a vigorous upper-body exercise is performed 11 times. Each repetition is marked by a clear start and finish. The activity begins at frame 276 and concludes at frame 357 for the first repetition. Subsequently, each new cycle commences immediately after the previous one, with slight pauses in between, concluding at frames 436, 526, 616, 699, 789, 886, 1020, 1140, 1264, and finally at frame 1431."
+            },
+            "2": {
+                "Original question": "Is there a consistent rhythm or pattern observed in the repetitions of the action in the video?",
+                "Original answer": "Yes, there is a consistent rhythm in the repetitions.",
+                "The question with details": "While watching a fitness routine, did you notice a consistent timing or pattern in the repetitions of the exercise, possibly indicating a structured workout plan?",
+                "The answer with details": "Yes, the exercise in the video follows a consistent rhythm. Each repetition lasts for approximately 60 to 110 frames, indicating a deliberate and controlled pace. This consistency suggests a structured approach to the workout."
+            },
+            "3": {
+                "Original question": "Are there any significant pauses or breaks observed during the repetitions in the video?",
+                "Original answer": "No significant pauses or breaks are observed.",
+                "The question with details": "In the midst of an intense workout session captured in the video, did you notice any significant pauses or rest periods between the repetitions, or was it a continuous effort?",
+                "The answer with details": "The workout session in the video is a continuous effort with minimal pauses. Each repetition seamlessly follows the previous one, indicating a high-intensity and uninterrupted exercise routine."
+            },
+            "4": {
+                "Original question": "Does the intensity or speed of the repetitions change as the video progresses?",
+                "Original answer": "No, the intensity and speed remain consistent throughout.",
+                "The question with details": "Observing the endurance and consistency in the video, did you perceive any change in intensity or speed of the repetitions as the session progressed?",
+                "The answer with details": "Throughout the video, the intensity and speed of the repetitions remain consistently high. There's no noticeable change or drop in the energy levels, suggesting remarkable endurance and consistency in performance."
+            },
+            "5": {
+                "Original question": "Does the participant in the video maintain proper form throughout all the repetitions?",
+                "Original answer": "Yes, proper form is maintained throughout.",
+                "The question with details": "Considering the importance of technique in physical activities, did the participant in the video demonstrate proper form and technique throughout all the repetitions?",
+                "The answer with details": "The individual in the video maintains proper form throughout the 11 repetitions. Each movement is executed with precision, indicating not only physical strength but also attention to correct technique."
+            }
+        },
+        "stu10_50.mp4": {
+            "1": {
+                "Original question": "Can you describe the consistent action performed in the video, particularly noting its frequency?",
+                "Original answer": "The video depicts a consistent action performed multiple times.",
+                "The question with details": "While observing a training session, can you detail the specific ground-level action that's repeated numerous times, and provide an estimation of its frequency?",
+                "The answer with details": "The video captures a ground-level exercise repeated 31 times. The action starts at frame 8 and ends at frame 32 for the first repetition. The subsequent repetitions are evenly spaced, ending at frames 53, 72, 94, 113, 136, 156, 178, 199, 220, 238, 261, 283, 304, 326, 348, 372, 391, 413, 435, 452, 475, 497, 518, 540, 560, 584, 605, 628, 656, and finally at frame 704."
+            },
+            "2": {
+                "Original question": "Does the video show any variation in the execution of the repetitive action across different repetitions?",
+                "Original answer": "No, the execution remains consistent.",
+                "The question with details": "Analyzing the technique in the training video, did you notice any variation or alteration in the way the repetitive action is executed across different cycles?",
+                "The answer with details": "The video demonstrates remarkable consistency in execution. Each of the 31 repetitions of the ground-level exercise is performed with uniform technique and precision, showing no variation across different cycles."
+            },
+            "3": {
+                "Original question": "Is there any discernible fatigue or decrease in performance quality towards the end of the video?",
+                "Original answer": "No, performance quality remains high throughout.",
+                "The question with details": "As you reach the concluding part of the fitness video, do you observe any signs of fatigue or any decrease in the quality of performance in the repetitive action?",
+                "The answer with details": "Despite the high number of repetitions, there is no discernible fatigue or decrease in performance quality. The individual maintains a high level of execution throughout all 31 repetitions, concluding as strongly as they began."
+            },
+            "4": {
+                "Original question": "Are the pauses between repetitions in the video consistent or do they vary?",
+                "Original answer": "The pauses are fairly consistent.",
+                "The question with details": "Observing the rest intervals in the fitness session, are the pauses between each repetition of the ground-level action consistent, or do they vary as the session progresses?",
+                "The answer with details": "The pauses between repetitions in the video are fairly consistent. The individual takes brief, measured breaks between each cycle, maintaining a steady pace throughout the session."
+            },
+            "5": {
+                "Original question": "Does the video demonstrate any preparatory or concluding actions before and after the main repetitive action?",
+                "Original answer": "No, the video focuses solely on the main action.",
+                "The question with details": "In the context of the workout session, does the video include any preparatory warm-up or concluding cool-down actions, or does it solely focus on the main repetitive action?",
+                "The answer with details": "The video is dedicated entirely to the main repetitive action, without any visible preparatory warm-up or concluding cool-down exercises. It starts and ends with the core ground-level exercise, emphasizing its frequency and execution."
+            }
+        },
+        "stu2_58.mp4": {
+            "1": {
+                "Original question": "How many times does the action occur in the video?",
+                "Original answer": "According to the annotation, the action occurs 37 times, with each repetition marked by distinct start and end frames.",
+                "The question with details": "In the video, how many times can you observe the participant engaging in a rhythmic exercise, starting and stopping repeatedly?",
+                "The answer with details": "Upon closely observing the video, one can identify 37 distinct cycles of the exercise. Each cycle begins with a moment of exertion, evident from the starting frame, followed by a brief pause, denoted by the ending frame. The pattern is consistent, showcasing a rhythmic repetition of the exercise."
+            },
+            "2": {
+                "Original question": "Can you describe the every repetitive action details in the video?",
+                "Original answer": "Each repetitive action starts and ends within specific frames, indicating a total of 37 repetitions with varied intervals in between.",
+                "The question with details": "Could you provide an intricate description of each repetitive movement observed in the video, focusing on the nuances of its initiation and conclusion?",
+                "The answer with details": "In this video, each repetitive movement presents a narrative. It begins with a surge of energy, visible at the start of each frame, where the participant prepares. This is followed by the execution of the movement, culminating in a brief pause, a moment of stillness, before the next repetition commences. This pattern repeats 37 times, each with its distinct start and end, showcasing the participant's consistency and endurance."
+            },
+            "3": {
+                "Original question": "Is there a consistent rhythm in the repetitive actions observed in the video?",
+                "Original answer": "Yes, the annotations suggest a consistent rhythm in the repetitive actions with clear start and end points for each of the 37 repetitions.",
+                "The question with details": "Watching the video, would you say there is a regular tempo or rhythm in the way the repetitive actions are performed, and if so, can you describe it?",
+                "The answer with details": "Indeed, the video reveals a remarkable consistency in the rhythm of the repetitive actions. Each movement begins energetically, marked by the starting frame, and transitions smoothly into a brief pause, indicated by the ending frame. This rhythm is maintained throughout the 37 repetitions, demonstrating a well-practiced and controlled execution."
+            },
+            "4": {
+                "Original question": "Do the repetitive actions in the video exhibit variations in speed or intensity?",
+                "Original answer": "No, based on the annotations, each of the 37 repetitions follows a similar pattern with consistent start and end frames, indicating uniform speed and intensity.",
+                "The question with details": "As you watch the video, do you observe any changes in the pace or intensity of the repetitive actions, or do they remain uniform throughout?",
+                "The answer with details": "Upon close observation, the video portrays a remarkable uniformity in the execution of the repetitive actions. Each of the 37 repetitions follows a similar trajectory, with no noticeable variations in speed or intensity. The start and end frames of each action corroborate this consistency, reflecting a steady and controlled performance."
+            },
+            "5": {
+                "Original question": "Does the participant in the video take any breaks between the repetitive actions?",
+                "Original answer": "No, the annotations show continuous action with no breaks, as evidenced by the consecutive start and end frames for each of the 37 repetitions.",
+                "The question with details": "In the sequence of the video, can you identify any moments where the participant pauses or takes a break between the repetitive movements?",
+                "The answer with details": "The video presents a continuous flow of movement, with the participant seamlessly transitioning from one repetition to the next. There are no discernible breaks or pauses; instead, each action flows into the next, as indicated by the closely linked start and end frames for each of the 37 repetitions."
+            }
+        },
+        "stu4_66.mp4": {
+            "1": {
+                "Original question": "How many times does the action occur in the video?",
+                "Original answer": "Based on the annotation, the action occurs 27 times, each marked by distinct start and end frames.",
+                "The question with details": "In the video, can you count the number of times the participant engages in a specific motion, repeating it several times?",
+                "The answer with details": "While watching the video, one can observe the participant engaging in a specific motion a total of 27 times. Each instance of the motion is clearly demarcated, beginning with an initial movement, marked by the start frame, and culminating in a brief pause, as indicated by the end frame."
+            },
+            "2": {
+                "Original question": "Can you describe the every repetitive action details in the video?",
+                "Original answer": "Each repetitive action starts and ends within specific frames, indicating a total of 27 repetitions with varying intervals.",
+                "The question with details": "Could you delve into the specifics of each repetition observed in the video, focusing on the start and end of these movements?",
+                "The answer with details": "In the video, each repetition tells a story. It commences with an initial movement, noticeable at the start of each frame, where the participant gears up. This is followed by the execution of the movement, culminating in a moment of rest, before the next repetition begins. This sequence repeats 27 times, each marked by distinct start and end frames, showcasing the participant's dedication and precision."
+            },
+            "3": {
+                "Original question": "Is there a consistent rhythm in the repetitive actions observed in the video?",
+                "Original answer": "Yes, the annotations suggest a consistent rhythm in the repetitive actions with clear start and end points for each of the 27 repetitions.",
+                "The question with details": "Observing the video, would you say there is a regular tempo in the repetitive movements, and if so, could you describe it?",
+                "The answer with details": "The video indeed shows a consistent rhythm in the repetitive movements. Each action starts energetically, evident at the start frame, and transitions smoothly into a moment of rest, indicated by the end frame. This rhythm is maintained throughout the 27 repetitions, demonstrating a methodical and controlled execution."
+            },
+            "4": {
+                "Original question": "Do the repetitive actions in the video exhibit variations in speed or intensity?",
+                "Original answer": "No, according to the annotations, each of the 27 repetitions follows a similar pattern with consistent start and end frames, indicating uniform speed and intensity.",
+                "The question with details": "While watching the video, do you notice any changes in the speed or intensity of the repetitive actions, or do they remain consistent?",
+                "The answer with details": "Upon examination, the video shows a remarkable consistency in the execution of the repetitive actions. Each of the 27 repetitions follows a similar pattern, with no noticeable variations in speed or intensity. The start and end frames of each action confirm this uniformity, reflecting a steady and disciplined performance."
+            },
+            "5": {
+                "Original question": "Does the participant in the video take any breaks between the repetitive actions?",
+                "Original answer": "No, the annotations indicate continuous action with no breaks, as evidenced by the consecutive start and end frames for each of the 27 repetitions.",
+                "The question with details": "In the video, are there any moments where the participant pauses or takes a break between the repetitive movements?",
+                "The answer with details": "The video depicts a seamless flow of movement, with the participant moving from one repetition to the next without any discernible breaks or pauses. Each action flows into the next, as indicated by the closely linked start and end frames for each of the 27 repetitions."
+            }
+        }
+    },
+    "Question 1.2":
+        {
+            "stu1_0.mp4": {
+                "1": {
+                    "Original question": "During the repetitive actions in the video, are there any instances of irrelevant behaviors or interruptions that alter the flow of the exercise?",
+                    "Original answer": "As shown in the annotations, the repetitive actions in the video are carried out with consistency, without any notable interruptions or irrelevant behaviors.",
+                    "The question with details": "In the video, when the individual is performing the repetitive actions, do they maintain a consistent flow, or are there moments of deviation such as unrelated activities, pauses, or changes in the action's rhythm?",
+                    "The answer with details": "Observing the video, it's evident that the individual maintains a steady rhythm throughout the repetitive actions. There are no visible deviations, such as engaging in unrelated activities or taking breaks. The actions are executed in a consistent manner, following a smooth sequence from start to finish, with each repetition marked by precise beginning and ending points."
+                },
+                "2": {
+                    "Original question": "Are there any variations or inconsistencies in the cycles of the action performed in the video?",
+                    "Original answer": "Based on the annotations, the action cycles in the video are performed with uniformity, displaying no significant variations or inconsistencies.",
+                    "The question with details": "While watching the video, can you identify any fluctuations or irregularities in the way the repetitive action cycles are executed, such as changes in speed, intensity, or form?",
+                    "The answer with details": "Upon close inspection of the video, the repetitive action cycles are carried out with remarkable consistency. Each cycle is executed with similar speed, intensity, and form, showcasing a high level of precision and control. There are no evident fluctuations or irregularities throughout the duration of the video."
+                },
+                "3": {
+                    "Original question": "Does the individual in the video demonstrate any periods of rest or relaxation between the repetitive actions?",
+                    "Original answer": "According to the annotations, the individual in the video does not take any noticeable breaks or periods of relaxation between the repetitions.",
+                    "The question with details": "As you watch the video, do you observe any instances where the individual pauses for rest or relaxation during the series of repetitive actions?",
+                    "The answer with details": "In the video, the individual exhibits a continuous flow of movement. Throughout the series of repetitive actions, there are no discernible pauses for rest or relaxation. The individual transitions seamlessly from one repetition to the next, maintaining a consistent pace and focus."
+                },
+                "4": {
+                    "Original question": "Is there a discernible pattern or rhythm in the way the repetitive actions are performed in the video?",
+                    "Original answer": "The annotations indicate a discernible pattern and rhythm in the repetitive actions, with each repetition marked by clear start and end frames.",
+                    "The question with details": "In the video, does the individual exhibit a specific pattern or rhythm in the execution of the repetitive actions, and if so, can you describe this rhythm?",
+                    "The answer with details": "Watching the video, one can notice a distinct pattern and rhythm in the execution of the repetitive actions. Each repetition begins with a deliberate start, followed by a fluid execution, and concludes with a precise end. This rhythm is consistent throughout, demonstrating a well-practiced and methodical approach to the exercise."
+                },
+                "5": {
+                    "Original question": "In the video, are there any instances of the individual performing actions that do not align with the primary repetitive movement?",
+                    "Original answer": "The annotations do not indicate any instances of the individual performing actions that deviate from the primary repetitive movement.",
+                    "The question with details": "While observing the video, can you identify any moments where the individual engages in actions or movements that diverge from the main repetitive exercise?",
+                    "The answer with details": "Throughout the video, the individual remains focused on the primary repetitive exercise. There are no moments where they engage in actions or movements that diverge from this main exercise. The individual's attention and effort are consistently directed towards the execution of the repetitive movement."
+                }
+            },
+            "stu5_1.mp4": {
+                "1": {
+                    "Original question": "During the repetitive actions in the video, are there any instances of irrelevant behaviors or interruptions that alter the flow of the exercise?",
+                    "Original answer": "As shown in the annotations, the repetitive actions in the video are carried out with consistency, without any notable interruptions or irrelevant behaviors.",
+                    "The question with details": "In the video, when the individual is performing the repetitive actions, do they maintain a consistent flow, or are there moments of deviation such as unrelated activities, pauses, or changes in the action's rhythm?",
+                    "The answer with details": "Observing the video, it's evident that the individual maintains a steady rhythm throughout the repetitive actions. There are no visible deviations, such as engaging in unrelated activities or taking breaks. The actions are executed in a consistent manner, following a smooth sequence from start to finish, with each repetition marked by precise beginning and ending points."
+                },
+                "2": {
+                    "Original question": "Are there any variations or inconsistencies in the cycles of the action performed in the video?",
+                    "Original answer": "Based on the annotations, the action cycles in the video are performed with uniformity, displaying no significant variations or inconsistencies.",
+                    "The question with details": "While watching the video, can you identify any fluctuations or irregularities in the way the repetitive action cycles are executed, such as changes in speed, intensity, or form?",
+                    "The answer with details": "Upon close inspection of the video, the repetitive action cycles are carried out with remarkable consistency. Each cycle is executed with similar speed, intensity, and form, showcasing a high level of precision and control. There are no evident fluctuations or irregularities throughout the duration of the video."
+                },
+                "3": {
+                    "Original question": "Does the individual in the video demonstrate any periods of rest or relaxation between the repetitive actions?",
+                    "Original answer": "According to the annotations, the individual in the video does not take any noticeable breaks or periods of relaxation between the repetitions.",
+                    "The question with details": "As you watch the video, do you observe any instances where the individual pauses for rest or relaxation during the series of repetitive actions?",
+                    "The answer with details": "In the video, the individual exhibits a continuous flow of movement. Throughout the series of repetitive actions, there are no discernible pauses for rest or relaxation. The individual transitions seamlessly from one repetition to the next, maintaining a consistent pace and focus."
+                },
+                "4": {
+                    "Original question": "Is there a discernible pattern or rhythm in the way the repetitive actions are performed in the video?",
+                    "Original answer": "The annotations indicate a discernible pattern and rhythm in the repetitive actions, with each repetition marked by clear start and end frames.",
+                    "The question with details": "In the video, does the individual exhibit a specific pattern or rhythm in the execution of the repetitive actions, and if so, can you describe this rhythm?",
+                    "The answer with details": "Watching the video, one can notice a distinct pattern and rhythm in the execution of the repetitive actions. Each repetition begins with a deliberate start, followed by a fluid execution, and concludes with a precise end. This rhythm is consistent throughout, demonstrating a well-practiced and methodical approach to the exercise."
+                },
+                "5": {
+                    "Original question": "In the video, are there any instances of the individual performing actions that do not align with the primary repetitive movement?",
+                    "Original answer": "The annotations do not indicate any instances of the individual performing actions that deviate from the primary repetitive movement.",
+                    "The question with details": "While observing the video, can you identify any moments where the individual engages in actions or movements that diverge from the main repetitive exercise?",
+                    "The answer with details": "Throughout the video, the individual remains focused on the primary repetitive exercise. There are no moments where they engage in actions or movements that diverge from this main exercise. The individual's attention and effort are consistently directed towards the execution of the repetitive movement."
+                }
+            },
+            "stu10_0.mp4": {
+                "1": {
+                    "Original question": "Is there a consistent progression in the sequence of the action performed in the video?",
+                    "Original answer": "As shown in the annotations, the action progresses consistently without any disruptions.",
+                    "The question with details": "When observing the sequence of actions in the video, is there a steady progression without interruptions, or are there any pauses or breaks between repetitions?",
+                    "The answer with details": "In the video, the action progresses with a consistent rhythm. Each repetition of the movement flows seamlessly into the next without any pauses or breaks. The action is repeated multiple times, with each cycle marked by a clear start and end, maintaining a fluid motion throughout the duration of the exercise."
+                },
+                "2": {
+                    "Original question": "Are there any disruptions or pauses in the sequence of the action?",
+                    "Original answer": "The annotations do not indicate any disruptions or pauses in the action.",
+                    "The question with details": "In the execution of the action in the video, does the individual maintain a continuous flow, or are there instances of disruptions or pauses that interrupt the sequence?",
+                    "The answer with details": "Throughout the video, the individual maintains a continuous flow in the execution of the action. There are no disruptions or pauses that interrupt the sequence. The action is carried out in a smooth and uninterrupted manner, with each repetition flowing naturally into the next."
+                },
+                "3": {
+                    "Original question": "Does the sequence of the action in the video show any irregularities?",
+                    "Original answer": "According to the annotations, the sequence of the action is regular and consistent.",
+                    "The question with details": "As you watch the individual perform the action in the video, do you notice any irregularities or inconsistencies in the sequence of their movements?",
+                    "The answer with details": "The individual in the video demonstrates a consistent and regular sequence in their movements. There are no noticeable irregularities or inconsistencies; each repetition of the action is executed with similar precision and form, maintaining a steady rhythm throughout."
+                },
+                "4": {
+                    "Original question": "Is the sequence of the action in the video performed with a consistent rhythm?",
+                    "Original answer": "The annotations reveal a consistent rhythm in the sequence of the action.",
+                    "The question with details": "When observing the individual's performance, is the sequence of the action carried out with a consistent rhythm or does it vary?",
+                    "The answer with details": "The sequence of the action in the video is characterized by a consistent rhythm. The individual performs each repetition with a steady pace, ensuring that the rhythm does not vary. This consistent rhythm contributes to the fluidity and seamless nature of the sequence."
+                },
+                "5": {
+                    "Original question": "Are there any interruptions in the flow of the action in the video?",
+                    "Original answer": "The annotations indicate no interruptions in the flow of the action.",
+                    "The question with details": "During the performance of the action in the video, does the individual maintain a continuous flow, or are there any interruptions that break the sequence?",
+                    "The answer with details": "In the video, the individual maintains a continuous flow in the performance of the action. There are no interruptions that break the sequence. Each repetition of the action is carried out with a smooth transition, contributing to an uninterrupted flow throughout the exercise."
+                }
+            },
+            "stu8_0.mp4": {
+                "1": {
+                    "Original question": "Is there a consistent progression in the sequence of the action performed in the video?",
+                    "Original answer": "As shown in the annotations, the action progresses consistently without any disruptions.",
+                    "The question with details": "When observing the sequence of actions in the video, is there a steady progression without interruptions, or are there any pauses or breaks between repetitions?",
+                    "The answer with details": "In the video, the action progresses with a consistent rhythm. Each repetition of the movement flows seamlessly into the next without any pauses or breaks. The action is repeated multiple times, with each cycle marked by a clear start and end, maintaining a fluid motion throughout the duration of the exercise."
+                },
+                "2": {
+                    "Original question": "Are there any disruptions or pauses in the sequence of the action?",
+                    "Original answer": "The annotations do not indicate any disruptions or pauses in the action.",
+                    "The question with details": "In the execution of the action in the video, does the individual maintain a continuous flow, or are there instances of disruptions or pauses that interrupt the sequence?",
+                    "The answer with details": "Throughout the video, the individual maintains a continuous flow in the execution of the action. There are no disruptions or pauses that interrupt the sequence. The action is carried out in a smooth and uninterrupted manner, with each repetition flowing naturally into the next."
+                },
+                "3": {
+                    "Original question": "Does the sequence of the action in the video show any irregularities?",
+                    "Original answer": "According to the annotations, the sequence of the action is regular and consistent.",
+                    "The question with details": "As you watch the individual perform the action in the video, do you notice any irregularities or inconsistencies in the sequence of their movements?",
+                    "The answer with details": "The individual in the video demonstrates a consistent and regular sequence in their movements. There are no noticeable irregularities or inconsistencies; each repetition of the action is executed with similar precision and form, maintaining a steady rhythm throughout."
+                },
+                "4": {
+                    "Original question": "Is the sequence of the action in the video performed with a consistent rhythm?",
+                    "Original answer": "The annotations reveal a consistent rhythm in the sequence of the action.",
+                    "The question with details": "When observing the individual's performance, is the sequence of the action carried out with a consistent rhythm or does it vary?",
+                    "The answer with details": "The sequence of the action in the video is characterized by a consistent rhythm. The individual performs each repetition with a steady pace, ensuring that the rhythm does not vary. This consistent rhythm contributes to the fluidity and seamless nature of the sequence."
+                },
+                "5": {
+                    "Original question": "Are there any interruptions in the flow of the action in the video?",
+                    "Original answer": "The annotations indicate no interruptions in the flow of the action.",
+                    "The question with details": "During the performance of the action in the video, does the individual maintain a continuous flow, or are there any interruptions that break the sequence?",
+                    "The answer with details": "In the video, the individual maintains a continuous flow in the performance of the action. There are no interruptions that break the sequence. Each repetition of the action is carried out with a smooth transition, contributing to an uninterrupted flow throughout the exercise."
+                }
+            },
+            "stu5_0.mp4": {
+                "1": {
+                    "Original question": "In the action sequence of the video, are there instances where the rhythm breaks or the motion pauses unexpectedly?",
+                    "Original answer": "As shown in the annotations, the action sequence is consistent without unexpected pauses or rhythm breaks.",
+                    "The question with details": "While observing the sequence of motion in the video, can you identify moments where the rhythm of the action is disrupted or where there are unexpected pauses, interrupting the seamless flow of movement?",
+                    "The answer with details": "Upon closely watching the video, it's evident that the action sequence is executed with remarkable consistency. The rhythm of the motion is maintained throughout, and there are no unexpected pauses or disruptions. The individual performs the action repeatedly, and each cycle flows smoothly into the next, without any noticeable interruption or anomaly."
+                },
+                "2": {
+                    "Original question": "Does the action in the video exhibit any inconsistencies in its execution or flow?",
+                    "Original answer": "The annotations indicate a consistent execution and flow in the action.",
+                    "The question with details": "In the performance of the action captured in the video, are there any inconsistencies or irregularities that disrupt the flow or uniformity of the action?",
+                    "The answer with details": "Throughout the video, the action is carried out with a high level of consistency. There are no noticeable irregularities or inconsistencies in its execution. The flow of the action is smooth, with each repetition mirroring the previous one in form and timing, thereby maintaining a uniform rhythm and seamless progression."
+                },
+                "3": {
+                    "Original question": "Is there a smooth transition between repetitions of the action in the video?",
+                    "Original answer": "According to the annotations, transitions between repetitions are smooth and seamless.",
+                    "The question with details": "As you observe the action in the video, do you notice smooth transitions between each repetition, or are there any abrupt changes or pauses?",
+                    "The answer with details": "The video showcases an excellent example of smooth transitions between repetitions of the action. Each cycle of movement flows naturally into the next without any abrupt changes or pauses. The individual demonstrates control and consistency, ensuring that every transition is as seamless as the previous one."
+                },
+                "4": {
+                    "Original question": "In the sequence of action, are there any interruptions that break the flow?",
+                    "Original answer": "The annotations reveal no interruptions in the flow of the action sequence.",
+                    "The question with details": "During the execution of the action sequence in the video, are there any interruptions or breaks that disrupt the continuous flow of movement?",
+                    "The answer with details": "Observing the action sequence in the video, it's clear that the flow of movement is continuous and uninterrupted. There are no breaks or interruptions that disrupt the sequence. The individual maintains a consistent rhythm, ensuring that each repetition of the action seamlessly transitions into the next without any disruption."
+                },
+                "5": {
+                    "Original question": "Are the repetitions of the action in the video performed with consistent timing and rhythm?",
+                    "Original answer": "The annotations indicate that the repetitions are performed with consistent timing and rhythm.",
+                    "The question with details": "When you look at the repetitions of the action in the video, do they maintain a consistent timing and rhythm, or do you notice any variations?",
+                    "The answer with details": "In the video, each repetition of the action is performed with remarkable consistency in both timing and rhythm. There are no noticeable variations; the individual executes each cycle with similar precision. This consistency contributes to the overall fluidity and smooth progression of the action throughout the video."
+                }
+            },
+            "stu9_0.mp4": {
+                "1": {
+                    "Original question": "In the action sequence of the video, are there instances where the rhythm breaks or the motion pauses unexpectedly?",
+                    "Original answer": "As shown in the annotations, the action sequence is consistent without unexpected pauses or rhythm breaks.",
+                    "The question with details": "While observing the sequence of motion in the video, can you identify moments where the rhythm of the action is disrupted or where there are unexpected pauses, interrupting the seamless flow of movement?",
+                    "The answer with details": "Upon closely watching the video, it's evident that the action sequence is executed with remarkable consistency. The rhythm of the motion is maintained throughout, and there are no unexpected pauses or disruptions. The individual performs the action repeatedly, and each cycle flows smoothly into the next, without any noticeable interruption or anomaly."
+                },
+                "2": {
+                    "Original question": "Does the action in the video exhibit any inconsistencies in its execution or flow?",
+                    "Original answer": "The annotations indicate a consistent execution and flow in the action.",
+                    "The question with details": "In the performance of the action captured in the video, are there any inconsistencies or irregularities that disrupt the flow or uniformity of the action?",
+                    "The answer with details": "Throughout the video, the action is carried out with a high level of consistency. There are no noticeable irregularities or inconsistencies in its execution. The flow of the action is smooth, with each repetition mirroring the previous one in form and timing, thereby maintaining a uniform rhythm and seamless progression."
+                },
+                "3": {
+                    "Original question": "Is there a smooth transition between repetitions of the action in the video?",
+                    "Original answer": "According to the annotations, transitions between repetitions are smooth and seamless.",
+                    "The question with details": "As you observe the action in the video, do you notice smooth transitions between each repetition, or are there any abrupt changes or pauses?",
+                    "The answer with details": "The video showcases an excellent example of smooth transitions between repetitions of the action. Each cycle of movement flows naturally into the next without any abrupt changes or pauses. The individual demonstrates control and consistency, ensuring that every transition is as seamless as the previous one."
+                },
+                "4": {
+                    "Original question": "In the sequence of action, are there any interruptions that break the flow?",
+                    "Original answer": "The annotations reveal no interruptions in the flow of the action sequence.",
+                    "The question with details": "During the execution of the action sequence in the video, are there any interruptions or breaks that disrupt the continuous flow of movement?",
+                    "The answer with details": "Observing the action sequence in the video, it's clear that the flow of movement is continuous and uninterrupted. There are no breaks or interruptions that disrupt the sequence. The individual maintains a consistent rhythm, ensuring that each repetition of the action seamlessly transitions into the next without any disruption."
+                },
+                "5": {
+                    "Original question": "Are the repetitions of the action in the video performed with consistent timing and rhythm?",
+                    "Original answer": "The annotations indicate that the repetitions are performed with consistent timing and rhythm.",
+                    "The question with details": "When you look at the repetitions of the action in the video, do they maintain a consistent timing and rhythm, or do you notice any variations?",
+                    "The answer with details": "In the video, each repetition of the action is performed with remarkable consistency in both timing and rhythm. There are no noticeable variations; the individual executes each cycle with similar precision. This consistency contributes to the overall fluidity and smooth progression of the action throughout the video."
+                }
+            }
+        }
+}
