@@ -119,7 +119,7 @@ Based on the annotation, video and original answer:
             Please make sure there is no annotation information present in the generated question. 
     - Original question and answer:
         - Original question: your designed essay question.
-        - Original simple answer: As original annotation shows, it is the annotations of this video, that describe each action's start frames and end frames.. 
+        - Original simple answer: As original annotation shows, it is the annotations of this video, that describe each action's start frames and end frames..
     - Original annotation:
         ```
         situp	stu2_58.mp4	37	9	52	53	98	98	141	141	195	195	239	239	287	287	333	333	378	378	418	418	453	453	502	503	543	543	601	602	643	643	689	689	741	741	789	789	844	844	884	885	933	934	982	982	1038	1039	1086	1086	1129	1129	1181	1181	1228	1229	1273	1273	1324	1325	1379	1380	1423	1423	1474	1474	1522	1523	1568	1568	1612	1613	1663	1664	1719	1720	1759
@@ -146,7 +146,7 @@ Based on the annotation, video and original answer:
 
 
 - Question 1.2: 
-    - Objective and additional requirments: 
+    - Objective and additional requirements: 
         - Generate a question: Create a descriptive question about the progression of the action in the video. Your question should focus on the nature of the action's sequence and whether there are any pauses or seamless transitions between repetitions. Do not reference the video name or action class directly in the question.
         Example: 
             - Is there any anomaly case when the human do the repetitive actions ? 
