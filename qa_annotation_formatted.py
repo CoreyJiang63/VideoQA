@@ -45,6 +45,7 @@ def formatted_json(file_path):
                     "label_0": label_bank[label],
                     "video_0": f"{label}/{video}",
                     "class_1": None,
+                    "label_1": None,
                     "video_1": None,
                     
                     "QA": {"q": question, "a": answer}
@@ -54,7 +55,9 @@ def formatted_json(file_path):
             
             label_entry =  {"videos": videos_data}
             
-            new_json.append(video_data)
+            new_json.append(videos_data)
+    
+    new_json = [item for sublist in new_json for item in sublist]
 
     # Save the new JSON
     new_file_path = f"./formatted_jsons/new_json{cnt}.json"
