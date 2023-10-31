@@ -47,8 +47,10 @@ def formatted_json(file_path):
                     "class_1": None,
                     "label_1": None,
                     "video_1": None,
-                    
-                    "QA": {"q": question, "a": answer}
+                    "QA": [
+                        {"from":"human","value": question},
+                        {"from":"gpt","value":answer}
+                    ]                 
                 }
                 
                 videos_data.append(video_data)
