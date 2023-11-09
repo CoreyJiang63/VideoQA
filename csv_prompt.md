@@ -8,7 +8,12 @@ There are some rules you need to obey:
 
 ### 1）For generating questions based on the provided image:
 
-- Basic setting: The generated question should showcase this information: you are provided a video about something and need try to understand what happened this video.
+- Basic setting: The generated question should showcase this information: you are provided a video about something and need try to understand what happened this video. 
+- Basic setting: When generating questions and answers, ensure that the framing implies that the person responding to the question has actual, direct access to the video. The questions should be phrased in a way that assumes the respondent is analyzing real footage, not imagining or guessing. The answers should reflect a clear and detailed understanding of the video's content, as if the respondent is describing what they are directly observing in the video.
+    - For example:
+        - Incorrect Approach: "Imagine you are watching a video, what happened in it?"
+        - Correct Approach: "Watched the provided video, can you describe the sequence of actions that occurred?"
+    - ensures that the generated Q&A pairs are based on the premise that the person being questioned is responding based on direct observation of the video, not on imagination or hypothetical scenarios.
 
 - Question Type: It could be a judgment question, essay question, or any other specified format.
   - If you want to create judgement question. Please ensure the response is No or Yes with the same probability.  Note that the probability of each response, i.e. Yes's and No's, should be equal and balanced, so ensure a balance in question devising.
@@ -22,6 +27,10 @@ There are some rules you need to obey:
 
 - Diversity in Format: The generated questions and answers should come in a variety of formats and narratives to cater to different interpretations of the video.
 
+- The scene information in the video: 
+    - Depicts a collection of laboratory equipment meticulously arranged for scientific experiments. Numerous small cylindrical containers with white caps suggest storage for samples. A ceramic mortar and pestle are evident, designed for grinding or mixing. Various clear glass apparatuses, including flasks, beakers, and test tubes, are spread across the scene, some filled with distinct colored solutions. An eye-catching yellow test tube rack holds several test tubes with varied solutions. Dropper bottles of different shapes, some with colored contents, are interspersed throughout the setting. The display also features syringes, stoppers,  glass rods, transparent tubes and straws of varying lengths. Other notable items include a plastic funnel alongside a folded material, flexible hoses, and an iron stand equipped with clamps. There's an assortment of other small items that might be integral to specific experiments. 
+
+    - This detailed inventory may not capture every single item present in the video; thus, attention should also be given to elements not explicitly mentioned in this description.
 
 ### 2） For generating answer:
 Based on the annotation, video and original answer:
@@ -32,12 +41,13 @@ Based on the annotation, video and original answer:
 ### 3） the generated results:
 - Ensure Variety: While maintaining continuity, make sure each pair is unique and captures different aspects of the source materials.
 - Maintain Clarity: Despite the number of pairs, each question and answer should be clear, concise, and relevant to the source materials.
-
+- Reliability： Do not ask any question that cannot be answered confidently.
+- Accuracy: Do not omit the key information when generating the answer.
 
 ### 4） the output format:
 
 - First of all， please use JSON format to reply to me.
-- Please follow this format to give the final result. Generate 10 continuous question-answer pairs based on the video annotations, images, and associated captions or video summaries. Do not include any interjected notes, disclaimers, or extraneous information. Simply produce the pairs consecutively. Do not pause, add notes, disclaimers, or any other commentary. Just provide 10 uninterrupted Q&A pairs.
+- Please follow this format to give the final result. Generate 10 continuous question-answer pairs based on the video annotations,  video scene information ,images, and associated captions or video summaries. Do not include any interjected notes, disclaimers, or extraneous information. Simply produce the pairs consecutively. Do not pause, add notes, disclaimers, or any other commentary. Just provide 10 uninterrupted Q&A pairs.
 
     ```json
     {
@@ -53,49 +63,42 @@ Based on the annotation, video and original answer:
     }
 
     ```
+Keep note that 5 Q&A pairs are needed.
+Now I am providing you with specific details about the Q&A pairs you need to generate.
+
 
 If you understand my requirements, please tell me, and then I will send you a set of data which are the first question, an image or only image caption, the original question, and the original simple answer. When you finish the annotation generation, I will give your new data with new question to do this task again.
 
----
-<!-- ---
-There is a example about the input(provided by me) and output(generated by you).
 
-- Input(provided by me):
-    - Question 1: 
-        - Objective(optional): In order to generate high-quality data pairs, I will add some new rules to help you.
-        - Original question and answer:
-            - Original question: what actions happened in the sequence video?
-            - Original simple answer: As shown in JSON, it is the annotations of this video, that describe the action occurring sequence.
-                ```json
-                "1.2":[
-                    "take up the test tube",
-                    "take up the iron clamp",
-                    "screw the iron clamp",
-                    "screw the iron clamp",
-                    "take up the conical flask",
-                    "pour the conical flask",
-                    "put down the conical flask"
-                ],
-                ```
-- Output(generated by you):
-    ```json
-    {
-        "1":{
+---  
+- Question 1.1: 
+    - Objective: Generate questions and answers from the provided action sequence annotations, images, image captions, or video summaries. Ensure that questions accurately capture the actions or events depicted.
+        -  Based on the video's annotations, generate a detailed question-and-answer pair. The question should delve into the specifics of the actions happening in the video, probing for a deeper understanding of each action and their sequence. The answer should provide a comprehensive description of every action, elucidating the order in which they occur.
+        -  Refrain from using identifiers like "1.2" or "1.3" in your answers. Instead, refer to them as "the first video" or "the second video".
+        - Subject Selection:
+            - The subject of the question can be any reasonable role that fits the context of the video. Examples include but are not limited to: "instructor", "student", "boy".
+            - Feel free to change or vary the subject across different question-and-answer pairs.
+        - The output format：
+            - Note using the given JSON template to return the generation result.
+        - The generated question: you could change the framework of question without changing the benchmark's meaning.
+    - Output(provided by you):
+        ```json
+        {
+            "1":{
             "Original question": "This is the question provided by me or generated by you",
             "Original answer": "This is the answer you created based on the annotation and the original question",
             "The question with details": "Your generated question, elaborated in depth, which should adhere to the requirements and incorporate more narrative or motivation elements",
             "The answer with details": "Your answer, expanded and detailed, elaborated in depth, which should offer a comprehensive understanding by explaining the context, reasons, scene knowledge, action motivations, or other pertinent information.",
+            },
+            "2":{},
+            ...
+            "8":{},
         },
-        "2":{},
-        ...
-        "10":{},
-    }
-    ```
----   -->
----  
-- Question 1.1: 
-  - Original question: What are the actions in the sequence video and in what order?
-  - Original simple answer: As shown in JSON, it is the annotations of this video, that describe the action occurring sequence.
+
+        ```    
+    
+    - Original question: What are the actions depicted in the video sequence, and in what specific order do they occur?
+    - Original simple answer: The actions, as described in the video annotations, occur in a particular sequence. Below is the JSON format representation of these actions:
     ```json
     "1.2":[
         "take up the test paper",
@@ -114,30 +117,72 @@ There is a example about the input(provided by me) and output(generated by you).
     ```
 
 - Question 1.2: 
-  - Original question: what actions was happened in the sequence video?
-  - Original simple answer: As shown in JSON, it is the annotations of this video, that describe the action occurring sequence.
+    - Objective: Generate questions and answers from the provided action sequence annotations, images, image captions, or video summaries. Ensure that questions accurately capture the actions or events depicted.
+        -  Your task is to generate insightful questions and answers based on the provided action sequence annotations, images, image captions, or video summaries. The goal is to accurately capture and elaborate on the actions or events depicted in the video.
+        - Base your question on the video's annotations. It should delve into the specifics of the actions occurring in the video, aiming for a deeper understanding of each action and their sequence.
+        -  Refrain from using identifiers like "1.2" or "1.3" in your answers. Instead, refer to them as "the first video" or "the second video".
+        - Subject Selection:
+            - The subject of the question can be any reasonable role that fits the context of the video. Examples include but are not limited to: "instructor", "student", "boy".
+            - Feel free to change or vary the subject across different question-and-answer pairs.
+        - The output format：
+            - Note using the given JSON template to return the generation result.
+        - The generated question: you could change the framework of question without changing the benchmark's meaning.
+  
+    - Output(provided by you):
     ```json
-    "1.2":[
-        "take up the test paper",
-        "tear the test paper",
-        "put down the test paper",
-        "put down the test paper",
-        "take up the glass rod",
-        "point the glass rod to evaporating dish",
-        "point the glass rod to test paper",
-        "put down the glass rod",
-        "take up the tweezer",
-        "clamp the tweezer",
-        "put down the test paper",
-        "put down the tweezer"
-    ],
-    ```
+    {
+        "1":{
+        "Original question": "This is the question provided by me or generated by you",
+        "Original answer": "This is the answer you created based on the annotation and the original question",
+        "The question with details": "Your generated question, elaborated in depth, which should adhere to the requirements and incorporate more narrative or motivation elements",
+        "The answer with details": "Your answer, expanded and detailed, elaborated in depth, which should offer a comprehensive understanding by explaining the context, reasons, scene knowledge, action motivations, or other pertinent information.",
+        },
+        "2":{},
+        ...
+        "5":{},
+    },
+
+    ```    
+    - Original question: your designed question.
+    - Original simple answer: As shown in JSON, it is the annotations of this video, that describe the action occurring sequence.
+        ```json
+        "1.2":[
+            "take up the test paper",
+            "tear the test paper",
+            "put down the test paper",
+            "put down the test paper",
+            "take up the glass rod",
+            "point the glass rod to evaporating dish",
+            "point the glass rod to test paper",
+            "put down the glass rod",
+            "take up the tweezer",
+            "clamp the tweezer",
+            "put down the test paper",
+            "put down the tweezer"
+        ],
+        ```
 - Question 1.3: 
     - Objective: Generate questions and answers from the provided action sequence annotations, images, image captions, or video summaries. Ensure that questions accurately capture the actions or events depicted.
         - sample question: How do the actions in the first video sequence differ from those in the second?
         - Sample Answer: 
             - First Video: [Description of events/actions in the first video],Second Video: [Description of events/actions in the second video]. Comparison: The two videos have several similarities and differences. [Specific differences and similarities between the two videos are highlighted here.]
-    - Original question: What are the actions in the each sequence video and in what order?
+    - Output(provided by you):
+        ```json
+        {
+            "1":{
+            "Original question": "This is the question provided by me or generated by you",
+            "Original answer": "This is the answer you created based on the annotation and the original question",
+            "The question with details": "Your generated question, elaborated in depth, which should adhere to the requirements and incorporate more narrative or motivation elements",
+            "The answer with details": "Your answer, expanded and detailed, elaborated in depth, which should offer a comprehensive understanding by explaining the context, reasons, scene knowledge, action motivations, or other pertinent information.",
+            },
+            "2":{},
+            ...
+            "5":{},
+        },
+
+        ```    
+        
+    - Original question: your designed question.
     - Original simple answer: As shown in JSON, they are the annotations of these two video, that describe the action occurring sequence.
     ```json
     "1.2":[
@@ -176,7 +221,22 @@ There is a example about the input(provided by me) and output(generated by you).
         - Sample Answer:
             - First Video: The subject begins by picking up the test paper, then proceeds to tear it. After tearing, the paper is set down twice consecutively. Following this, a glass rod is picked up, and it's pointed towards an evaporating dish and then at the test paper. Later, the rod is set aside. The subject subsequently picks up a tweezer, clamps it, and finally sets down the test paper and tweezer in succession.
             - Second Video: The subject in this video also starts by picking up and tearing the test paper, setting it down twice afterward. They then pick up a glass rod, but instead of pointing it, they directly move on to clamp a tweezer. The sequence concludes with the test paper and tweezer being set down.
-    - Original question: What are the actions in the each sequence video and in what order?
+    - Output(provided by you):
+        ```json
+        {
+            "1":{
+            "Original question": "This is the question provided by me or generated by you",
+            "Original answer": "This is the answer you created based on the annotation and the original question",
+            "The question with details": "Your generated question, elaborated in depth, which should adhere to the requirements and incorporate more narrative or motivation elements",
+            "The answer with details": "Your answer, expanded and detailed, elaborated in depth, which should offer a comprehensive understanding by explaining the context, reasons, scene knowledge, action motivations, or other pertinent information.",
+            },
+            "2":{},
+            ...
+            "5":{},
+        },
+
+        ```    
+    - Original question: your designed question.
     - Original simple answer: As shown in JSON, they are the annotations of these two video, that describe the action occurring sequence.
     ```json
     "1.2":[
@@ -210,6 +270,7 @@ There is a example about the input(provided by me) and output(generated by you).
 
 - Question 2.1 : 
      - Objective: Create questions and answers based on you've provided the action sequences annotations, images, image's captions, or video summaries extracted from the original video. Questions should accurately reflect the depicted actions or described events. Answers should be limited to "Yes" or "No".
+        - Refrain from using identifiers like "1.2" or "1.3" in your answers. Instead, refer to them as "the first video" or "the second video
         - Subject Selection: 
             - The subject of the question can be any reasonable role that fits the context of the video. Examples include but are not limited to: "instructor", "lab assistant", "student", "chemist", "researcher".
             - Feel free to change or vary the subject across different question-and-answer pairs.
@@ -223,6 +284,21 @@ There is a example about the input(provided by me) and output(generated by you).
             - "In the video, was [action A] followed by [action B] and then [action C] by the [chosen subject]?"
             - "Did the sequence involve the [chosen subject] first doing [action A], and later [action B]?"
         - Answer: The answer should be either "Yes" or "No". Please ensure the response is No or Yes with the same probability. Note that the probability of each response, i.e. Yes's and No's, should be equal and balanced, so ensure a balance in question devising.
+    - Output(provided by you):
+        ```json
+        {
+            "1":{
+            "Original question": "This is the question provided by me or generated by you",
+            "Original answer": "This is the answer you created based on the annotation and the original question",
+            "The question with details": "Your generated question, elaborated in depth, which should adhere to the requirements and incorporate more narrative or motivation elements",
+            "The answer with details": "Your answer, expanded and detailed, elaborated in depth, which should offer a comprehensive understanding by explaining the context, reasons, scene knowledge, action motivations, or other pertinent information.",
+            },
+            "2":{},
+            ...
+            "5":{},
+        },
+
+        ```    
     - Original question and answer:
         - Original question: your designed judgment question.
         - Original simple answer: As shown in JSON, it is the annotations of this video, that describe the action occurring sequence.
@@ -241,6 +317,7 @@ There is a example about the input(provided by me) and output(generated by you).
 
 - Question 2.2 : 
     - Objective: Create questions and answers based on you've provided the action sequences annotations, images, image's captions, or video summaries extracted from the original video. Questions should accurately reflect the depicted actions or described events. 
+        - Refrain from using identifiers like "1.2" or "1.3" in your answers. Instead, refer to them as "the first video" or "the second video
         - Subject Selection: 
             - The subject of the question can be any reasonable role that fits the context of the video. Examples include but are not limited to: "instructor", "lab assistant", "student", "chemist", "researcher".
             - Feel free to change or vary the subject across different question-and-answer pairs.
@@ -256,8 +333,24 @@ There is a example about the input(provided by me) and output(generated by you).
             - "Did the sequence involve the [chosen subject] first doing [action A], and later [action B]?"
         - Answer: 
             - Answer: The answer should be either "Yes" or "No". Please ensure the response is No or Yes with the same probability. Note that the probability of each response, i.e. Yes's and No's, should be equal and balanced, so ensure a balance in question devising.
+
+    - Output(provided by you):
+        ```json
+        {
+            "1":{
+            "Original question": "This is the question provided by me or generated by you",
+            "Original answer": "This is the answer you created based on the annotation and the original question",
+            "The question with details": "Your generated question, elaborated in depth, which should adhere to the requirements and incorporate more narrative or motivation elements",
+            "The answer with details": "Your answer, expanded and detailed, elaborated in depth, which should offer a comprehensive understanding by explaining the context, reasons, scene knowledge, action motivations, or other pertinent information.",
+            },
+            "2":{},
+            ...
+            "5":{},
+        },
+
+        ```    
     - Original question and answer:
-        - Original question: your designed judgment question.
+        - Original question: your designed question.
         - Original simple answer: As shown in JSON, it is the annotations of this video, that describe the action occurring sequence.
             ```json
             "1.2":[
@@ -275,6 +368,22 @@ There is a example about the input(provided by me) and output(generated by you).
     - Objective: Create questions and answers based on you've provided the action sequences annotations, images, image's captions, or video summaries extracted from the original video. Questions should accurately reflect the depicted actions or described events. 
         - Action Selection:
             Opt for actions from the given annotations or devise ones based on your understanding, but ensure they align with the scene's context.
+
+    - Output(provided by you):
+        ```json
+        {
+            "1":{
+            "Original question": "This is the question provided by me or generated by you",
+            "Original answer": "This is the answer you created based on the annotation and the original question",
+            "The question with details": "Your generated question, elaborated in depth, which should adhere to the requirements and incorporate more narrative or motivation elements",
+            "The answer with details": "Your answer, expanded and detailed, elaborated in depth, which should offer a comprehensive understanding by explaining the context, reasons, scene knowledge, action motivations, or other pertinent information.",
+            },
+            "2":{},
+            ...
+            "5":{},
+        },
+
+        ```    
     - Original question: Frame a question about the sequence of actions, such as [action], [action], ... , and [action].
     - Original simple answer: As shown in json, it is the annotations of this video, which describes  the action occurring sequence.
         ```json
@@ -291,6 +400,7 @@ There is a example about the input(provided by me) and output(generated by you).
 
 - Question 4:
     - Objective: This question aims to facilitate a benchmark test. Using the provided two videos, benchmark data, and evaluation metrics, create questions and answers. Your inquiries should precisely capture the benchmark's essence, displayed actions, and described events.
+        - Refrain from using identifiers like "1.2" or "1.3" in your answers. Instead, refer to them as "the first video" or "the second video".
         - Benchmark: The benchmark consists of numerous video pairs. Each pair encompasses two videos, either showcasing similar actions or identical action sequences. The central challenge is distinguishing between two analogous videos.
         - Evaluation metric:  
             ```latex
@@ -308,9 +418,28 @@ There is a example about the input(provided by me) and output(generated by you).
                 \end{equation}
                 where $dis(.,.)$ means the $\ell2$-normalization Euclidean distance function. $\tau$ is a threshold to decide whether the sequences are consistent. $y = 1$ means the two sequences of videos are consistent, otherwise inconsistent.
             ```
+        - Subject Selection:
+            - The subject of the question can be any reasonable role that fits the context of the video. Examples include but are not limited to: "instructor", "student", "boy".
+            - Feel free to change or vary the subject across different question-and-answer pairs.
+        - The output format：
+            - Note using the given JSON template to return the generation result.
         - The generated question: you could change the framework of question without changing the benchmark's meaning.
-        - The generated answer: Only provide a confidence score between 0.0 and 1.0, representing the certainty level that both videos share the same action sequence. For instance, a score of 0.8 indicates an 80% certainty of video sequence alignment. A score of 0.0 signifies complete certainty of their difference.
-        
+        - The generated answer: Provide a confidence score ranging from 0.0 to 1.0 based on a "Yes" or "No" answer. If the two videos share the exact same action sequence, assign a confidence score of 1.0. However, if there is any difference in action between the two videos, the confidence score should be 0.0, indicating no similarity in the action sequences. This score quantifies your certainty about the similarity or dissimilarity of the actions in both videos.
+    - Output(provided by you):
+        ```json
+        {
+            "1":{
+            "Original question": "Do these two videos showcase the same action sequence?",
+            "Original answer": "Provide a confidence score without any additional commentary",
+            "The question with details": "Your generated question, elaborated in depth, which should adhere to the requirements and incorporate more narrative or motivation elements",
+            "The answer with details": "Your answer, expanded and detailed, elaborated in depth, which should offer a comprehensive understanding by explaining the context, reasons, scene knowledge, action motivations, or other pertinent information.",
+            },
+            "2":{},
+            ...
+            "5":{},
+        },
+
+        ```    
     - Original question: Do these two videos showcase the same action sequence?
     - Original simple answer:  Provide a confidence score without any additional commentary. As shown in JSON, they are the annotations of these two videos, that describe the action occurring sequence. 
         - video 1
