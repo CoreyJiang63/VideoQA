@@ -8,9 +8,11 @@ import re
 MAX_RETRIES = 5
 # Define initial delay between retries in seconds
 BACKOFF_DELAY = 1
-
+import time
 from openai import OpenAI
-client = OpenAI(api_key = "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")
+
+
+client = OpenAI()
 
 # openai.api_key = "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"
 cnt = 0
@@ -32,43 +34,59 @@ def read_csv(file_path):
         next(file)  # Skip the first line
         for line in file:
             yield [cell for cell in line.strip().split(',')[1:] if cell != '']
+def read_video_info(video_info_paht):
+    pass
 
-
-
-csv_reader = read_csv(r'E:\RepCountA\LLSP\annotation\train_sorted.csv')
+csv_reader = read_csv(r'./train_sorted.csv')
 
 base_prompt = """
-Using the given data, identify the repetitive action in a video and detail the start and end frames for each repetition. Your output should describe the action and its repetitions as if you have observed them firsthand, with emphasis on the precision and consistency of the performance. Format your response as a series of question and answer pairs in JSON, where each video is keyed by its name. The questions will be streamlined to focus on the total number of repetitive actions, while the answers should provide a rich description similar to the one produced by ChatGPT. The answers must enumerate each repetition without any form of omission, noting the specific frames where the action starts and ends, mirroring the detailed and sequential format provided by ChatGPT. Ensure the response is devoid of any extraneous information, and present the Q&A pairs consecutively for each video. The JSON should be formatted with a uniform question template and a descriptive answer format as demonstrated below:
+Using the given data, identify the repetitive action in a video and detail the start and end frames for each repetition.  
+
+- Do not use the video name in the answer. 
+- Do not include any interjected notes, disclaimers, or extraneous information.
+- Don't need the question in the generation, only need different answers
+
+Your output should describe the action and its repetitions as if you have observed them firsthand, with emphasis on the precision and consistency of the performance. 
+
+The questions are focused on the total number of repetitive actions, while the answers should provide a detailed description similar to the one produced by ChatGPT. 
+
+The answers must enumerate each repetition without any omission, noting the specific frames where the action starts and ends, mirroring the detailed and sequential format provided by ChatGPT. 
+Ensure the response lacks extraneous information and present answers consecutively for each video. The JSON should be formatted with a uniform question and a descriptive answer format as demonstrated below:
+
+Question: How many times is the repetitive action performed in the video?
 
 ```json
 {
-    "video_identifier": {
+    "video_name": {
         "1": {
-            "question": "How many times is the repetitive action performed in the video?",
             "answer": "The action, identified as a pull-up, is repeated 11 times. The pull-up action is repeated 11 times, starting and ending at the following frames: 1st repetition from frame 42 to 114, 2nd from frame 114 to 186, 3rd from frame 186 to 252, 4th from frame 252 to 322, 5th from frame 322 to 389, 6th from frame 389 to 452, 7th from frame 452 to 522, 8th from frame 523 to 587, 9th from frame 588 to 660, 10th from frame 660 to 734, and the 11th from frame 734 to 822."
         },
-        // Repeat this format for the remaining questions, altering the answer to fit the new frame data if necessary.
+        // Same question, altering the answer to fit the new frame data if necessary.
         "2": {
-            "question": "[Your paraphrased question, describing the same question as above]",
             "answer": "[Your paraphrased answer]"
        },
         "3":{
-            "question": "[Your paraphrased question, describing the same question as above]",
             "answer": "[Your paraphrased answer]"
        }
     },
-    // Continue with additional video identifiers and their corresponding Q&A pairs
+    // Continue with additional video identifiers and their corresponding answers.
     ......
 }
 ``` 
 
-Please provide 3 QA pairs for each video, without alternating the original meaning of the question, but just paraphrase it for the purpose of diversity. For each question, answer is generated correspondingly.
+
+Please provide 5  answers for each video without alternating the original meaning of the question, but paraphrase it for diversity. For each question, the answer is generated correspondingly.
 
 Adjust this template to include the action type and specific frame numbers for each video in your dataset, and ensure that the answer style is consistent with the example provided by ChatGPT.
-In this below data, each line is comprised of type_of_sport, video_name, count, start and end frames for each repetitive move. And I'm just providing an example below:
+In the data below, each line comprises type_of_sport, video_name, count, and start and end frames for each repetitive move. And I'm just providing an example below:
 pull_up	stu10_35.mp4	11	42	114	114	186	186	252	252	322	322	389	389	452	452	522	523	587	588	660	660	734	734	822
 
-Now I am providing annotations from our original dataset, and please follow the instructions above to generate QA pairs in JSON format:
+- First of all， please use JSON format to reply to me.
+
+- For one video and its annotation, generate 5 continuous answers based on the video annotations. Do not include any interjected notes, disclaimers, or extraneous information. Produce the answers consecutively. Do not pause to add notices, disclaimers, or any other commentary. 
+
+
+Now, I am providing annotations from our original dataset, and please follow the instructions above to generate answers in JSON format:
 
 """
 
@@ -83,6 +101,8 @@ def json_formatted(generated_content):
 json_outputs = []
 
 for line in csv_reader:
+    if line[0]!= r'bench_pressing' and line[0]!= r'benchpressing':
+        continue
     if cnt <= 10:
         # print(str(line))
         prompt = base_prompt + '\n' + str(line)
@@ -134,6 +154,57 @@ for item in json_outputs:
 json_data = json.dumps(concatenated_data, indent=4)
 
 # Save to a file
-file_path = 'repcount/qa_annotation.json'
+file_path = './qa_annotation_benchpressing.json'
 with open(file_path, 'w') as file:
     file.write(json_data)
+
+"""
+
+Using the given data, identify the repetitive action in a video and detail the start and end frames for each repetition.  
+- Do not use the video name, action class, or type of sport in the question.  
+- Do not use the video name in the answer. 
+- Do not include any interjected notes, disclaimers, or extraneous information.
+Your output should describe the action and its repetitions as if you have observed them firsthand, with emphasis on the precision and consistency of the performance. Format your response as a series of question-and-answer pairs in JSON, where each video is keyed by its name. The questions will be streamlined to focus on the total number of repetitive actions, while the answers should provide a detailed description similar to the one produced by ChatGPT. The answers must enumerate each repetition without any form of omission, noting the specific frames where the action starts and ends, mirroring the detailed and sequential format provided by ChatGPT. Ensure the response is devoid of any extraneous information, and present the Q&A pairs consecutively for each video. The JSON should be formatted with a uniform question template and a descriptive answer format as demonstrated below:
+
+```json
+{
+    "video_identifier": {
+        "1": {
+            "question": "How many times is the repetitive action performed in the video?",
+            "answer": "The action, identified as a pull-up, is repeated 11 times. The pull-up action is repeated 11 times, starting and ending at the following frames: 1st repetition from frame 42 to 114, 2nd from frame 114 to 186, 3rd from frame 186 to 252, 4th from frame 252 to 322, 5th from frame 322 to 389, 6th from frame 389 to 452, 7th from frame 452 to 522, 8th from frame 523 to 587, 9th from frame 588 to 660, 10th from frame 660 to 734, and the 11th from frame 734 to 822."
+        },
+        // Repeat this format for the remaining questions, altering the answer to fit the new frame data if necessary.
+        "2": {
+            "question": "[Your paraphrased question, describing the same question as above]",
+            "answer": "[Your paraphrased answer]"
+       },
+        "3":{
+            "question": "[Your paraphrased question, describing the same question as above]",
+            "answer": "[Your paraphrased answer]"
+       }
+    },
+    // Continue with additional video identifiers and their corresponding Q&A pairs
+    ......
+}
+``` 
+
+Please provide 3 QA pairs for each video without alternating the original meaning of the question, but just paraphrase it for diversity. For each question, the answer is generated correspondingly.
+
+Adjust this template to include the action type and specific frame numbers for each video in your dataset, and ensure that the answer style is consistent with the example provided by ChatGPT.
+In the data below, each line comprises type_of_sport, video_name, count, and start and end frames for each repetitive move. And I'm just providing an example below:
+pull_up	stu10_35.mp4	11	42	114	114	186	186	252	252	322	322	389	389	452	452	522	523	587	588	660	660	734	734	822
+
+- First of all，please use JSON format to reply to me.
+
+- Please follow this format to give the final result. For one video and its annotation, generate 10 continuous question-answer pairs based on the video annotations. Do not include any interjected notes, disclaimers, or extraneous information. Simply produce the pairs consecutively. Do not pause, add notes, disclaimers, or any other commentary. 
+
+
+
+Now, I am providing annotations from our original dataset, and please follow the instructions above to generate QA pairs in JSON format:
+
+
+['battle_rope', 'stu1_0.mp4', '4', '3', '62', '62', '117', '117', '175', '175', '230']
+
+
+
+"""
