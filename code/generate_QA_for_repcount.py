@@ -22,8 +22,7 @@ def load_qa_values(json_file_path):
 def create_transformed_data_structure(video_name, action_class,  answer):
     return {
         "dataset": "repcounta",
-        "class_0": action_class,
-        "label_0": [],  # Populate this as per your requirement
+        "class_0": action_class,        "label_0": [],  # Populate this as per your requirement
         "video_0": f"{action_class}/{video_name}",
         "class_1": None,
         "label_1": None,
@@ -45,6 +44,7 @@ for qa_item in qa_values:
             for _ ,answer in answers.items():
                 data_structure = create_transformed_data_structure(video_name, action_class, answer)
                 transformed_data.append(data_structure)
+                # break
 
 # Save the transformed data to a JSON file
 output_file_path = '/Users/ironieser/Documents/shanghaitech/project/llm4video/transformed_data_2.json'
